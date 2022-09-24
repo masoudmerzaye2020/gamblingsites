@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { menulist } from "../menulist";
+import { menulist } from "../data/menulist";
 import MenuItems from "./menuItems";
 import Image from 'next/image'
 import { useState } from 'react';

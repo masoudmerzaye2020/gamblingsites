@@ -1,5 +1,26 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import Title from '../components/title'
+import Sitescards from '../components/sitescards'
+import Button from '../components/button'
+
+const style = {
+  header:'w-full bg-[#324959] border-2 border-[#88c6f2] py-4',
+  headertext:'text-3xl w-11/12 flex mx-auto font-semibold text-gray-200 pl-4',
+  section:'w-full bg-gray-200',
+  container:'w-full md:w-11/12 lg:w-10/12 mx-auto px-2 py-4',
+  paragraph: 'py-[5px]',
+  boldparagraph:' font-semibold pl-8',
+  title: 'text-4xl font-semibold pb-2',
+  divider:' w-full border-t-2 border-b-[1px]  h-[5px] border-t-gray-900 border-b-blue-500',
+  quate_box:'bg-[#c4ffc4] border-2 border-[#afe4af] rounded-lg flex px-6 py-8 my-6 font-semibold italic drop-shadow-2xl shadow-gray-900',
+  box:'flex font-semibold italic flex-wrap mx-auto justify-center px-auto',
+  
+
+}
+
+
+
 export default function Home() {
   return (
     <>
@@ -9,152 +30,31 @@ export default function Home() {
         <p className='text-lg text-gray-300 py-1'>Rankings and Reviews of 200+ Online Casinos, Sports Betting Sites, and Other Gambling Websites</p>
       </div>
       <div className='container mx-auto p-2 lg:w-8/12 lg:py-10'>
-        <p className=' '>
+        <p className={style.paragraph}>
        <span className='text-lg font-semibold '> GamblingSites.com is the internet’s most comprehensive guide to the world’s best online gambling sites.</span> This website is a genuine goldmine for gamblers, with information and expert advice on just about every gambling-related topic under the sun.
 
 Our main objective is to ensure you enjoy safe online betting and gaming at reputable and trustworthy gambling sites. You’ll find full details on everything else we have to offer throughout this page, but let’s start with our latest rankings of the best gambling sites.
-        </p>
-        <div className='bg-[#1f2d37]'>
-          <h1 className='text-3xl font-bold p-2 text-gray-200'>Best Gambling Sites Ranked by GamblinSites.com</h1>
-          <div className='bg-gray-200 mx-2  p-6'>
-            {/* <div className='border-2 border-[#0fdfd2] '>
-              
-
-            </div> */}
-
-
-
-
-
-            <div className='flex w-[100%] md:flex flex-wrap border-2 border-[#0fdfd2] mb-8'>
-              <div className='w-[50%] md:w-[20%] md:order-1 '>
-                <div className='py-4 mx-auto text-center border-b-[1px] border-gray-400'>
-                  <Image src="/casino/tony-bet-logo-casino-gad-table-316x160-1-1.jpg" width="192" height="80" alt='logo' /></div>
-                </div>
-                <div className='py-4 w-[50%] md:w-[30%] md:order-7 font-semibold border-b-[1px] border-gray-400 md:border-t-[1px]'>
-                  <p className='text-xl text-center font-semibold mx-4'>welcome bonus</p>
-                  <p className='text-xl text-center font-semibold mx-4'>100% up to $1,600 120 free Spins</p>
-                </div>
+        </p> 
+        
+        <Sitescards/>
+        <p className={style.paragraph}>When we say that these are the best gambling sites, we mean it. This is not some hastily assembled list of online casinos, sports betting sites, and other real money gambling websites. These rankings are based on extensive research and thorough testing that is carried out by our resident experts in online gambling.</p>       
+        <p className={style.paragraph}>Our experts have years and years of experience in online gaming. They know what to look for in sites to ensure that we only recommend those that provide a safe online gambling experience as well as an enjoyable one.</p>
+        <p className={style.paragraph}>The top-rated gambling sites listed above are all of the highest quality. We feel comfortable recommending them to our readers because they are safe and reputable operations. They are sites that we happily use ourselves, which is perhaps the biggest endorsement of all.</p>
+        <p className={style.paragraph}>If you’re looking for somewhere to gamble online for real money right now, then you can visit any one of these sites and be confident of a positive experience. If you’d like to learn more about our gambling site rankings and everything else we have to offer on our website, please keep reading.</p>
+        
+        <Title title={"More Gambling Site Rankings – Finding the Best Gambling Site for You"}/>
+        <p className={style.paragraph}>We don’t take a “one-size fits all” approach to recommending online gambling sites. It’s important that we help our users find sites that suit their own personal needs and requirements.</p>
+        <p className={style.paragraph}>That’s why we maintain regularly updated rankings of the best gambling sites in a wide range of categories. You’ll find all these categories listed and discussed on the following page.</p>
+        <Link href="/about" passHref>
+          <Button variant="contained" color="secondary">ALL GAMBLING SITE COMPARISONS</Button>
+        </Link>
 
 
-              <div className=' mx-auto py-4 text-center w-[50%] md:w-[20%] md:order-4 border-b-[1px] border-gray-400'>
-                <Image src="/casino/best-choice.png" width="90" height="90" alt='logo' />
-              </div>
+        <p className={style.paragraph}>There are many websites on the internet that provide a similar service to GamblingSites.com. You only have to do a Google search for “top 5 gambling sites” to see that.</p>
+        <p className={style.paragraph}>We don’t believe that offering one single list of the best sites is enough though. While all of our recommendations have been carefully reviewed and rated, we know everyone has their own preferences. The best site for you might not be the same as the best site for me.</p>
+        <p className={style.paragraph}>For example, if you’re looking to bet on sports online from the United States, then you’ll want a completely different site from someone that’s looking to play real money casino games from the United Kingdom. Online gambling covers a broad spectrum of gaming activities, and things work differently in different regions.</p>
+        <p className={style.paragraph}>It’s for precisely that reason that we haven’t stopped with just the one list of the top gambling sites. Here are some examples of other categories we rank sites for.</p>
 
-              <div className='w-[50%] md:w-[20%] md:order-8 py-4 border-b-[1px] border-gray-400'>
-                  <div className=' uppercase font-semibold px-4 text-center text-lg'>
-                    <button className='bg-[#fccd1b] px-6 py-2 rounded-lg border-b-2 border-[#d6ae17]'> Visit Site</button>
-                  </div>
-                  <div className='text-center py-4'>
-                    <Link href="/"><a className='underline'>READ REVIEW</a></Link>
-                  </div>
-              </div>
-
-
-              <div className='px-4 pt-4 w-[100%] md:w-[35%] md:order-2'>
-                <ul>
-                  <li>
-                    <Image src='/casino/li-check.png' width="14px" height="14px" alt="image" className=' text-center flex' /> Choose from over 900 casino games
-                  </li>
-                  <li>
-                  <Image src='/casino/li-check.png' width="14px" height="14px" alt="image" className=' text-center flex' /> Play live ealer games from Pragmatic Play and Evolution Gaming
-                  </li>
-                  <li>
-                  <Image src='/casino/li-check.png' width="14px" height="14px" alt="image" className='my-auto text-center flex' /> Two deposit bonuses fro new customers
-                  </li>
-                </ul>
-              </div>
-              <div className='px-4 pb-4 w-[100%] md:w-[25%] md:order-3 border-b-[1px] border-gray-400'>
-                <ul>
-                  <li>
-                  <Image src='/casino/li-x.png' width="14px" height="14px" alt="image" className='my-auto text-center flex' /> 40x playthrough on deposit bonuses
-                  </li>
-                  <li>
-                  <Image src='/casino/li-x.png' width="14px" height="14px" alt="image" className='my-auto text-center flex' /> Not available in the US
-                  </li>
-                </ul>
-              </div>
-              <div className='px-4 py-6 w-[50%] md:w-[30%] md:order-5 md:border-t-[1px] border-gray-400'>
-                <div>
-                  <h2 className='text-lg font-semibold pb-6'>Deposit Method & Payout</h2>
-                </div>
-                <div className='flex mx-auto text-center justify-center'>
-                <Image src="/casino/visa.png" width="50px" height="30px" alt='bank'/>
-                <Image src="/casino/mastercard.png" width="50px" height="30px" alt='bank'/>
-                <Image src="/casino/bitcoin.png" width="50px" height="30px" alt='bank'/>
-                </div>
-            </div>
-            <div className='px-4 py-6 w-[50%] md:w-[20%] md:order-6 border-t-[1px] border-gray-400' > 
-              <p>Bitcoin (24 hours) Cerdit Cards (upto 7 days) E-wallets(12 hours)</p>
-            </div>           
-            </div>
-
-            {/*  */}
-            <div className='flex w-[100%] md:flex flex-wrap border-2 border-blue-500'>
-              <div className='w-[50%] md:w-[20%] md:order-1'>
-                <div className='py-4 mx-auto text-center border-b-[1px] border-gray-400'>
-                  <Image src="/casino/tony-bet-logo-casino-gad-table-316x160-1-1.jpg" width="192" height="80" alt='logo' /></div>
-                </div>
-                <div className='py-4 w-[50%] md:w-[30%] md:order-7 font-semibold border-b-[1px] border-gray-400 md:border-t-[1px]'>
-                  <p className='text-xl text-center font-semibold mx-4'>welcome bonus</p>
-                  <p className='text-xl text-center font-semibold mx-4'>100% up to $1,600 120 free Spins</p>
-                </div>
-
-
-              <div className=' mx-auto py-4 text-center w-[50%] md:w-[20%] md:order-4 border-b-[1px] border-gray-400'>
-                <Image src="/casino/best-choice.png" width="90" height="90" alt='logo' />
-              </div>
-
-              <div className='w-[50%] md:w-[20%] md:order-8 py-4 border-b-[1px] border-gray-400'>
-                  <div className=' uppercase font-semibold px-4 text-center text-lg'>
-                    <button className='bg-[#fccd1b] px-6 py-2 rounded-lg border-b-2 border-[#d6ae17]'> Visit Site</button>
-                  </div>
-                  <div className='text-center py-4'>
-                    <Link href="/"><a className='underline'>READ REVIEW</a></Link>
-                  </div>
-              </div>
-
-
-              <div className='px-4 pt-4 w-[100%] md:w-[35%] md:order-2 py-4'>
-                <ul>
-                  <li>
-                    <Image src='/casino/li-check.png' width="14px" height="14px" alt="image" className=' text-center flex' /> Choose from over 900 casino games
-                  </li>
-                  <li>
-                  <Image src='/casino/li-check.png' width="14px" height="14px" alt="image" className=' text-center flex' /> Play live ealer games from Pragmatic Play and Evolution Gaming
-                  </li>
-                  <li>
-                  <Image src='/casino/li-check.png' width="14px" height="14px" alt="image" className='my-auto text-center flex' /> Two deposit bonuses fro new customers
-                  </li>
-                </ul>
-              </div>
-              <div className='px-4 pb-4 w-[100%] md:w-[25%] md:order-3 border-b-[1px] md:border-b-[opx] border-gray-400'>
-                <ul>
-                  <li>
-                  <Image src='/casino/li-x.png' width="14px" height="14px" alt="image" className='my-auto text-center flex' /> 40x playthrough on deposit bonuses
-                  </li>
-                  <li>
-                  <Image src='/casino/li-x.png' width="14px" height="14px" alt="image" className='my-auto text-center flex' /> Not available in the US
-                  </li>
-                </ul>
-              </div>
-              <div className='px-4 py-6 w-[50%] md:w-[30%] md:order-5 '>
-                <div>
-                  <h2 className='text-lg font-semibold pb-6'>Deposit Method & Payout</h2>
-                </div>
-                <div className='flex mx-auto text-center justify-center'>
-                <Image src="/casino/visa.png" width="50px" height="30px" alt='bank'/>
-                <Image src="/casino/mastercard.png" width="50px" height="30px" alt='bank'/>
-                <Image src="/casino/bitcoin.png" width="50px" height="30px" alt='bank'/>
-                </div>
-            </div>
-            <div className='px-4 py-6 w-[50%] md:w-[20%] md:order-6' > 
-              <p>Bitcoin (24 hours) Cerdit Cards (upto 7 days) E-wallets(12 hours)</p>
-            </div>           
-            </div>
-
-          </div>
-        </div>
       </div>
     </div>         
       

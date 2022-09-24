@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
-import { footerlist } from '../footerlist';
+import { footerlist } from '../data/footerlist';
 
 export default function Footer() {
       return (
