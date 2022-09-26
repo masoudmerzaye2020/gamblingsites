@@ -1,10 +1,10 @@
 import React from 'react'
-import header from '../../components/header'
+import Header from '../../components/header'
 
 function Index() {
   return (
     <>
-    <Headers>Sports Betting Guide: How to Bet On Sports For Fun & Profit</Headers>
+    <Header>Sports Betting Guide: How to Bet On Sports For Fun & Profit</Header>
     </>
   )
 }
