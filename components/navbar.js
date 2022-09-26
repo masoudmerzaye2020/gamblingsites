@@ -61,13 +61,13 @@ export default function Navbar() {
         display: block;
         list-style: none;
       }, */
-      @media only screen and (min-width: 1024px) {
+      @media only screen and (min-width: 1016px) {
         .menus {
           display: flex;
           list-style: none;
         }
       }
-      @media only screen and (max-width: 1024px) {
+      @media only screen and (max-width: 1016px) {
         .menus {
           display: block;
           list-style: none;
