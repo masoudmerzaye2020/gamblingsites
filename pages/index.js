@@ -59,10 +59,11 @@ export default function Home() {
         </Section>
         <Regionalsites/>
         <Safegambling/>
-        <Blockedgame/>  
+        <Blockedgame/> 
+        <Aboutgamblingsites/> 
         <Gamblingsitereviews/>
 
-        <Aboutgamblingsites/>
+        
            
           
       
