@@ -11,6 +11,7 @@ import Sitereview from '../section/sitereview'
 import Regionalsites from '../section/regionalsites'
 import Safegambling from '../section/safegambling'
 import Blockedgame from '../section/blockedgame'
+import Aboutgamblingsites from '../section/aboutgamblingsites'
 
 
 const style = {
@@ -58,8 +59,11 @@ export default function Home() {
         </Section>
         <Regionalsites/>
         <Safegambling/>
+        <Blockedgame/>  
         <Gamblingsitereviews/>
-        <Blockedgame/>     
+
+        <Aboutgamblingsites/>
+           
           
       
     </>    
