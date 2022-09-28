@@ -43,6 +43,35 @@ function index() {
                 <Title title={'NFL and College Football Betting'}/>
                 <p>The best football betting sites emphasize both the National Football League and NCAA college football. Regardless of the specific flavor you prefer, the highly trusted sites that we recommend will exceed your expectations.</p>
 
+                <div className='flex flex-wrap'>
+                <Bluebutton>NFT Bettin Sites</Bluebutton>
+                <Bluebutton>College Football Betting Sites</Bluebutton>
+                <Bluebutton>College Football Betting Sites</Bluebutton>
+                <Bluebutton>College Football Betting Sites</Bluebutton>
+                </div>
+
+                <div className='my-4'>
+                    <div className='bg-[#1a2d37] rounded-lg max-w-[720px] mx-auto text-center p-4'>
+                        <h1 className='text-white px-auto'>
+                        KANSAS CITY CHIEFS AT PITTSBURGH STEELERS
+                        </h1>
+                        <h1 className='text-green-300 px-auto'>POINT SPREAD</h1>
+                        <div className='flex flex-wrap my-4'>                            
+                            <div className='w-12/12 md:w-6/12 p-2 w-full'>
+                                <div className='flex flex-wrap'>
+                                    <div className='w-9/12 rounded-l-lg bg-white p-4 text-justify'>Chiefs (-2)</div>
+                                    <div className='bg-[#21558f] rounded-r-lg py-4 h-full w-3/12 text-yellow-300 text-xl'>-110</div>
+                                </div>
+                            </div>
+                            <div className='w-12/12 md:w-6/12 p-2 w-full'>
+                                <div className='flex flex-wrap'>
+                                    <div className='w-9/12 rounded-l-lg bg-white p-4 text-justify'>Pittsburgh Steelers (+3)</div>
+                                    <div className='bg-[#21558f] rounded-r-lg py-4 h-full w-3/12 text-yellow-300 text-xl'>-110</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 
 
             </Container>
