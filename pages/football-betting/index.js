@@ -20,16 +20,16 @@ function index() {
                 <div>
                     <ul>
                         <li className='flex py-2'>
-                            <img className='' src='/image/main_bullet.gif' width='25px' height='25px' alt='icon'/><Link href='/'><a className='px-2 text-blue-400 hover:underline'>BetUS </a></Link> <p> - Safe betting site with special football bonuses.</p>
+                            <Image className='' src='/image/main_bullet.gif' width='25px' height='25px' alt='icon'/><Link href='/'><a className='px-2 text-blue-400 hover:underline'>BetUS </a></Link> <p> - Safe betting site with special football bonuses.</p>
                         </li>
                         <li className='flex py-2'>
-                            <img className='' src='/image/main_bullet.gif' width='25px' height='25px' alt='icon'/><Link href='/'><a className='px-2 text-blue-400 hover:underline'>BetUS </a></Link> <p> - Safe betting site with special football bonuses.</p>
+                            <Image className='' src='/image/main_bullet.gif' width='25px' height='25px' alt='icon'/><Link href='/'><a className='px-2 text-blue-400 hover:underline'>BetUS </a></Link> <p> - Safe betting site with special football bonuses.</p>
                         </li>
                         <li className='flex py-2'>
-                            <img className='' src='/image/main_bullet.gif' width='25px' height='25px' alt='icon'/><Link href='/'><a className='px-2 text-blue-400 hover:underline'>BetUS </a></Link> <p> - Safe betting site with special football bonuses.</p>
+                            <Image className='' src='/image/main_bullet.gif' width='25px' height='25px' alt='icon'/><Link href='/'><a className='px-2 text-blue-400 hover:underline'>BetUS </a></Link> <p> - Safe betting site with special football bonuses.</p>
                         </li>
                         <li className='flex py-2'>
-                            <img className='' src='/image/main_bullet.gif' width='25px' height='25px' alt='icon'/><Link href='/'><a className='px-2 text-blue-400 hover:underline'>BetUS </a></Link> <p> - Safe betting site with special football bonuses.</p>
+                            <Image className='' src='/image/main_bullet.gif' width='25px' height='25px' alt='icon'/><Link href='/'><a className='px-2 text-blue-400 hover:underline'>BetUS </a></Link> <p> - Safe betting site with special football bonuses.</p>
                         </li>
                     </ul>
                 </div>
@@ -37,7 +37,7 @@ function index() {
                 <Title title={'Ranking the Best Real Money Football Betting Sites'}/>
                 <p>When it comes to ranking real money football betting sites, or any type of gambling site for that matter, we have to bear in mind that people have different preferences and requirements. The “best” site for one person may not necessarily be the best for someone else.</p>
                 <div className='my-4'>
-                    <img src='/image/Safe-Trusted-Football-Betting-Sites.jpg' width='100%' height='auto' alt='football'/>
+                    <Image src='/image/Safe-Trusted-Football-Betting-Sites.jpg' width='100%' height='auto' alt='football'/>
                 </div>
                 <p>The benefits of using legal football betting sites that are subject to regulation by reputable authorities should be obvious. The last thing you want to worry about when betting on football online is whether a site is going to disappear with your money or not pay you your winnings.</p>
 
@@ -45,7 +45,7 @@ function index() {
                 <Title title={'Why Use Online Football Betting Sites?'}/>
                 <p>There are brick-and-mortar sports betting parlors in some parts of the United States, and they are as common as convenience stores in many parts of Europe. If you have access to a physical sportsbook, why would you want to bet football online?</p>
                 <div className='my-4'>
-                    <img src='/image/Why-Bet-On-Football-Online.jpg' width='100%' height='auto' alt='football'/>
+                    <Image src='/image/Why-Bet-On-Football-Online.jpg' width='100%' height='auto' alt='football'/>
                 </div>
 
                 <Title title={'NFL and College Football Betting'}/>
@@ -89,28 +89,28 @@ function index() {
                 <div className='flex flex-wrap w-full '>
                     <div className='w-8/12 md:w-6/12 lg:w-4/12 xl:w-3/12   mx-auto p-4'>
                         <div className='w-[250px] mx-auto rounded-lg border-[2px] border-[#1f2d37] hover:border-green-400'>
-                            <img src='/image/Week-5-NCAAF-odds-1-250-140.jpg' width='' height='' alt=''/>
+                            <Image src='/image/Week-5-NCAAF-odds-1-250-140.jpg' width='' height='' alt=''/>
                             <h1 className='px-2 py-4'>College Footbvall Picks and Odds for Week 5(2022)</h1>
                             <p className='px-2 pb-2 text-sm'>There's nothing quite like the roller coaster of college football. you always think a game will go..</p>
                         </div>
                     </div>
                     <div className='w-8/12 md:w-6/12 lg:w-4/12 xl:w-3/12  mx-auto p-4'>
                         <div className='w-[250px] mx-auto rounded-lg border-[2px] border-[#1f2d37] hover:border-green-400'>
-                            <img src='/image/Week-5-NCAAF-odds-1-250-140.jpg' width='' height='' alt=''/>
+                            <Image src='/image/Week-5-NCAAF-odds-1-250-140.jpg' width='' height='' alt=''/>
                             <h1 className='px-2 py-4'>College Footbvall Picks and Odds for Week 5(2022)</h1>
                             <p className='px-2 pb-2 text-sm'>There's nothing quite like the roller coaster of college football. you always think a game will go..</p>
                         </div>
                     </div>
                     <div className='w-8/12 md:w-6/12 lg:w-4/12 xl:w-3/12  mx-auto p-4'>
                         <div className='w-[250px] mx-auto rounded-lg border-[2px] border-[#1f2d37] hover:border-green-400'>
-                            <img src='/image/Week-5-NCAAF-odds-1-250-140.jpg' width='' height='' alt=''/>
+                            <Image src='/image/Week-5-NCAAF-odds-1-250-140.jpg' width='' height='' alt=''/>
                             <h1 className='px-2 py-4'>College Footbvall Picks and Odds for Week 5(2022)</h1>
                             <p className='px-2 pb-2 text-sm'>There's nothing quite like the roller coaster of college football. you always think a game will go..</p>
                         </div>
                     </div>
                     <div className='w-8/12 md:w-6/12 lg:w-4/12 xl:w-3/12  mx-auto p-4'>
                         <div className='w-[250px] mx-auto rounded-lg border-[2px] border-[#1f2d37] hover:border-green-400'>
-                            <img src='/image/Week-5-NCAAF-odds-1-250-140.jpg' width='' height='' alt=''/>
+                            <Image src='/image/Week-5-NCAAF-odds-1-250-140.jpg' width='' height='' alt=''/>
                             <h1 className='px-2 py-4'>College Footbvall Picks and Odds for Week 5(2022)</h1>
                             <p className='px-2 pb-2 text-sm'>There's nothing quite like the roller coaster of college football. you always think a game will go..</p>
                         </div>
