@@ -20,7 +20,7 @@ function index() {
                 <div>
                     <ul>
                         <li className='flex py-2'>
-                            <Image src='/image/main_bullet.gif' width='25px' height='25px' alt='icon'/><Link href='/'><a className='px-2 text-blue-400 hover:underline'>BetUS </a></Link> <p> - Safe betting site with special football bonuses.</p>
+                            <Image src='/image/main_bullet.gif' width='25' height='25' alt='icon'/><Link href='/'><a className='px-2 text-blue-400 hover:underline'>BetUS </a></Link> <p> - Safe betting site with special football bonuses.</p>
                         </li>
                        
                     </ul>
@@ -29,7 +29,7 @@ function index() {
                 <Title title={'Ranking the Best Real Money Football Betting Sites'}/>
                 <p>When it comes to ranking real money football betting sites, or any type of gambling site for that matter, we have to bear in mind that people have different preferences and requirements. The “best” site for one person may not necessarily be the best for someone else.</p>
                 <div className='my-4'>
-                    <Image src='/image/Safe-Trusted-Football-Betting-Sites.jpg' width='100%' height='auto' alt='football'/>
+                    <Image src='/image/Safe-Trusted-Football-Betting-Sites.jpg' width='45' height='45' alt='football'/>
                 </div>
                 <p>The benefits of using legal football betting sites that are subject to regulation by reputable authorities should be obvious. The last thing you want to worry about when betting on football online is whether a site is going to disappear with your money or not pay you your winnings.</p>
 
@@ -37,7 +37,7 @@ function index() {
                 <Title title={'Why Use Online Football Betting Sites?'}/>
                 <p>There are brick-and-mortar sports betting parlors in some parts of the United States, and they are as common as convenience stores in many parts of Europe. If you have access to a physical sportsbook, why would you want to bet football online?</p>
                 <div className='my-4'>
-                    <Image src='/image/Why-Bet-On-Football-Online.jpg' width='100%' height='auto' alt='football'/>
+                    <Image src='/image/Why-Bet-On-Football-Online.jpg' width='45' height='54' alt='football'/>
                 </div>
 
                 <Title title={'NFL and College Football Betting'}/>
@@ -107,8 +107,6 @@ function index() {
                             <p className='px-2 pb-2 text-sm'>There's nothing quite like the roller coaster of college football. you always think a game will go..</p>
                         </div>
                     </div>
-                    
-                    
                 </div>
 
             </Container>
