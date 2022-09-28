@@ -17,12 +17,12 @@ function Index() {
             <Title title={'What Is Real Money Gambling?'}/>
             <p>Put simply, real money gambling involves placing a wager on an uncertain outcome with the chance of winning or losing money depending on what outcome transpires.</p>
             <div className='w-full md:w-8/12 mx-auto py-4'>
-              <img src='/image/01_Real-Money-Gambling-Page-Graphics_no1-1.png' width='100%' height='auto' alt='kjk'/>
+              <Image src='/image/01_Real-Money-Gambling-Page-Graphics_no1-1.png' width='100%' height='auto' alt='kjk'/>
             </div>
             <Title title={'The Most Popular Ways to Gamble Online for Real Money'}/>
             <p>As you probably know, there are many different forms of gambling. Examples include making a bet with your friends, playing in a casino, and betting on sports with a bookmaker. As long as a real money wager is being placed on an uncertain outcome, it’s gambling.</p>
             <div className='w-full md:w-8/12 mx-auto py-4'>
-              <img src='/image/01_Real-Money-Gambling-Page-Graphics_no2-1.png' width='100%' height='auto' alt='kjk'/>
+              <Image src='/image/01_Real-Money-Gambling-Page-Graphics_no2-1.png' width='100%' height='auto' alt='kjk'/>
             </div>
           </Container>
         </Section>

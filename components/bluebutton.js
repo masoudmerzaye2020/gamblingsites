@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 export default function Bluebutton({children}) {
   return (
@@ -8,7 +9,7 @@ export default function Bluebutton({children}) {
         </div>
         <div className='w-2/12 flex my-auto justify-center  '>
             <div className='h-[25px] w-[26px] flex m-1 justify-center rounded-full bg-[#fccd1b]  '>
-             <img className='' src='/svg/right-arrow.svg' width='15' height='15' alt='svg' />
+             <Image className='' src='/svg/right-arrow.svg' width='15' height='15' alt='svg' />
             </div>
         </div>
     </div>
