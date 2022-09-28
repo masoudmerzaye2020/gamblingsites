@@ -20,17 +20,9 @@ function index() {
                 <div>
                     <ul>
                         <li className='flex py-2'>
-                            <Image className='' src='/image/main_bullet.gif' width='25px' height='25px' alt='icon'/><Link href='/'><a className='px-2 text-blue-400 hover:underline'>BetUS </a></Link> <p> - Safe betting site with special football bonuses.</p>
+                            <Image src='/image/main_bullet.gif' width='25px' height='25px' alt='icon'/><Link href='/'><a className='px-2 text-blue-400 hover:underline'>BetUS </a></Link> <p> - Safe betting site with special football bonuses.</p>
                         </li>
-                        <li className='flex py-2'>
-                            <Image className='' src='/image/main_bullet.gif' width='25px' height='25px' alt='icon'/><Link href='/'><a className='px-2 text-blue-400 hover:underline'>BetUS </a></Link> <p> - Safe betting site with special football bonuses.</p>
-                        </li>
-                        <li className='flex py-2'>
-                            <Image className='' src='/image/main_bullet.gif' width='25px' height='25px' alt='icon'/><Link href='/'><a className='px-2 text-blue-400 hover:underline'>BetUS </a></Link> <p> - Safe betting site with special football bonuses.</p>
-                        </li>
-                        <li className='flex py-2'>
-                            <Image className='' src='/image/main_bullet.gif' width='25px' height='25px' alt='icon'/><Link href='/'><a className='px-2 text-blue-400 hover:underline'>BetUS </a></Link> <p> - Safe betting site with special football bonuses.</p>
-                        </li>
+                       
                     </ul>
                 </div>
                 <p>American football has become popular all over the world. It’s still most popular within the US, though, where it’s the country’s number one spectator sport and also attracts the most betting interest.</p>
