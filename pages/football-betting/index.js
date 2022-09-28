@@ -37,7 +37,7 @@ function index() {
                 <Title title={'Why Use Online Football Betting Sites?'}/>
                 <p>There are brick-and-mortar sports betting parlors in some parts of the United States, and they are as common as convenience stores in many parts of Europe. If you have access to a physical sportsbook, why would you want to bet football online?</p>
                 <div className='my-4'>
-                    <Image src='/image/Why-Bet-On-Football-Online.jpg' width='45' height='54' alt='football'/>
+                    <Image src='/image/Why-Bet-On-Football-Online.jpg' width='100%' height='100%' alt='football'/>
                 </div>
 
                 <Title title={'NFL and College Football Betting'}/>
