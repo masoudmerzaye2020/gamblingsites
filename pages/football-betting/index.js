@@ -79,35 +79,15 @@ function index() {
                 <p>
                 We’ve hit you hard with a lot of information all at one time, so in closing, we’ll provide a brief summary. First and foremost, you can place your absolute trust in all the top-ranked football betting sites for 2022. They are firmly established and totally legit in the eyes of industry insiders.
                 </p>
-                <div className='flex flex-wrap w-full '>
+                <div className='flex flex-wrap w-full'>
                     <div className='w-8/12 md:w-6/12 lg:w-4/12 xl:w-3/12   mx-auto p-4'>
                         <div className='w-[250px] mx-auto rounded-lg border-[2px] border-[#1f2d37] hover:border-green-400'>
-                            <Image className='flex' src='/image/Week-5-NCAAF-odds-1-250-140.jpg' width='400px' height='200px' alt=''/> 
-                            <h1 className='px-2 py-4'>College Footbvall Picks and Odds for Week 5(2022)</h1>
-                            <p className='px-2 pb-2 text-sm'>There's nothing quite like the roller coaster of college football. you always think a game will go..</p>
+                            <Image className='flex' src='/image/Week-5-NCAAF-odds-1-250-140.jpg' width='400px' height='200px' alt=''/>
+                            <h1 className='px-2 py-4'>College Footbvall Picks and Odds for Week 52022</h1>
+                            <p className='px-2 pb-2 text-sm'> Theres nothing quite like the roller coaster of college football. you always think a game will go..</p>
                         </div>
                     </div>
-                    <div className='w-8/12 md:w-6/12 lg:w-4/12 xl:w-3/12  mx-auto p-4'>
-                        <div className='w-[250px] mx-auto rounded-lg border-[2px] border-[#1f2d37] hover:border-green-400'>
-                            <Image src='/image/Week-5-NCAAF-odds-1-250-140.jpg' width='400px' height='200px' alt=''/> 
-                            <h1 className='px-2 py-4'>College Footbvall Picks and Odds for Week 5(2022)</h1>
-                            <p className='px-2 pb-2 text-sm'>There's nothing quite like the roller coaster of college football. you always think a game will go..</p>
-                        </div>
-                    </div>
-                    <div className='w-8/12 md:w-6/12 lg:w-4/12 xl:w-3/12  mx-auto p-4'>
-                        <div className='w-[250px] mx-auto rounded-lg border-[2px] border-[#1f2d37] hover:border-green-400'>
-                            <Image src='/image/Week-5-NCAAF-odds-1-250-140.jpg' width='400px' height='200px' alt=''/> 
-                            <h1 className='px-2 py-4'>College Footbvall Picks and Odds for Week 5(2022)</h1>
-                            <p className='px-2 pb-2 text-sm'>There's nothing quite like the roller coaster of college football. you always think a game will go..</p>
-                        </div>
-                    </div>
-                    <div className='w-8/12 md:w-6/12 lg:w-4/12 xl:w-3/12  mx-auto p-4'>
-                        <div className='w-[250px] mx-auto rounded-lg border-[2px] border-[#1f2d37] hover:border-green-400'>
-                           <Image src='/image/Week-5-NCAAF-odds-1-250-140.jpg' width='400px' height='200px' alt=''/>
-                            <h1 className='px-2 py-4'>College Footbvall Picks and Odds for Week 5(2022)</h1>
-                            <p className='px-2 pb-2 text-sm'>There's nothing quite like the roller coaster of college football. you always think a game will go..</p>
-                        </div>
-                    </div>
+                    
                 </div>
 
             </Container>
