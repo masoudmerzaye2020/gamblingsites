@@ -34,7 +34,7 @@ const Dropdown = ({ submenus, dropdown, depthLevel }) => {
         min-width: 13rem;
         padding: 0.5rem 0;
         list-style: none;
-        background-color: #fff;
+        background-color: #2b3e4c;
         border-radius: 0.2rem;
         display: none;
       }

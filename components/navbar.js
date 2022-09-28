@@ -12,7 +12,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className='flex items-center flex-wrap bg-slate-800 p-1.5'>        
+      <nav className='flex items-center flex-wrap bg-[#1f2d37] p-1.5 text-white font-semibold text-md py-4 '>        
         <button
           className=' inline-flex p-1 bg-yellow-400 hover:bg-yellow-600 rounded-full lg:hidden text-black outline-none'
           onClick={handleClick}

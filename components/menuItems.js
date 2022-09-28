@@ -33,7 +33,7 @@ const MenuItems = ({ items, depthLevel }) => {
   return (
     <div className="nav-area">
     <li
-      className="menu-items flex-row md:flex-col"
+      className="menu-items flex-row md:flex-col "
       ref={ref}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
@@ -87,7 +87,7 @@ const MenuItems = ({ items, depthLevel }) => {
           />
         </>
       ) : (
-        <a href={items.url}>{items.title}</a>
+        <a className=" hover:text-green-300" href={items.url}>{items.title}</a>
       )}
 
     <style jsx>{`
@@ -121,6 +121,8 @@ const MenuItems = ({ items, depthLevel }) => {
       text-decoration: none;
     }
 
+
+
     .menu-items button {
       color: inherit;
       font-size: inherit;
@@ -149,6 +151,7 @@ const MenuItems = ({ items, depthLevel }) => {
     .menu-items a:hover,
     .menu-items button:hover {
     background-color: #324959;
+    color:#40d3b7;
     }
 
     .arrow::after {

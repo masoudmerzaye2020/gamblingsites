@@ -2,35 +2,35 @@ export const menulist = [
 
     {
       title: "Betting Sites",
-      url: "/betting",
+      url: "/sports-betting/sites",
       submenu:[
         {
           title:"Safest Betting Sites",
-          url: "/",
+          url: "/sports-betting/sites/safe/",
         },
         {
           title:"Fast Payout Betting Sites",
-          url: "/",
+          url: "/sports-betting/sites/fast-payout",
         },
         {
           title:"Betting Bonuses",
-          url: "/",
+          url: "/sports-betting/sites/bonuses-rewards",
         },
         {
           title:"Politicial",
-          url: "/",
+          url: "/political-betting",
         },
         {
           title:"Entertainment",
-          url: "/",
+          url: "/entertainment-betting",
         },
         {
           title:"Esports",
-          url: "/",
+          url: "/esports-betting/sites",
         },
         {
           title:"Horse Racing",
-          url: "/",
+          url: "/horse-racing/sites/",
         },
         {
           title:"By Sport",
@@ -56,19 +56,19 @@ export const menulist = [
   
     {
       title:"Online Casinos",
-      url: "/onlinecasinos",
+      url: "/online-casino/best",
       submenu:[
         {
           title:"Live Dealer Casinos",
-          url: "/",
+          url: "/online-casino/live-dealer",
         },
         {
           title:"Safest Online Casinos",
-          url: "/",
+          url: "/online-casino/safe",
         },
         {
           title:"Fast Payout Casinos",
-          url: "/",
+          url: "/online-casino/best",
         },
         {
           title:"Crypto Gambling Sites",
@@ -109,7 +109,7 @@ export const menulist = [
   
     {
       title:"Real Money",
-      url: "/realmoney",
+      url: "/real-money",
       submenu:[
         {
           title:"Real Money Casinos",
@@ -150,7 +150,7 @@ export const menulist = [
   
     {
       title:"Gambling Apps",
-      url: "/gablingapp",
+      url: "/gambling-apps",
       submenu:[
         {
           title:"Casino Apps",
@@ -246,6 +246,41 @@ export const menulist = [
     {
       title:"Guides",
       url: "/guides",
+      submenu:[
+        {
+          title:"Online Slots",
+          url: "/",
+        },
+        {
+          title:"Football Betting",
+          url: "/",
+        },
+        {
+          title:"Sports Betting",
+          url: "/",
+        },
+        {
+          title:"Casino Gambling",
+          url: "/",
+        },
+        {
+          title:"Cryptocurrency",
+          url: "/",
+        },
+        {
+          title:"Bitcoin Gambling",
+          url: "/",
+        },
+        {
+          title:"Online Poker",
+          url: "/",
+        },
+  
+      ]
+    },
+    {
+      title:"Bet on Football",
+      url: "/football-betting",
       submenu:[
         {
           title:"Online Slots",
