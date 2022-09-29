@@ -12,6 +12,7 @@ import Regionalsites from '../section/regionalsites'
 import Safegambling from '../section/safegambling'
 import Blockedgame from '../section/blockedgame'
 import Aboutgamblingsites from '../section/aboutgamblingsites'
+import FAQ from '../section/faq'
 
 
 const style = {
@@ -62,6 +63,7 @@ export default function Home() {
         <Blockedgame/> 
         <Aboutgamblingsites/> 
         <Gamblingsitereviews/>
+        <FAQ/>
 
         
            
