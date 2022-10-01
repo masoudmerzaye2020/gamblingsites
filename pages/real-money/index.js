@@ -6,6 +6,7 @@ import Container from '../../components/container'
 import Title from '../../components/title'
 import Header from '../../components/header'
 import Button from '../../components/button'
+import Wideimage from '../../components/wideimage'
 
 function Index() {
   return (
@@ -17,13 +18,24 @@ function Index() {
             <Title title={'What Is Real Money Gambling?'}/>
             <p>Put simply, real money gambling involves placing a wager on an uncertain outcome with the chance of winning or losing money depending on what outcome transpires.</p>
             <div className='w-full md:w-8/12 mx-auto py-4'>
-              <Image src='/image/01_Real-Money-Gambling-Page-Graphics_no1-1.png' width='100%' height='auto' alt='kjk'/>
+              <Wideimage src='/image/01_Real-Money-Gambling-Page-Graphics_no1-1.png'/>
+            
             </div>
             <Title title={'The Most Popular Ways to Gamble Online for Real Money'}/>
             <p>As you probably know, there are many different forms of gambling. Examples include making a bet with your friends, playing in a casino, and betting on sports with a bookmaker. As long as a real money wager is being placed on an uncertain outcome, it’s gambling.</p>
             <div className='w-full md:w-8/12 mx-auto py-4'>
-              <Image src='/image/01_Real-Money-Gambling-Page-Graphics_no2-1.png' width='100%' height='auto' alt='kjk'/>
+              <Wideimage  src='/image/01_Real-Money-Gambling-Page-Graphics_no2-1.png'/>
+              
             </div>
+            <div className='w[100%] h-[100%] relative bg-gray-300' >
+                <Image
+                  alt='Mountains'
+                  src='/image/01_Real-Money-Gambling-Page-Graphics_no2-1.png'
+                  layout='fill'
+                 
+                />
+                ffd
+              </div>
           </Container>
         </Section>
     </>
