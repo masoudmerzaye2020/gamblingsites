@@ -30,7 +30,7 @@ export default function index() {
                 <TextTitle title={'How Do You Know You Can Trust Our Sportsbook Ratings?'}/>
                 <p>You’re here because you’re wise and cautious about who to trust when it comes to real money betting online. Odds are you’re also skeptical about us and wonder why you should trust our recommendations and ratings.</p>
                 <div>
-                    <Mainbullet/>
+                   
                 </div>
             </Container>
         </Section>
