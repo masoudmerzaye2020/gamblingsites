@@ -45,10 +45,11 @@ function index() {
                 <p>The best football betting sites emphasize both the National Football League and NCAA college football. Regardless of the specific flavor you prefer, the highly trusted sites that we recommend will exceed your expectations.</p>
 
                 <div className='flex flex-wrap w-full'>
-                <Bluebutton>NFT Bettin Sites</Bluebutton>
-                <Bluebutton>College Football Betting Sites</Bluebutton>
-                <Bluebutton>College Football Betting Sites</Bluebutton>
-                <Bluebutton>College Football Betting Sites</Bluebutton>
+                <Bluebutton link={''} title={'NFT Bettin Sites'}/>
+                <Bluebutton link={''} title={'College Football Betting Sites'}/>
+                <Bluebutton link={''} title={'College Football Betting Sites'}/>
+                <Bluebutton link={''} title={'College Football Betting Sites'}/>
+            
                 </div>
 
                 <div className='my-4'>
