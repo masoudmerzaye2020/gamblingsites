@@ -58,11 +58,11 @@ export default function Footer() {
                 </div>
             </div>
             <div className='bg-[#0c1216] py-8 flex mx-auto justify-center text-gray-200 uppercase'>
-            <Link href="/"><a className='px-2'>about us</a></Link>|
-            <Link href="/"><a className='px-2'>terms of use</a></Link>|
-            <Link href="/"><a className='px-2'>contact us</a></Link>|
-            <Link href="/"><a className='px-2'>privacy policy</a></Link>|                    
-            <Link href="/"><a className='px-2'>sitmap</a></Link>                   
+            <Link href="/about/"><a className='px-2'>about us</a></Link>|
+            <Link href="/terms-of-use/"><a className='px-2'>terms of use</a></Link>|
+            <Link href="/contact/"><a className='px-2'>contact us</a></Link>|
+            <Link href="/privacy-policy"><a className='px-2'>privacy policy</a></Link>|                    
+            <Link href="/sitemap/"><a className='px-2'>sitmap</a></Link>                   
             </div>
             <div className='bg-[#0c1216] flex mx-auto text-center text-blue-300 justify-center'>
                 copyright @ 2022 Gamblinsites.com All Rights Reserved
