@@ -96,12 +96,14 @@ export default function Index() {
               </div>
 
               <div className='flex flex-wrap mx-auto justify-center'>
-                <Bluebutton>Baseball Betting Sites</Bluebutton>
-                <Bluebutton>Hockey Betting Sites</Bluebutton>
-                <Bluebutton>Golf Betting Sites</Bluebutton>
-                <Bluebutton>Boxing Betting Sites</Bluebutton>
-                <Bluebutton>Tennis Betting Sites</Bluebutton>
+              <Bluebutton link={''} title={'Baseball Betting Sites'}/>
+              <Bluebutton link={''} title={'Hockey Betting Sites'}/>
+              <Bluebutton link={''} title={'Golf Betting Sites'}/>
+              <Bluebutton link={''} title={'Boxing Betting Sites'}/>
+              <Bluebutton link={''} title={'Tennis Betting Sites'}/>
               </div>
+
+   
               
               <Title title={'Great Features You Can Enjoy on an Online Betting Website'}/>
               <Wideimage src={'/image/best-online-sports-betting-sites-what-they-offer.jpg'}/>
