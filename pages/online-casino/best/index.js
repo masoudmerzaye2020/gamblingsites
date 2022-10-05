@@ -23,7 +23,7 @@ export default function index() {
 
                 <Title title={'Our Top-Rated Online Casinos for 2022'}/>
                 <p>Let’s start with a quick look at some of our top-rated online casinos and why we like them so much.</p>
-                <div>
+                 <div>
                     <ul className='py-2'>
                         <li className='flex py-2'>
                             <Image src='/image/main_bullet.gif' width='20' height='20' alt=''/>
@@ -46,7 +46,7 @@ export default function index() {
                     </ul>
                 </div>
 
-                <TextTitle title={'Casino Apps vs. Casino Sites'}/>
+             <TextTitle title={'Casino Apps vs. Casino Sites'}/>
                 <div>
                     <ul className='py-2'>
                         <li className='flex py-2'>
@@ -109,16 +109,16 @@ export default function index() {
                 </div>
 
                 <p>We also have recommendations for trusted online casinos in various other regions. Note that our rankings are never based SOLELY on casinos accepting players from the relevant region. They take into account several localized factors, too, along with everything else that makes for a top online casino.</p>
-                
-                <div className='flex flex-wrap'>
-                    <Bluebutton>South Africa</Bluebutton>
-                    <Bluebutton>New Zealand</Bluebutton>
-                    <Bluebutton>India</Bluebutton>
-                    <Bluebutton>Germany</Bluebutton>
-                    <Bluebutton>Europe</Bluebutton>
-                    <Bluebutton>Ireland</Bluebutton>
-                </div>
 
+                <div className='flex flex-wrap'>
+                    <Bluebutton link={''} title={'South Africa'} />
+                    <Bluebutton link={''} title={'New Zealand'} />
+                    <Bluebutton link={''} title={'India'} />
+                    <Bluebutton link={''} title={'Germany'} />
+                    <Bluebutton link={''} title={'Europe'} />
+                    <Bluebutton link={''} title={'Ireland'} />
+                 
+                </div>
                 <TextTitle title={'Best Online Casinos by Banking Method'}/>
                 <p>A significant advantage of using the best casino sites is that there are multiple options for depositing and withdrawing your cash. Most of the top-rated casino sites online in 2022 accept a wide variety of payment methods.</p>
                 <div>
@@ -162,13 +162,13 @@ export default function index() {
                 <TextTitle title={'More Top-Rated Casinos Online'}/>
                 <p>We’d love to offer every individual reading this a tailor-made solution for where to play online casino games. But since we can’t possibly know what every reader is looking for, we want to provide you with a few options. These pages will help you find the best online casinos based on the features that are most important to you.</p>
 
-                <Mainbullet  link='/' title={'Safest online casinos'} desc={''}/>
-                <Mainbullet  link='/' title={'Fast payout online casinos'} desc={''}/>
-                <Mainbullet  link='/' title={'No download casinos'} desc={''}/>
-                <Mainbullet  link='/' title={'High roller online casinos'} desc={''}/>
-                <Mainbullet  link='/' title={'New online casinos'} desc={''}/>
-                <Mainbullet  link='/' title={'Best casinos for jackpots'} desc={''}/>
-                <Mainbullet  link='/' title={'Virtual reality casinos'} desc={''}/>
+                <Mainbullet  link={'/'} title={'Safest online casinos'} desc={''}/>
+                <Mainbullet  link={'/'} title={'Fast payout online casinos'} desc={''}/>
+                <Mainbullet  link={'/'} title={'No download casinos'} desc={''}/>
+                <Mainbullet  link={'/'} title={'High roller online casinos'} desc={''}/>
+                <Mainbullet  link={'/'} title={'New online casinos'} desc={''}/>
+                <Mainbullet  link={'/'} title={'Best casinos for jackpots'} desc={''}/>
+                <Mainbullet  link={'/'} title={'Virtual reality casinos'} desc={''}/>
 
                 <Wideimage src={'/image/Rankings-Best-Online-Casinos-1.jpg'}/>
 

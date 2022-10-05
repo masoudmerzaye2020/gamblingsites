@@ -68,15 +68,15 @@ export const menulist = [
         },
         {
           title:"Fast Payout Casinos",
-          url: "/online-casino/best",
+          url: "/online-casino/best/fast-payout",
         },
         {
           title:"Crypto Gambling Sites",
-          url: "/",
+          url: "/cryptocurrency/sites",
         },
         {
           title:"Bonuses and Rewards",
-          url: "/",
+          url: "/online-casino/best/bonuses-and-rewards",
         },
         {
           title:"By Deposit Method",
@@ -102,7 +102,7 @@ export const menulist = [
         },
         {
           title:"Blacklisted Casinos",
-          url: "/",
+          url: "/online-casino/blacklist",
         },
       ]
     },
@@ -113,15 +113,15 @@ export const menulist = [
       submenu:[
         {
           title:"Real Money Casinos",
-          url: "/",
+          url: "/real-money/casinos",
         },
         {
           title:"Real Money Betting Sites",
-          url: "/",
+          url: "/real-money/sports-betting",
         },
         {
           title:"Real Money Poker Sites",
-          url: "/",
+          url: "/real-money/poker",
         },
         {
           title:"By Games",
@@ -154,7 +154,7 @@ export const menulist = [
       submenu:[
         {
           title:"Casino Apps",
-          url: "/",
+          url: "/gambling-apps/casino",
           submenu:[
             {
               title:"Slots Apps",
@@ -172,7 +172,7 @@ export const menulist = [
         },
         {
           title:"Betting Apps",
-          url: "/",
+          url: "/gambling-apps/betting",
           submenu:[
             {
               title:"Football Betting Apps",
@@ -190,7 +190,7 @@ export const menulist = [
         },
         {
           title:"Poker Apps",
-          url: "/",
+          url: "/gambling-apps/poker",
         },
       ]
     },
@@ -201,43 +201,43 @@ export const menulist = [
       submenu:[
         {
           title:"BetUS",
-          url: "/",
+          url: "/reviews/betus",
         },
         {
           title:"MyBookie",
-          url: "/",
+          url: "/reviews/mybookie",
         },
         {
           title:"BetNow",
-          url: "/",
+          url: "/reviews/betnow",
         },
         {
           title:"Bovada",
-          url: "/",
+          url: "/reviews/bovada",
         },
         {
           title:"BetOnline",
-          url: "/",
+          url: "/reviews/betonline",
         },
         {
           title:"Las Atlantis Casino",
-          url: "/",
+          url: "/reviews/las-atlantis",
         },
         {
           title:"Super Slots",
-          url: "/",
+          url: "/reviews/superslots",
         },
         {
           title:"Wild Casino",
-          url: "/",
+          url: "/reviews/wild-casino",
         },
         {
           title:"El Royale Casino",
-          url: "/",
+          url: "/reviews/el-royale-casino",
         },
         {
           title:"Ducky Luck",
-          url: "/",
+          url: "/reviews/ducky-luck",
         },
   
       ]
