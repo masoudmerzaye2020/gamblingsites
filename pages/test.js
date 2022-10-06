@@ -11,6 +11,8 @@ import Sitereview from '../section/sitereview'
 import Regionalsites from '../section/regionalsites'
 import Safegambling from '../section/safegambling'
 import Blockedgame from '../section/blockedgame'
+import Carousel from '../section/carousel'
+
 
 
 const style = {
@@ -38,7 +40,8 @@ export default function Home() {
         <p className='text-lg text-gray-300 py-1'>Rankings and Reviews of 200+ Online Casinos, Sports Betting Sites, and Other Gambling Websites</p>
         </div>
         <Section>
-            <Container>              
+            <Container>   
+              <Carousel/>           
 
                 <p className={style.paragraph}>
                     <span className='text-lg font-semibold '> GamblingSites.com is the internet’s most comprehensive guide to the world’s best online gambling sites.</span> This website is a genuine goldmine for gamblers, with information and expert advice on just about every gambling-related topic under the sun.
