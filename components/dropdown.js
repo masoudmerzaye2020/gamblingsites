@@ -3,7 +3,7 @@ const Dropdown = ({ submenus, dropdown, depthLevel }) => {
   depthLevel = depthLevel + 1;
   const dropdownClass = depthLevel > 1 ? "dropdown-submenu" : "";
   return (
-    <ul className={`dropdown ${dropdownClass} ${dropdown ? "show" : ""}`}>
+    <ul className={`dropdown relative lg:absolute ${dropdownClass} ${dropdown ? "show" : ""}`}>
       {submenus.map((submenu, index) => (
         <MenuItems items={submenu} key={index} depthLevel={depthLevel} />
       ))}
@@ -24,7 +24,7 @@ const Dropdown = ({ submenus, dropdown, depthLevel }) => {
       } */
 
       .dropdown {
-        position: absolute;
+   /*       position: absolute ;  */
         left: 0;
         right: auto;
         box-shadow: 0 10px 15px -3px rgba(46, 41, 51, 0.08),
@@ -43,16 +43,32 @@ const Dropdown = ({ submenus, dropdown, depthLevel }) => {
         display: block;
       }
 
-      .dropdown .dropdown-submenu {
-        position: absolute;
+       .dropdown .dropdown-submenu {
+       position: absolute; 
         left: 100%;
         top: -7px;
-      },
+      }, 
       @media only screen and (max-width: 600px) {
         .dropdown {
           display: block;
         }
       },
+
+   
+/*       @media only screen and (min-width: 1016px) {
+        .dropdown .dropdown-submenu {
+       position: absolute; 
+        left: 100%;
+        top: -7px;
+      },
+      } 
+      @media only screen and (max-width: 1016px) {
+        .dropdown .dropdown-submenu {
+       position: relative; 
+        left: 2%;
+        top: -7px;
+      },
+      }  */
 
 
 
@@ -65,3 +81,4 @@ const Dropdown = ({ submenus, dropdown, depthLevel }) => {
 };
 
 export default Dropdown;
+
