@@ -1,0 +1,47 @@
+[
+    {
+        id:1,
+        question:'Is Bovada available in my state?',
+        answer:'Bovada accepts players from 45 states. The only restricted states are Nevada, New Jersey, New York, Maryland, and Delaware. If you don’t live in one of those five states, you can access everything Bovada offers.',
+    }, 
+    {
+        id:2,
+        question:'How quickly does Bovada process payouts?',
+        answer:'It typically takes 24 hours for Bovada to review your transaction history and approve your withdrawal request. You can speed up that process by making sure you have submitted identity verification documents for your account. Once your withdrawal has been approved, the payout time will depend on the banking method you chose. Cryptocurrency payouts are typically available within fifteen minutes, but checks can take up to 15 days.',
+    }, 
+    {
+        id:3,
+        question:'Are Bovada and Ignition the same?',
+        answer:'Bovada and Ignition are owned by the same company, and they use many of the same software providers. They even have a combined poker network. So, there are many similarities between these two sites, but they are two separate entities.',
+    }, 
+    {
+        id:4,
+        question:'Are Bovada’s bonuses worth it?',
+        answer:'This question depends on your gambling preferences. The welcome bonuses on Bovada are an excellent way to get a little extra money to use for gambling, as long as you can meet the rollover requirement. Our review of Bovada revealed that their rollover requirements are lower than those on many other USA gambling sites. They give you six months to meet them too, which is awesome. You’ll have to decide for yourself if these bonuses are worthwhile. If you don’t think you will meet the rollover requirement, you can always deposit a smaller amount so that they are more manageable',
+    }, 
+    {
+        id:5,
+        question:'Will Bovada ban you for winning?',
+        answer:'Bovada is a recreational gambling site. If you win consistently, Bovada will assume you’re a professional bettor. They may offer dual lines or freeze your account if they suspect you’re not using the site recreationally.',
+    }, 
+    {
+        id:6,
+        question:'Are checks from Bovada legit?',
+        answer:'One of the withdrawal methods on Bovada is a check by courier. Bovada will send you a legitimate check if you choose that option. However, some US banks refuse to cash checks from Bovada because of the bank’s policies. You should ask your bank if they cash checks from online gambling sites before you process your withdrawal. If you are unsure, it’s best to use cryptocurrency withdrawals instead.',
+    }, 
+    {
+        id:7,
+        question:'Can Bovada be trusted?',
+        answer:'Yes! Bovada is a trustworthy, reliable online gambling site for US gamblers. They consistently pay out players in a timely manner and have never been part of a major scandal. Bovada even stopped using Betsoft software when Betsoft was accused of questionable behavior. That shows you that they put players’ interests first.',
+    }, 
+    {
+        id:8,
+        question:'How do I know I can trust your Bovada ratings?',
+        answer:'Where do we start? You can trust our ratings and review of Bovada.lv because we have decades of combined experience gambling online for real money and reviewing gambling websites. We also don’t accept money for higher ratings and include everything we find in our reviews, including the bad stuff.',
+    }, 
+    {
+        id:9,
+        question:'Is Bovada a good betting site?',
+        answer:'Yes, but only if you’re a recreational bettor. If you only bet for fun, you’ll have a large variety of sports and betting markets to choose from. That includes popular American sports like NFL football and MLB baseball, international sports like rugby, and less common options like esports.',
+    },
+]

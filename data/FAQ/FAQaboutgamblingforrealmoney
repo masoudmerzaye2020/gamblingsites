@@ -1,0 +1,57 @@
+[
+     {
+        id:1,
+        question:'Is Real Money Gambling Safe?',
+        answer:'Yes. As long as you choose a legitimate gambling site, you can gamble for real money safely. Make sure the site you use has encryption software and other security measures to protect your information. Check out our safest online casinos page for more information on how to protect yourself while gambling online.',
+    },
+    {
+        id:2,
+        question:'How Do Gambling Site Bonuses Work?',
+        answer:'There are many different kinds of bonuses, and each one works a little differently. The most common bonus is a deposit bonus, where the site matches your deposit amount at a certain percentage. For example, if you claim a 200% bonus and deposit $100, the site will give you $200 in bonus funds to add to your bankroll. The most important thing you need to know about bonuses is that you need to read and understand the terms and conditions. Most bonuses have wagering requirements, maximum withdrawal amounts, and other restrictions. Make sure you understand all of those conditions before you accept any gambling site bonuses.',
+    },
+    {
+        id:3,
+        question:'Can I Win Real Money With No Deposit?',
+        answer:'Some real money gambling sites offer small no-deposit bonuses. They will give you $10-$30 to try out their site. If you happen to get lucky, you could win cash. However, the amount you can win is limited.',
+    },
+    {
+        id:4,
+        question:'How Can I Learn to Gamble Online for Real Money?',
+        answer:'There are plenty of resources online that can help you learn, including our site. Start with our beginner’s casino guide if you want to play games like blackjack and slots, or check out our introductory sports betting guide.',
+    },
+    {
+        id:5,
+        question:'How Is Online Gambling Different From Gambling in Person?',
+        answer:'The biggest difference is that you don’t have to travel to gamble online for real money. It is much more convenient to pull up a website on your computer or phone, instead of visiting a brick-and-mortar facility. Those facilities are also limited by the confines of their space. Online gambling sites don’t have to worry about that, so they can offer many more options.',
+    },
+    {
+        id:6,
+        question:'Do I Need to Download Special Software to Gamble Online?',
+        answer:'No. Gambling sites use the internet to provide everything you need. As long as you have a reliable internet connection, you can use the site without any additional downloads.',
+    },
+    {
+        id:7,
+        question:'Can I Gamble Online for Free?',
+        answer:'Yes. Most gambling sites allow you to try various games for free. You can play free games as much as you want, but you won’t win anything.',
+    },
+    {
+        id:8,
+        question:'What Happens if My Connection Gets Disconnected While Gambling Online?',
+        answer:'Internet glitches happen, so don’t stress if you happen to get disconnected while you’re gambling online. In most cases, the site will simply void your last wager, so you will get your money back, but you won’t have the opportunity to win.',
+    },
+    {
+        id:9,
+        question:'Can I Use My Phone for Real Money Gambling?',
+        answer:'Of course! Most gambling sites have mobile-compatible sites that allow you to use their site from any mobile browser. Some sites also offer downloadable apps as another option.',
+    },
+    {
+        id:10,
+        question:'How Much Money Can I Win With Online Gambling?',
+        answer:'The exact limits depend on how you gamble and how much you are willing to risk. Progressive jackpot games offer the opportunity to win life-changing payouts, but only if you get lucky enough to win.',
+    },
+    {
+        id:11,
+        question:'Is Real Money Gambling Legal?',
+        answer:'Gambling laws vary by location. Some countries have federal laws, while others allow local or state governments to determine the laws. It is your responsibility to check the gambling laws in your location. All of the gambling sites we recommend are licensed to operate. So, they are operating legally according to the laws of their licensing authority.',
+    },    
+]
