@@ -271,7 +271,7 @@ export default function Index() {
               <p>If you didn’t see your country so far, don’t worry. We cover other regions, too, so you can discover legitimate sportsbooks for them by visiting our dedicated pages.</p>
               <div className="overflow-x-auto relative sm:rounded-lg my-4 mx-6">
                 {data.map((menu, i) => (
-                  <table className="w-full text-sm text-center text-gray-500  border border-gray-300">
+                  <table key={i} className="w-full text-sm text-center text-gray-500  border border-gray-300">
                     <thead className=" bg-[#294757] h-[52px]">
                       <tr className="text-gray-200">
                         <th
@@ -300,8 +300,9 @@ export default function Index() {
                         </th>
                       </tr>
                     </thead>
-                    {menu.rows.map((item) => (
+                    {menu.rows.map((item, index) => (
                       <Table
+                        index={index}
                         col1={item.sites}
                         col2={item.Cashoutspeed}
                         href={item.link}
