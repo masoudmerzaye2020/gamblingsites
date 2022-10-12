@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Wwe() {
+function Index() {
   return (
     <div>wwe betting</div>
   )
 }
 
-export default Wwe
+export default Index

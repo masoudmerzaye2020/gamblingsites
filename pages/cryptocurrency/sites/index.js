@@ -11,6 +11,7 @@ import Bluebutton from '../../../components/bluebutton'
 import Mainbullet from '../../../components/mainbullet'
 import Borderedbox from '../../../components/borderedbox'
 import Wideimage from '../../../components/wideimage'
+import Squareimage from '../../../components/squareimage'
 
 function Index() {
   return (
@@ -119,167 +120,49 @@ function Index() {
           <p>If you don’t want to try crypto-only sites, you can always choose more reputable sites and apps that have been around for a while. Many of them now accept Bitcoin and other cryptocurrencies.</p>
           <p>They offer the best of both worlds in many ways, so it’s a sensible decision. Here are some of our suggestions if that’s your preferred choice.</p>
 
-          <p></p>
-          <p></p>
+         
           {/* LEAVE THE ADD */}
-          <p></p>
-          <p></p>
-          <div>
-            <Mainbullet link={''} linkdesc={''}/>
-            <Mainbullet link={''} linkdesc={''}/>
-            <Mainbullet link={''} linkdesc={''}/>
-            <Mainbullet link={''} linkdesc={''}/>
-            <Mainbullet link={''} linkdesc={''}/>
-            <Mainbullet link={''} linkdesc={''}/>
-          </div>
-
-          <Title title={''}/>
-          <p></p>
-
-          {/*  leave the table */}
-          <p></p>
-          <div>
-            <Mainbullet link={''} desc={''}/>
-            <Mainbullet link={''} desc={''}/>
-            <Mainbullet link={''} desc={''}/>
-            <Mainbullet link={''} desc={''}/>
-            <Mainbullet link={''} desc={''}/>
-          </div>
-          <p></p>
-          <Title title={''}/>
-          <p></p>
-
-          {/* leave the table */}
-
-          <p></p>
-          <p></p>
-
-          <Borderedbox> </Borderedbox>
-
-          <Title title={''}/>
-          <p></p>
-
-          <TextTitle title={''}/>
-          <p></p>
-          {/* leave the table */}
-
-          <p></p>
-
-          <div className='bg-[#e9ffee]'>
-            <Mainbullet link={''} linkdesc={''} desc={''}/>
-            <Mainbullet link={''} linkdesc={''} desc={''}/>
-            <Mainbullet link={''} linkdesc={''} desc={''}/>
-            <Mainbullet link={''} linkdesc={''} desc={''}/>
-          </div>
-
-          <TextTitle title={''}/>
-          <p></p>
-
-          {/* leave the bellow style */}
-
-          <p></p>
-
-          <Title title={''}/>
-          <p></p>
-          <p></p>
-          <p></p>
-
-          {/* leave the box style */}
-
-          <p></p>
-
-          {/* Image place */}
-
-          <p></p>
-
-          {/* leave the red box */}
-
-          <p></p>
-          <p></p>
-
-          <Title title={''}/>
-          <p></p>
-          <div>
-            <Mainbullet link={''} desc={''}/>
-            <Mainbullet link={''} desc={''}/>
-          </div>
-          <p></p>
-
-          <TextTitle title={''}/>
-
-          <p></p>
-          <p></p>
-
-          {/* image place */}
-
-          <p></p>
-          <p></p>
-
-          <TextTitle title={''}/>
-
-          <p></p>
-          <p></p>
-          {/* leave the table */}
-
-          <p></p>
-
-          <Title title={''}/>
-          <p></p>
-
-          <TextTitle title={''}/>
-
-          <div className='bg-[#e9ffee]'>
-            <Mainbullet link={''} title={''} desc={''}/>
-            <Mainbullet link={''} title={''} desc={''}/>
-            <Mainbullet link={''} title={''} desc={''}/>
-            <Mainbullet link={''} title={''} desc={''}/>
-            <Mainbullet link={''} title={''} desc={''}/>
-          </div>
-
-          <p></p>
-
-          <TextTitle title={''}/>
-          <p></p>
-          <p></p>
-
-          <TextTitle title={''}/>
-          <p></p>
-
-          <div>
-            <Mainbullet link={''} desc={''}/>
-            <Mainbullet link={''} desc={''}/>
-            <Mainbullet link={''} desc={''}/>
-            <Mainbullet link={''} desc={''}/>
-            <Mainbullet link={''} desc={''}/>
-            <Mainbullet link={''} desc={''}/>
-          </div>
-
-          <p></p>
-          {/* image here */}
-
-          <TextTitle title={''}/>
-          <p></p>
-          <p></p>
-
-          <Title title={''}/>
-
-          {/* leave the FAQ */}
-
-          <Title title={''}/>
-          <p></p>
-          <p></p>
-
-          <div className='bg-[#e4f8ff]'>
-            <Mainbullet link={''} linkdesc={''}/>
-            <Mainbullet link={''} linkdesc={''}/>
-            <Mainbullet link={''} linkdesc={''}/>
-            <Mainbullet link={''} linkdesc={''}/>
-          </div>
-
+          <p>As you can see, the top online gambling sites accepting cryptocurrency have been around for years. The betting sites and online casinos listed here are some of the very best around, period. We recommend them whether you want to use cryptocurrency OR traditional currency.</p>
           
-
+          <Title title={'Tips for Gambling Online with Cryptocurrency'}/>
+          <p>Before you start using crypto to gamble online, we have some tips you should read. They will help improve your overall experience and even increase your chances of winning money.</p>
           
+          <TextTitle title={'Stick to the Most Popular Coins'} />
+          <p>There are so many cryptocurrencies out there nowadays, and tracking them can be confusing. The best cryptocurrency sites are adding more and more of them to their platforms, but we recommend sticking to the mainstream options like Bitcoin, Ethereum, and Bitcoin Cash. Here are some of the reasons we recommend choosing these mainstream coins.</p>
+          <div className='bg-[#e9ffee]'>
+            <Mainbullet link={''} title={'Higher volumes '} desc={'– You can exchange your crypto for fiat faster. '}/>
+            <Mainbullet link={''} title={'More wallets work with them'} desc={'– Pretty much every crypto wallet works with the likes of Bitcoin and Ethereum, so you can easily find a suitable option.'}/>
+            <Mainbullet link={''} title={'Lower chance of extension'} desc={' – We’ve seen some cryptocurrencies go to zero. The danger is much lower if you pick one that has been around for longer.'}/>
+            <Mainbullet link={''} title={'Better security'} desc={'– The mainstream coins have proven that they are safe if you follow basic guidelines.'}/>
+            <Mainbullet link={''} title={'Accepted everywhere'} desc={'– The more popular a cryptocurrency is, the more businesses and websites will accept it.'}/>
+          
+          </div>
+          <p>You can always try your luck with smaller coins, but we really don’t advise it.</p>
+          
+          <TextTitle title={'Keep Your Bankroll in a Stable Coin'}/>
+          
+          <p>One of the biggest problems with online crypto gambling is that the price of most currencies is very volatile. You might withdraw some cash and lose a lot of value if the price goes down before you transfer it to your bank.</p>
+          <p>There’s a relatively simple way to mitigate the risks by keeping most of your bankroll outside of the crypto online gambling sites and in a stable coin. Most wallets offer some sort of solution that will allow you to maintain the value of your money.</p>
+          
+          <TextTitle title={'Be Extra Careful With Security'}/>
+          <p>We already mentioned how one of the downsides with crypto on the internet is the potential for hacking. You should stay extra careful and follow all best practices for protecting your money, such as the following.</p>
+          
+          <div>
+            <Mainbullet link={''} desc={'Use secure passwords'}/>
+            <Mainbullet link={''} desc={'Don’t share your credentials with anyone'}/>
+            <Mainbullet link={''} desc={'Don’t log in from unknown networks'}/>
+            <Mainbullet link={''} desc={'Don’t open shady links or download suspicious files'}/>
+            <Mainbullet link={''} desc={'Use two-factor authentication whenever possible'}/>
+            <Mainbullet link={''} desc={'Keep your mobile device logged out of cryptocurrency gambling apps when you’re not using them.'}/>
+          </div>
+          <p>Simply put, you should use your common sense and take advantage of all security measures at your disposal when you gamble with crypto online. Don’t put yourself at any more risk than is necessary.</p>
+          <Squareimage src={'/image/'}/>
 
+
+          <TextTitle title={'Keep Your Eyes Open for Special Offers'}/>
+          <p>Most crypto online gambling sites love it when their customers use Bitcoin, Ethereum, and similar options. This is because the transaction costs these sites incur are lower. As such, they often actively promote cryptocurrencies by adding cashback, bonuses, and other promos.</p>
+          <p>You should regularly check the promotions page of the websites you use and your email, so you don’t miss out on good opportunities for extra value.</p>
+          <Title title={'Cryptocurrency Gambling FAQ'}/>
 
         </Container>
       </Section>

@@ -162,15 +162,15 @@ export const menulist = [
           submenu:[
             {
               title:"Slots Apps",
-              url: "/",
+              url: "/gambling-apps/slots",
             },
             {
               title:"Blackjack Apps",
-              url: "/",
+              url: "/gambling-apps/casino/blackjack/",
             },
             {
               title:"Live Casino App",
-              url: "/",
+              url: "/gambling-apps/casino/live-dealer/",
             },
           ]
         },
@@ -180,15 +180,15 @@ export const menulist = [
           submenu:[
             {
               title:"Football Betting Apps",
-              url: "/",
+              url: "/gambling-apps/football-betting/",
             },
             {
               title:"WWE Betting Apps",
-              url: "/",
+              url: "/gambling-apps/betting/wwe/",
             },
             {
               title:"MMA Betting Apps",
-              url: "/",
+              url: "/gambling-apps/betting/mma/",
             },
           ]
         },

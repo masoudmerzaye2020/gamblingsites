@@ -1,9 +1,9 @@
 import React from 'react'
 
-function blackjack() {
+function Index() {
   return (
     <div>blackjack</div>
   )
 }
 
-export default blackjack
+export default Index
