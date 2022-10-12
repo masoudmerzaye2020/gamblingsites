@@ -18,7 +18,6 @@ function Index() {
       <Header>Best Cryptocurrency Gambling Sites in 2022</Header>
       <Section>
         <Container>
-<<<<<<< HEAD
           <p>The rapid rise of cryptocurrencies such as Bitcoin and other digital coins has been nothing short of astonishing. Cryptocurrency has affected all kinds of industries, including online gambling.</p>
           <p>Using cryptocurrencies to gamble online has become increasingly popular, especially in the US. Using cryptocurrencies to bet on sports and play casino games online has become increasingly popular, especially in the US. You can bet with Bitcoin, play casino games with Ethereum, and more. We’re going to guide you through this process, starting with our list of the best crypto gambling sites for 2022..</p>
           {/* LEAVE THE ADD */}
@@ -119,7 +118,7 @@ function Index() {
 
           <p>If you don’t want to try crypto-only sites, you can always choose more reputable sites and apps that have been around for a while. Many of them now accept Bitcoin and other cryptocurrencies.</p>
           <p>They offer the best of both worlds in many ways, so it’s a sensible decision. Here are some of our suggestions if that’s your preferred choice.</p>
-=======
+
           <p></p>
           <p></p>
           {/* LEAVE THE ADD */}
@@ -220,7 +219,6 @@ function Index() {
 
           <p></p>
           <p></p>
->>>>>>> fa2777c29760c9a2956175a58772ecdea4c0158f
           {/* leave the table */}
 
           <p></p>
