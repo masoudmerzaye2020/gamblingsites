@@ -132,7 +132,7 @@ export default function Index() {
 
               <div className="overflow-x-auto relative sm:rounded-lg my-4 mx-6">
                 {data.map((menu, i) => (
-                  <table className="w-full text-sm text-center text-gray-500  border border-gray-300">
+                  <table key={i} className="w-full text-sm text-center text-gray-500  border border-gray-300">
                     <thead className=" bg-[#294757] h-[52px]">
                       <tr className="text-gray-200">
                         <th
@@ -161,8 +161,9 @@ export default function Index() {
                         </th>
                       </tr>
                     </thead>
-                    {menu.rows.map((item) => (
+                    {menu.rows.map((item,index) => (
                       <Table
+                        index={index}
                         col1={item.sites}
                         col2={item.Cashoutspeed}
                         href={item.link}
