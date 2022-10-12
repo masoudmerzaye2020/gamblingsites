@@ -9,7 +9,7 @@ import TextTitle from '../../../../components/TextTitle'
 import Bluebutton from '../../../../components/bluebutton'
 import {OnlineNFLBetting } from '../../../../data/onlineNFLBetting'
 
-
+import Link from 'next/link'
 
 
 
