@@ -9,7 +9,7 @@ function Test1() {
        <>
     <Section>
         <Container>
-            <Table/>
+            <table/>
         <div className="overflow-x-auto relative sm:rounded-lg my-4 mx-6">
     <table className="w-full text-sm text-center text-gray-500  border border-gray-300">
         <thead className=" bg-[#294757] h-[52px]">
