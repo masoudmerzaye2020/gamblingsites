@@ -130,7 +130,7 @@ export default function Index() {
               <p>The ability to move your money to and from your account without much of a hassle is crucial when you gamble online. That’s why we recommend sports betting sites that have several convenient options for deposits and withdrawals. You can choose the options that works well for you.</p>
               <p>Here are the available payment methods at our recommended sites.</p>
 
-              <div className="overflow-x-auto relative sm:rounded-lg my-4 mx-6">
+          {/*     <div className="overflow-x-auto relative sm:rounded-lg my-4 mx-6">
                 {data.map((menu, i) => (
                   <table key={i} className="w-full text-sm text-center text-gray-500  border border-gray-300">
                     <thead className=" bg-[#294757] h-[52px]">
@@ -173,7 +173,7 @@ export default function Index() {
                     ))}
                   </table>
                 ))}
-              </div>
+              </div> */}
 
           <p>Our recommended sites process the payouts much faster than the competition. Your cash could reach you within a day or so via the fastest methods like e-wallets and crypto. Check out this page for more information on betting sites with fast payouts.</p>
           <p>Note that some of the providers could be limited based on your country of residence. For example, US sports gamblers can’t use e-wallets like PayPal, Skrill, or Neteller.</p>
@@ -249,7 +249,7 @@ export default function Index() {
               
               <Title title={'Best Online Sportsbook by Region'}/>
 
-              <div className='w-full'>
+       {/*        <div className='w-full'>
                     
                       {recommended.map((item, index)=>(
                          <Borderedcard 
@@ -257,7 +257,7 @@ export default function Index() {
                          src={item.logo} 
                          link={item}/>
                       ))}
-                </div>
+                </div> */}
                 <p>One of the biggest factors at play when choosing where to bet on sports online is your country of residence. It affects the payment options at your disposal, what sites you have access to, the available promotions, and more.</p>
                 <p>The sites above are the best sportsbooks available in your area. We also have rankings of the best sportsbooks by region. Check them out to find the top-ranked internet bookmakers for your area.</p>
                <div className='flex w-[90%] flex-wrap mx-auto'>
@@ -269,7 +269,8 @@ export default function Index() {
               </div>
 
               <p>If you didn’t see your country so far, don’t worry. We cover other regions, too, so you can discover legitimate sportsbooks for them by visiting our dedicated pages.</p>
-              <div className="overflow-x-auto relative sm:rounded-lg my-4 mx-6">
+             
+        {/*       <div className="overflow-x-auto relative sm:rounded-lg my-4 mx-6">
                 {data.map((menu, i) => (
                   <table key={i} className="w-full text-sm text-center text-gray-500  border border-gray-300">
                     <thead className=" bg-[#294757] h-[52px]">
@@ -312,7 +313,7 @@ export default function Index() {
                     ))}
                   </table>
                 ))}
-              </div>
+              </div> */}
 
               <p>We made sure to select trusted websites for each of the regions above, so feel free to visit the rankings.</p>
               <p>Our recommendations are all genuine betting sites that are generous and always working hard to improve their offerings.</p>
