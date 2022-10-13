@@ -188,12 +188,67 @@ function index() {
                 <p>Live betting is another option that involves placing wagers after the game has started, but they can be posted at any time during the game. This allows you to make sophisticated wagers based on your analysis of what you have seen on the field, and it’s another type of wager that can be used to hedge.</p>
                 <p>The top-ranked football betting sites take plenty of real money bets on NFL futures. A futures bet is a wager on a team to win their division, their conference, or the Super Bowl. Big market teams often take more than their fair share of action, so you can usually find overlays in the futures betting pools. Check out the latest odds for NFL futures on the following page.</p>
 
+                <div>
+                    <Bluebutton link={''} title={'NFL Odds'}/>
+                </div>
+                <p>A proposition wager, or prop, is a bet on a particular focused aspect of a game or a player’s individual performance. You may see a prop on the over/under on total field goals made by both teams, the total interceptions thrown, or whether or not there will be a special teams touchdown scored.</p>
+                <p>For players, they may post a line on total yards gained by a top running back in a game or the passing TDs for a quarterback. Online prop wagers are not offered for every game every Sunday; they are usually limited to games that are the sole focus within a time slot, like Sunday and Monday night frays.</p>
+                <p>One game that you’ll find has tons of props available is the Super Bowl. Some Super Bowl betting sites will offer more than 100 different props for the NFL’s biggest game.</p>
+
+                <TextTitle title={'NCAA College Football Betting'}/>
+                <p>Thursdays, Sundays, and Mondays are not the only fun days for football betting online. College football is very well represented on the online football betting sites, and the menu is stuffed full of dozens of contests every Saturday during the season.</p>
+                <p>College football betting options mirror that of the NFL, but you will not see propositions posted as often. You can make prop bets for the college football playoffs, and some of the best football sites will dangle propositions for the other big bowl games.</p>
+
+
+                <TextTitle title={'A New Football Betting Opportunity'}/>
+                <p>In 2020, the XFL made a comeback with a new season. Unfortunately, the league’s comeback season was interrupted by the Covid-19 pandemic. However, the XFL will return in 2023. This league offers additional football betting opportunities, during a time when there are no NFL or college football games.</p>
+                <div className='flex flex-wrap justify-center'>
+                    <Bluebutton link={''} title={'XFL Betting Sites'}/>
+                </div>
+                
+                <Title title={'Online Football Betting Tips'}/>
+                <p>
+                Most people that are passionate about football are competitive individuals that don’t like to lose. The money is obviously a big part of the equation, and bragging rights are a form of currency as well. If you develop a strategy and stick to it, you will maximize your chances of success.
+                </p>
+
+                <p>
+                You should check our complete football betting strategy guide if you’re serious about making consistent profits, but here are three quick tips to help you right now.
+                </p>
+                <TextTitle title={'Make Handicapping Your Hobby'}/>
+                <p>If you are like most people, you invariably find yourself looking for something to pass the time a few times a day. When you dive headfirst into online football gambling as an ongoing activity, you will never be at a loss because there is always work to be done.</p>
+                <p>After a given week is history, it’s time to hit the books and do your homework for the following one. If you like to bet on college and pro football, there are countless matchups to examine, and there are sites on the internet that provide in-depth statistical information. For example, you can get extensive NFL player stats right from the competition’s official website.</p>
+                <p>You can systematically go through every game to identify weaknesses in the line if you have the time and the inclination. It’s also possible to streamline your handicapping efforts, and the freedom to take it as far as you want to is a beautiful thing.</p>
+                <p>Scouring the stats as you form opinions and then using that knowledge to guide your wagers can be a satisfying way to spend some time.</p>
+
+
+                <Borderedbox>When everything comes together on game day, the fruits of your labor are exceedingly sweet.</Borderedbox>
+                <TextTitle title={'Practice Good Bankroll Management'}/>
+                <p>Handicapping can be fun if you look at it right, and all sports fans find it easy to form opinions. For many people, bankroll management is the hard part, but it’s equally important.</p>
+                <p>Professional gamblers will set aside a certain amount of money that they keep completely separate from their personal funds. This is not unlike the way that an independent restaurant owner would look at money in the cash register as opposed to the wad that he carries around in his pocket.</p>
+                <p>You should set a comfortable staking plan based on the size of your bankroll. Experts will typically recommend about 3% for beginning players. If you avoid wild fluctuations, you will come out on top (or at least break even) if you pick more winners than losers over the course of a season.</p>
+                <TextTitle title={'Get That Bonus Cash'}/>
+                <p>We want to reemphasize the value of the welcome bonuses that you can receive at the top-ranked football betting sites. After you sign up on a particular site and get your first infusion of free cash, you may start to feel comfortable and forget about all of the other options that are out there.</p>
+                <p>This is understandable, but you don’t want to leave any money on the table. Go get the bonuses that are sitting there waiting for you and put them to good use. Going forward, visit all of the sites on an ongoing basis so that you can pounce on promotions when they are offered, and look for referral rewards as well.</p>
+                <p>The internet sportsbooks below are well known for the generous bonuses and promotions that they provide for their players. Check them out and do the deed if free money appeals to you.
+
+</p>
+                
+                <Title title={'Football Betting Sites FAQ'}/>
+
+
+
 
 
                 <Title title={'Things to Remember'}/>
                 <p>
                 We’ve hit you hard with a lot of information all at one time, so in closing, we’ll provide a brief summary. First and foremost, you can place your absolute trust in all the top-ranked football betting sites for 2022. They are firmly established and totally legit in the eyes of industry insiders.
                 </p>
+                <p>You will receive outstanding customer service at all of these sites, and they treat their players fairly. There are simple deposit and withdrawal methods, and you will get your payouts fast. The transaction times are particularly swift when you use Bitcoin as your preferred football betting currency.</p>
+                <p>The sites are easy to navigate, and they adapt well to all mobile devices. You can bet from anywhere, at any time, and there is nowhere that you have to go to collect your winnings. It’s all there in the cloud, and this includes your betting history, so it’s easy to keep track of your progress.</p>
+                <p>Online football betting is huge at these internet sportsbooks, and a wide array of wagering options is available. These would include somewhat exotic possibilities like pleasers and in-game bets, so you can try something new if you are so inclined.</p>
+                <p>College football is almost as popular as the pro game, and all the same types of bets are offered on NCAA contests. Many would say that college football is even better than the pro variety for turning a profit because there are more matchups on the schedule, and the talent differences can be enormous.</p>
+                <p>Did we mention the fat stacks of real money bonuses that are there for the taking?</p>
+                <p>When you put it all together, you can see that the best football betting sites have plenty to offer. If you’ve made it this far, there is only one thing left to do. Head back to our list of recommended sites and choose a site to join. If you’re not quite ready to do that, why not take a look at the latest football-related posts from our blog.</p>
                 <div className='flex flex-wrap w-full'>
                     <div className='w-8/12 md:w-6/12 lg:w-4/12 xl:w-3/12   mx-auto p-4'>
                         <div className='w-[250px] mx-auto rounded-lg border-[2px] border-[#1f2d37] hover:border-green-400'>
