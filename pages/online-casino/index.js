@@ -52,7 +52,7 @@ export default function Index() {
 
         <TextTitle title={'Most Popular Games'}/>
 
-        <div>
+        <div className='flex flex-wrap justify-center'>
           <Bluebutton link={''} title={'Blackjack'}/>
           <Bluebutton link={''} title={'Roulette'}/>
           <Bluebutton link={''} title={'Craps'}/>
@@ -122,7 +122,7 @@ export default function Index() {
         <Title title={'Online Casino Software Providers'}/>
         <p>Very few online casinos develop their own software, with most of them choosing to use software provided by third party developers. Some places use a single provider, while others several different ones. The final section of this guide features information on the biggest and best software providers used by online casinos, including details of all the games they have to offer.</p>
 
-        <div>
+        <div className='flex flex-wrap justify-center'>
           <Bluebutton link={''} title={'Playtech'}/>
           <Bluebutton link={''} title={'Microgaming'}/>
           <Bluebutton link={''} title={'NetEnt'}/>

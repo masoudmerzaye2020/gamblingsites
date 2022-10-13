@@ -188,7 +188,7 @@ function index() {
                 <p>Live betting is another option that involves placing wagers after the game has started, but they can be posted at any time during the game. This allows you to make sophisticated wagers based on your analysis of what you have seen on the field, and it’s another type of wager that can be used to hedge.</p>
                 <p>The top-ranked football betting sites take plenty of real money bets on NFL futures. A futures bet is a wager on a team to win their division, their conference, or the Super Bowl. Big market teams often take more than their fair share of action, so you can usually find overlays in the futures betting pools. Check out the latest odds for NFL futures on the following page.</p>
 
-                <div>
+                <div className='flex flex-wrap justify-center'>
                     <Bluebutton link={''} title={'NFL Odds'}/>
                 </div>
                 <p>A proposition wager, or prop, is a bet on a particular focused aspect of a game or a player’s individual performance. You may see a prop on the over/under on total field goals made by both teams, the total interceptions thrown, or whether or not there will be a special teams touchdown scored.</p>
