@@ -353,7 +353,7 @@ export default function Index() {
                 <div className='md:float-right w-full text-center md:w-[300px] h-[200px]'>
                  <Image  src={'/image/sportsbetting/best-online-sports-betting-sites-major-leagues-and-events.png'} width='310' height='180' alt={'image'}/>
                 </div>
-                <div className='w-full md:w-auto '>
+                <div className=' '>
                 <Mainbullet link={''} linkdesc={'NFL'} desc={' – The NFL is the most popular sports league in the USA and the top football sportsbooks online deliver all sorts of advantages if you want to bet on it.'}/>
                 <Mainbullet link={''} linkdesc={'College Football'} desc={'– The next generation of football talents is in the NCAA Division I. If you follow college sports and know about these teams, you will have good odds of winning when you bet on college-level competitions.'}/>
                 <Mainbullet link={''} linkdesc={'Super Bowl'} desc={'– The bookmakers treat NFL’s grand finale as a separate event which is why we have a special page dedicated to Super Bowl betting.'}/>
@@ -361,6 +361,11 @@ export default function Index() {
                 <Mainbullet link={''} linkdesc={'March Madness'} desc={'– Our top-rated March Madness betting sites are by far the best place to target the battle of the best college basketball teams in the US.'}/>
                 </div>
               </div>
+
+
+
+
+
               <Title title={'Great Features You Can Enjoy on an Online Betting Website'}/>
               <Wideimage src={'/image/best-online-sports-betting-sites-what-they-offer.jpg'}/>
               <p>The best online sportsbooks are constantly working to improve their services. They know that a moment of complacency could end their business in such a competitive environment.</p>
