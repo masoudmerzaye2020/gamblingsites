@@ -249,42 +249,42 @@ export const menulist = [
   
     {
       title:"Guides",
-      url: "/guides",
+      url: "",
       submenu:[
         {
           title:"Online Slots",
-          url: "/",
+          url: "/slots",
         },
         {
           title:"Football Betting",
-          url: "/",
+          url: "/football-betting",
         },
         {
           title:"Sports Betting",
-          url: "/",
+          url: "/sports-betting",
         },
         {
           title:"Casino Gambling",
-          url: "/",
+          url: "/online-casino",
         },
         {
           title:"Cryptocurrency",
-          url: "/",
+          url: "/cryptocurrency",
         },
         {
           title:"Bitcoin Gambling",
-          url: "/",
+          url: "/bitcoin",
         },
         {
           title:"Online Poker",
-          url: "/",
+          url: "/poker",
         },
   
       ]
     },
     {
       title:"Bet on Football",
-      url: "/football-betting",
+      url: "/football-betting/sites",
       submenu:[
         {
           title:"Online Slots",
