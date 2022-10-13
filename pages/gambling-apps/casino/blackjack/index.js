@@ -12,7 +12,7 @@ import Button from '../../../../components/button'
 import Borderedbox from '../../../../components/borderedbox'
 import Squareimage from '../../../../components/squareimage'
 import Questionicon from '../../../../components/questionicon'
-import { Main } from 'next/document'
+
 
 function Index() {
   return (
