@@ -30,7 +30,7 @@ function Index() {
         <Title title={'What Are Cryptocurrencies?'}/>
         <p>This is not an easy question to answer in simple terms. We’ll do our best, though. Let’s start with a formal definition, courtesy of Merriam-Webster.</p>
 
-        {/ leave the www /}
+     {/*    {/ leave the www /} */}
 
         <p>So, now you know what cryptocurrencies are. Okay, maybe not. As accurate as this definition is, it doesn’t exactly tell you EVERYTHING you need to know. We’ll try to explain more clearly by breaking things down.</p>
         <p>There are three key points to take away from the above definition. These are as follows:</p>

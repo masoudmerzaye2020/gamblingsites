@@ -24,7 +24,7 @@ export default function Index() {
 
         <Title title={'Understanding the Risks of Casino Gambling'}/>
         <p>It is vitally important that you are fully aware of the risks involved in casino gambling. In our opinion, you really shouldn’t start playing casino games without first understanding the following two key points.</p>
-        {/ leave /}
+     {/*    {/ leave /} */}
         <p>You may have heard the expression “the house always wins” in relation to casino gambling, and it’s true. The house, which is simply another term for a casino, does always win. The games all have a built in advantage for the house, which means the house is mathematically guaranteed to make a profit in the long run. This advantage is known as the house edge, and there is nothing you can do to overcome it.</p>
         <p>Please note that this doesn’t mean that you can never win in the casino. You may have noticed that we stated the house is guaranteed to make a profit in the long run. They don’t win every single bet placed though. Their advantage will always prevail over a large number of bets, but you still have a chance of winning each bet you place.</p>
         <p>Casino games all have random outcomes. This is the very nature of games of chance, and it is essentially what makes it possible to win even though the odds are against you. There is absolutely no reason why the outcome of any particular spin of the wheel, turn of the card, or roll of the dice can’t be a favorable one that results in you winning. In fact, you’d have to be pretty unlucky not to win at least a few of the bets you place.</p>
@@ -100,7 +100,7 @@ export default function Index() {
 
 </p>
 
-        {/ leave the box /}
+    {/*     {/ leave the box /} */}
 
         <p>In addition to our top recommendations, we also rank the top casinos in a variety of different categories. This will help you to find a quality casino that is right for any particular preferences or requirements you may have.</p>
 
