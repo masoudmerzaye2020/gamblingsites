@@ -5,31 +5,31 @@ export const footerlist = [
         submenu: [
             {
                 title:'Betway Reviews',
-                url: '/',
+                url: '/reviews/betway',
             },
             {
                 title:'Hell Spin Review',
-                url: '/',
+                url: '/reviews/hell-spin',
             },
             {
                 title:'Bodog Review',
-                url: '/',
+                url: '/reviews/bodog',
             },
             {
                 title:'10bet Review',
-                url: '/',
+                url: '/reviews/10bet',
             },
             {
                 title:'22bet Review',
-                url: '/',
+                url: '/reviews/22bet',
             },
             {
                 title:'Playamo Review',
-                url: '/',
+                url: '/reviews/playamo',
             },
             {
                 title:'Jackpot City Casino Review',
-                url: '/',
+                url: '/reviews/jackpot-city-casino',
             },
         ]
     },
@@ -39,31 +39,31 @@ export const footerlist = [
         submenu:[
             {
                 title:'Casino War',
-                url: '/',
+                url: '/real-money/casino-war',
             },
             {
                 title:'Pai Gow',
-                url: '/',
+                url: '/real-money/pai-gow',
             },
             {
                 title:'Craps',
-                url: '/',
+                url: '/real-money/craps',
             },
             {
                 title:'Pokies',
-                url: '/',
+                url: '/real-money/pokies',
             },
             {
                 title:'Bingo',
-                url: '/',
+                url: '/real-money/bingo',
             },
             {
                 title:'Baccarat',
-                url: '/',
+                url: '/real-money/baccarat',
             },
             {
                 title:'Video Poker',
-                url: '/',
+                url: '/real-money/video-poker',
             },
         ]
     },
@@ -73,31 +73,31 @@ export const footerlist = [
         submenu:[
             {
                 title:'Online Slot Games',
-                url: '/',
+                url: '/slots/games',
             },
             {
                 title:'Casino Games',
-                url: '/',
+                url: '/online-casino/games',
             },
             {
                 title:'Betting Odds Converter',
-                url: '/',
+                url: '/sports-betting/odd-converter',
             },
             {
                 title:'Esports Betting',
-                url: '/',
+                url: '/esports-betting',
             },
             {
                 title:'Horse Race Betting',
-                url: '/',
+                url: '/horse-racing',
             },
             {
                 title:'Gambling Laws',
-                url: '/',
+                url: '/online-gambling-jurisdictions',
             },
             {
                 title:'Las Vegas Guide',
-                url: '/',
+                url: '/las-vegas',
             },         
 
 
@@ -110,19 +110,19 @@ export const footerlist = [
         submenu:[
             {
                 title:'Compare Online Casinos',
-                url: '/',
+                url: '/top',
             },
             {
                 title:'Gambling Blog',
-                url: '/',
+                url: '/blog',
             },
             {
                 title:'Sports Picks',
-                url: '/',
+                url: '/picks',
             },
             {
                 title:'Gambling News',
-                url: '/',
+                url: '/news',
             },
         ]
     },

@@ -21,7 +21,7 @@ export default function Footer() {
                                                 {menu.submenu.map((submenu, index) => {
                                                 return (
                                                     <div key={index} className='no-underline p-[2px] sans-serif font-normal no-underline '>
-                                                        <Link href="{submenu.url}"><a className="hover:underline hover:text-gray-500 visited:text-purple-600">{submenu.title}</a></Link>
+                                                        <Link href={submenu.url}><a className="hover:underline hover:text-gray-500 visited:text-purple-600">{submenu.title}</a></Link>
                                                 
                                                     </div>
                                                     );

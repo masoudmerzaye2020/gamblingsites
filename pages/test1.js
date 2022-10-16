@@ -3,12 +3,17 @@ import React from 'react'
 import Container from '../components/container'
 import Section from '../components/section'
 import Table from '../components/table'
+import Imagecarousel from '../section/imagecarousel'
 function Test1() {
    
     return (
        <>
     <Section>
         <Container>
+
+                <Imagecarousel/>
+
+
             <table/>
         <div className="overflow-x-auto relative sm:rounded-lg my-4 mx-6">
     <table className="w-full text-sm text-center text-gray-500  border border-gray-300">
