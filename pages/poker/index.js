@@ -51,66 +51,66 @@ function Index() {
             <Title title={'Poker Basics For Beginners'}/>
             <p>If you’re completely new to poker, then our section on the basics of poker is the best place to start. It explains a number of things that you should really understand before playing, and it can help you decide whether poker is the game for you. We look at the pros and cons of this form of gambling, plus we have included a list of do’s and don’ts that are very helpful if you do choose to play.</p>
             <p>There are articles on each of the following topics too. Although these articles are all written with the beginner in mind, an experienced player may even find them interesting.</p>
-            <div>
-                <Bluebutton link={''} Title={'Is Poker Luck or Skill'}/>
-                <Bluebutton link={''} Title={'Poker Hand Nicknames'}/>
-                <Bluebutton link={''} Title={'Glossary of Poker Terms'}/>
-                <Bluebutton link={''} Title={'Guide to Poker Etiquette'}/>
+            <div className='flex flex-wrap justify-center'>
+                <Bluebutton link={''} title={'Is Poker Luck or Skill'}/>
+                <Bluebutton link={''} title={'Poker Hand Nicknames'}/>
+                <Bluebutton link={''} title={'Glossary of Poker Terms'}/>
+                <Bluebutton link={''} title={'Guide to Poker Etiquette'}/>
             </div>
 
             <Title title={'Poker Variants, Formats & Structures'}/>
             <p>Poker is fundamentally a simple game. The different variants, formats, and structures do make things a little more complicated though. You don’t need to learn how to play each and every variant there is, as you can choose to stick to just one if you want. However, there are some things that are essential to learn before you start playing.</p>
             <p>Initially, you’ll need to understand the two main formats of the game. These formats are cash games and tournaments, and we’ve explained each one of them in detail in the following two articles.</p>
-            <div>
-                <Bluebutton link={''} Title={'Cash Games'}/>
-                <Bluebutton link={''} Title={'Tournament'}/>
+            <div className='flex flex-wrap justify-center'>
+                <Bluebutton link={''} title={'Cash Games'}/>
+                <Bluebutton link={''} title={'Tournament'}/>
             </div>
 
             <p>You also need to understand all of the different betting structures and limits, such as no limit and fixed limit. We’ve explain all of these in the following article.</p>
-            <div>
-                <Bluebutton link={''} Title={'Betting Structures & Limits'}/>
+            <div className='flex flex-wrap justify-center'>
+                <Bluebutton link={''} title={'Betting Structures & Limits'}/>
             </div>
             <p>Somewhat obviously, you also need to learn the rules for any variant that you choose to play. You can find the rules for a number of variants in our poker game guides. We’ve listed the most popular of our guides below and these also contain a range of other related information. We recommend starting with Texas Hold’em, as this is the most widely played game, but it’s ultimately up to you.</p>
             <TextTitle title={'Most Popular Game Guides'}/>
-            <div>
-                <Bluebutton link={''} Title={'Guide to Texas Holdem'}/>
-                <Bluebutton link={''} Title={'Guide to Omaha Poker'}/>
-                <Bluebutton link={''} Title={'Guide to Seven Card Stud'}/>
-                <Bluebutton link={''} Title={'Overview of Razz Poker'}/>
-                <Bluebutton link={''} Title={'Guide to Five Card Draw'}/>
-                <Bluebutton link={''} Title={'Guide To Mixed Poker Games'}/>
-                <Bluebutton link={''} Title={'View All Poker Game Guides'}/>
+            <div className='flex flex-wrap justify-center'>
+                <Bluebutton link={''} title={'Guide to Texas Holdem'}/>
+                <Bluebutton link={''} title={'Guide to Omaha Poker'}/>
+                <Bluebutton link={''} title={'Guide to Seven Card Stud'}/>
+                <Bluebutton link={''} title={'Overview of Razz Poker'}/>
+                <Bluebutton link={''} title={'Guide to Five Card Draw'}/>
+                <Bluebutton link={''} title={'Guide To Mixed Poker Games'}/>
+                <Bluebutton link={''} title={'View All Poker Game Guides'}/>
             </div>
 
             <Title title={'Introduction to Online Poker'}/>
             <p>If you’re interested in playing poker online, then you should definitely take a look at our introduction to online poker. All of the information in this introduction has been compiled to help you fully understand everything that’s important to know when playing online and to make sure that you have the best possible experience. It features a step by step guide to getting started at your first poker site and answers to a comprehensive set of frequently asked questions about online poker.</p>
             <p>There’s plenty of other useful information too. The following topics, and more, are all covered.</p>
-            <div>
-                <Bluebutton link={''} Title={'Introduction to Online Poker'}/>
-                <Bluebutton link={''} Title={'How Online Poker Works'}/>
-                <Bluebutton link={''} Title={'Why Play Poker Online?'}/>
-                <Bluebutton link={''} Title={'Choosing Where to Play'}/>
-                <Bluebutton link={''} Title={'Online Poker Tips'}/>
-                <Bluebutton link={''} Title={'Bonuses, Rewards & Loyality Schemes'}/>
+            <div className='flex flex-wrap justify-center'>
+                <Bluebutton link={''} title={'Introduction to Online Poker'}/>
+                <Bluebutton link={''} title={'How Online Poker Works'}/>
+                <Bluebutton link={''} title={'Why Play Poker Online?'}/>
+                <Bluebutton link={''} title={'Choosing Where to Play'}/>
+                <Bluebutton link={''} title={'Online Poker Tips'}/>
+                <Bluebutton link={''} title={'Bonuses, Rewards & Loyality Schemes'}/>
             </div>
 
             <Title title={'Our Recommended Poker Sites'}/>
             <p>Due to online poker’s increasing popularity, there are a myriad of websites available that offer poker. Some of these are excellent places to play, while some of them don’t quite hit the same standards. You obviously want to play at the better sites, but it’s not that easy to determine which ones are good and which ones are not. You don’t need to worry about this though, as we are here to help.</p>
             <p>We are constantly testing and assessing what’s available for online poker players and this enables us to recommend the best places to play. The following sites are currently our top ranked options.</p>
-            <div>
-                <Bluebutton link={''} Title={'BetOnline Review'}/>
-                <Bluebutton link={''} Title={'Bovada Review'}/>
-                <Bluebutton link={''} Title={'SportsBetting Review'}/>
-                <Bluebutton link={''} Title={'Bet365 Review'}/>
+            <div className='flex flex-wrap justify-center'>
+                <Bluebutton link={''} title={'BetOnline Review'}/>
+                <Bluebutton link={''} title={'Bovada Review'}/>
+                <Bluebutton link={''} title={'SportsBetting Review'}/>
+                <Bluebutton link={''} title={'Bet365 Review'}/>
             </div>
             <p>It’s important to note that the right poker site for one player may not necessarily be the right site for someone else. This is why we also rank the top sites in several specific categories.</p>
-            <div>
-                <Bluebutton link={''} Title={'Best for Players from the United States'}/>
-                <Bluebutton link={''} Title={'Best for Players from United Kingdom'}/>
-                <Bluebutton link={''} Title={'Best for Players from Canada'}/>
-                <Bluebutton link={''} Title={'Best for High Stakes'}/>
-                <Bluebutton link={''} Title={'Best for Bonuses & Rewards'}/>
-                <Bluebutton link={''} Title={'All Poker Site Rankings'}/>
+            <div className='flex flex-wrap justify-center'>
+                <Bluebutton link={''} title={'Best for Players from the United States'}/>
+                <Bluebutton link={''} title={'Best for Players from United Kingdom'}/>
+                <Bluebutton link={''} title={'Best for Players from Canada'}/>
+                <Bluebutton link={''} title={'Best for High Stakes'}/>
+                <Bluebutton link={''} title={'Best for Bonuses & Rewards'}/>
+                <Bluebutton link={''} title={'All Poker Site Rankings'}/>
             </div>
 
             <Title title={'Poker Strategy'}/>
@@ -118,12 +118,12 @@ function Index() {
 
 Basic Poker Math
 </p>
-            <div>
-                <Bluebutton link={''} Title={'Basic Poker Math'}/>
-                <Bluebutton link={''} Title={'Psychology & Behavior'}/>
-                <Bluebutton link={''} Title={'Improving as a Player'}/>
-                <Bluebutton link={''} Title={'Specific Moves & Plays'}/>
-                <Bluebutton link={''} Title={'Tournament Strategy'}/>
+            <div className='flex flex-wrap justify-center'>
+                <Bluebutton link={''} title={'Basic Poker Math'}/>
+                <Bluebutton link={''} title={'Psychology & Behavior'}/>
+                <Bluebutton link={''} title={'Improving as a Player'}/>
+                <Bluebutton link={''} title={'Specific Moves & Plays'}/>
+                <Bluebutton link={''} title={'Tournament Strategy'}/>
             </div>
             <Title title={'Major Live Poker Events'}/>
             <p>Our poker guide also features information on a range of the biggest live poker events that take place around the world on a regular basis. You can explore the history of these events, including past winners and full details of when and where they take place. Where relevant, we’ve also provided some advice on how you can qualify for them by playing online.</p>
