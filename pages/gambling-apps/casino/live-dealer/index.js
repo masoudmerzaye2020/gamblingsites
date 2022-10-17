@@ -14,7 +14,7 @@ import Borderedbox from '../../../../components/borderedbox'
 import Squareimage from '../../../../components/squareimage'
 import Cornerimage from '../../../../components/cornerimage'
 import Widecard from '../../../../components/widecard'
-import { Main } from 'next/document'
+
 
 function Index() {
   return (

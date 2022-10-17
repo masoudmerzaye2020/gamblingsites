@@ -150,7 +150,7 @@ function Index() {
                                 <Cornerimage src={games.src}/>
                                 {games.desc.map((para,i)=>{
                                     return(
-                                        <p>{para.para}</p>
+                                        <p key={i}>{para.para}</p>
                                     )
                                 })}
                             </div>
