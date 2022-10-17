@@ -27,7 +27,7 @@ function Index() {
         <p>The company has been operating online gambling sites since 1991. But they updated their site design in 2021, so it’s modern and fresh.</p>
         <p>With several decades of experience, they have had their ups and downs. We will tell you all about any BetOnline scams we know about and answer this important question – is BetOnline safe in 2022? And are they a legit choice for online gamblers?</p>
         <p>Keep reading our BetOnline.ag review to find out the answers, as well as to learn about their banking methods, promotions, and various gambling options.</p>
-        {/ leave the image /}
+{/*         {/ leave the image /} */}
 
         <div className='green'>
           <h1>Contents of Our BetOnline.ag Review</h1>
