@@ -29,7 +29,7 @@ function Index() {
             <p>Before you choose any gambling site, you need to know if it is trustworthy and safe. So, we want to address those concerns first before getting into the meat and potatoes of our 10bet review.</p>
 
             <div className='bg-[#f5f5f5] p-3'>
-                <p>Is 10bet safe? The simple answer is that, yes, we think 10bet is safe and trustworthy. They haven't been without their issues and complaints (which we'll cover next), but we have no problems gambling at 10bet.com for money in 2022.</p>
+                <p>Is 10bet safe? The simple answer is that, yes, we think 10bet is safe and trustworthy. They haven’t been without their issues and complaints (which we’ll cover next), but we have no problems gambling at 10bet.com for money in 2022.</p>
             </div>
 
             <div className='bg-[#ffefef] p-3'>
@@ -42,7 +42,7 @@ function Index() {
                     <p>We understand that some people hesitate to supply this information because they are nervous about their information getting leaked online. But 10bet cannot process withdrawals without receiving this documentation. They also have security measures in place to make sure your information is protected.
 
 </p>
-                    <p>So, as far as we are concerned, these complaints about 10bet's withdrawal process are not valid. 10bet is more secure than other gambling sites because they verify the identity of every customer. When you agree to the site’s terms and conditions, you agree to the verification policy. So the site is legally allowed to deny your withdrawal until that documentation has been submitted.</p>
+                    <p>So, as far as we are concerned, these complaints about 10bet’s withdrawal process are not valid. 10bet is more secure than other gambling sites because they verify the identity of every customer. When you agree to the site’s terms and conditions, you agree to the verification policy. So the site is legally allowed to deny your withdrawal until that documentation has been submitted.</p>
                     
                 </div>
             </div>
@@ -112,7 +112,7 @@ function Index() {
 
             </div>
             <p>We were very pleased to find all of these features during our 10bet online sportsbook review. Many betting sites have some of these features, but it is rare to find one site that has all of them.</p>
-            <p>Unfortunately, one feature that 10bet does not offer is live streaming. We have a list of other betting sites with live streaming if that's a deal-breaker for you.</p>
+            <p>Unfortunately, one feature that 10bet does not offer is live streaming. We have a list of other betting sites with live streaming if that’s a deal-breaker for you.</p>
             <p>Other than that, there is a lot to love about the 10bet sportsbook. The wide variety of betting markets, special betting features, and unique wager types really make this betting site stand out as one of the best.
 </p>
             <Title title={'10bet Casino Review'}/>
@@ -265,7 +265,7 @@ function Index() {
 
             </div>
 
-            <p>You should now have a pretty good idea whether 10bet is the best gambling site for you. If not, maybe reread our review of 10bet above to see if there's anything you missed. Or maybe you'll find the answers to your questions in our FAQ below.</p>
+            <p>You should now have a pretty good idea whether 10bet is the best gambling site for you. If not, maybe reread our review of 10bet above to see if there’s anything you missed. Or maybe you'll find the answers to your questions in our FAQ below.</p>
             <p>We think 10bet is a solid online gambling site, so we have no qualms recommending them to you. If you feel the same way, or if you'd rather check them out for yourself, just click the link below.</p>
 
             <div className='flex flex-wrap justify-center'>
