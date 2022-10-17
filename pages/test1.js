@@ -11,7 +11,7 @@ function Test1() {
     <Section>
         <Container>
 
-                <Imagecarousel/>
+               {/*  <Imagecarousel/> */}
 
 
             <table/>
