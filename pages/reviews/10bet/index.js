@@ -163,7 +163,7 @@ function Index() {
             </div>
 
             <Title title={'10bet Mobile Gambling Options'}/>
-            <p>10bet will appreciate you washing your hands before touching the 10bet app because the thing is brand new. They had an app which was really great, but then they probably decided that "really great" is boring and created the real deal. They love it, we love it, you'll probably love it too.</p>
+            <p>10bet will appreciate you washing your hands before touching the 10bet app because the thing is brand new. They had an app which was really great, but then they probably decided that (really great) is boring and created the real deal. They love it, we love it, you’ll probably love it too.</p>
             <p>You can take 10bet with you anywhere you go because 10bet has multiple options for mobile gambling. Here are the different ways you can access the site from your phone, tablet, or any other internet-enabled device.</p>
 
             <div className='bg-[#f5f5f5] px-2 py-4'>
@@ -265,8 +265,8 @@ function Index() {
 
             </div>
 
-            <p>You should now have a pretty good idea whether 10bet is the best gambling site for you. If not, maybe reread our review of 10bet above to see if there’s anything you missed. Or maybe you'll find the answers to your questions in our FAQ below.</p>
-            <p>We think 10bet is a solid online gambling site, so we have no qualms recommending them to you. If you feel the same way, or if you'd rather check them out for yourself, just click the link below.</p>
+            <p>You should now have a pretty good idea whether 10bet is the best gambling site for you. If not, maybe reread our review of 10bet above to see if there’s anything you missed. Or maybe you’ll find the answers to your questions in our FAQ below.</p>
+            <p>We think 10bet is a solid online gambling site, so we have no qualms recommending them to you. If you feel the same way, or if you’d rather check them out for yourself, just click the link below.</p>
 
             <div className='flex flex-wrap justify-center'>
                 <Bluebutton link={''} title={'Visit 10bet.com Now'}/>
