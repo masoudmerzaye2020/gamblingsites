@@ -36,7 +36,7 @@ export default function Home() {
   return (
     <>
         <div className='w-full bg-[#15365a] text-center p-2'>
-         <h1 className='text-2xl font-semibold text-gray-200 py-1'>The Best Online Gambling Sites for 2022</h1>
+         <h1 className='text-2xl md:text-[45px] font-semibold text-gray-200 py-1'>The Best Online Gambling Sites for 2022</h1>
         <p className='text-lg text-gray-300 py-1'>Rankings and Reviews of 200+ Online Casinos, Sports Betting Sites, and Other Gambling Websites</p>
         </div>
         <Section>

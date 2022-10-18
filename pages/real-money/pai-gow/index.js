@@ -12,6 +12,7 @@ import Mainbullet from '../../../components/mainbullet'
 import Bluebutton from '../../../components/bluebutton'
 import Borderedbox from '../../../components/borderedbox'
 import Squareimage from '../../../components/squareimage'
+import Jackpot from '../../../section/jackpot'
 
 function Index() {
   return (
@@ -37,12 +38,7 @@ function Index() {
             <TextTitle title={'Join an Online Casino With Pai Gow'}/>
             <p>We recommend playing real money online Pai Gow Poker at the following top casinos.</p>
 
-            <div>
-                <Mainbullet link={''} linkdesc={''}/>
-                <Mainbullet link={''} linkdesc={''}/>
-                <Mainbullet link={''} linkdesc={''}/>
-                <Mainbullet link={''} linkdesc={''}/>
-            </div>
+            <Jackpot/>
             <p>These are the best online casinos for real money Pai Gow right now. To find out more about how we select our recommendations, take a look at the page on our ranking process.</p>
 
             <TextTitle title={'Sign Up for A Real Money Account'}/>
