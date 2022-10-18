@@ -1,8 +1,12 @@
 import Link from 'next/link';
 import { menulist } from "../data/menulist";
 import MenuItems from "./menuItems";
-import Image from 'next/image'
+
+import Image from 'next/image';
 import { useState } from 'react';
+
+import SearchIcon from '@mui/icons-material/Search';
+
 
 export default function Navbar() {
   const [active, setActive] = useState(false);
@@ -11,10 +15,10 @@ export default function Navbar() {
   };
 
   return (
-    <>
-      <nav className='flex items-center flex-wrap bg-[#1f2d37] p-1.5 text-white font-semibold text-md py-4 '>        
+    <div className='bg-[#1f2d37] mx-auto'>
+      <nav className='flex items-center flex-wrap  p-1.5 text-white font-semibold text-md py-4 mx-auto max-w-[1170px]'>        
         <button
-          className=' inline-flex p-1 bg-yellow-400 hover:bg-yellow-600 rounded-full lg:hidden text-black outline-none'
+          className='inline-flex p-1 bg-yellow-400 hover:bg-yellow-600 rounded-full lg:hidden text-black outline-none'
           onClick={handleClick}
         >
           <svg
@@ -49,12 +53,21 @@ export default function Navbar() {
           }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
         >
 
-<ul className="menus ">
+      <ul className="menus ">
         {menulist.map((menu, index) => {
           const depthLevel = 0;
           return <MenuItems items={menu} key={index} depthLevel={depthLevel} />;
         })}
       </ul>
+      <div className=' ml-auto min-w-[160px] my-auto  rounded-lg border-[2px] border-gray-700 flex flex-wrap'>
+      <SearchIcon>
+        <form action="/send-data-here" method="post"> 
+          <input type="text" id="first" name="first" />
+        </form>
+      </SearchIcon>
+      
+         
+      </div>
       <style jsx>{`  
       
      /*  .menus {
@@ -80,6 +93,8 @@ export default function Navbar() {
          
         </div>
       </nav>
-    </>
+
+     
+    </div>
   );
 };
