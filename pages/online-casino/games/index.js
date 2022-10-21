@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import Accordion from '../../../components/accordion'
+import { Casinogames } from '../../../data/casinogames'
 import Section from '../../../components/section'
 import Container from '../../../components/container'
 import Title from '../../../components/title'
@@ -13,7 +15,8 @@ import Borderedbox from '../../../components/borderedbox'
 import Wideimage from '../../../components/wideimage'
 import Cornerimage from '../../../components/cornerimage'
 import Squareimage from '../../../components/squareimage'
-import {Casinogames} from '../../../data/casinogames'
+
+import { casinogame } from '../../../data/FAQ/casinogame'
 
 
 function Index() {
@@ -179,6 +182,15 @@ function Index() {
                     <Bluebutton link={''} title={'Online Casinos with Live Dealers'}/>
                 </div>
                 <Title title={'Casino Game FAQ'}/>
+                {casinogame.map((item) => (
+                    <Accordion
+                    key={`faq--key${item.id}`}          
+                    
+                    title={item.question}
+                    content={item.answer}
+                    
+                    />
+                    ))} 
             
         </Container>
     </Section>

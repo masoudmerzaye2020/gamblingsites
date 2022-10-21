@@ -1,3 +1,4 @@
+export const paigow =
 [
     {
         id:1,

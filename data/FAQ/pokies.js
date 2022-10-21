@@ -1,4 +1,4 @@
-[
+export const pokies = [
     {
         id:1,
         question:'Can I Claim a Pokies Casino Bonus?',

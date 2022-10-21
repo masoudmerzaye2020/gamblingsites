@@ -1,6 +1,6 @@
-[
+export const politicalbetting =[
     {
-        id:,
+        id:1,
         question:'',
         answer:'',
     },

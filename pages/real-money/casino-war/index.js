@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import Accordion from '../../../components/accordion'
+import { casinowar } from '../../../data/FAQ/casinowar'
 import Section from '../../../components/section'
 import Container from '../../../components/container'
 import Title from '../../../components/title'
@@ -104,6 +106,15 @@ function Index() {
             <p>Some tables will also let you play with multiple cards going against whatever the dealer brings out. Prop bets may also be available with some of these games, although the rules for play will vary over the site you choose.</p>
 
             <Title title={'Real Money Casino War FAQ'}/>
+            {casinowar.map((item) => (
+            <Accordion
+              key={`faq--key${item.id}`}          
+             
+              title={item.question}
+              content={item.answer}
+             
+            />
+            ))}  
 
 
         </Container>

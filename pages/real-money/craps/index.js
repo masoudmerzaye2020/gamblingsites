@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import Accordion from '../../../components/accordion'
+import { craps } from '../../../data/FAQ/craps'
 import Section from '../../../components/section'
 import Container from '../../../components/container'
 import Title from '../../../components/title'
@@ -192,6 +194,15 @@ function Index() {
                 <p className='py-2 ml-4'>Some people who play craps online for cash don’t like the many bets available and the complex layout of the table. If you are part of this group, you should try Simplified Craps. As the name implies, it’s a simpler version of the game. You’ll find it at several of the leading real money craps sites.</p>
 
                 <Title title={'Real Money Craps FAQ'}/>
+                {craps.map((item) => (
+                    <Accordion
+                    key={`faq--key${item.id}`}          
+                    
+                    title={item.question}
+                    content={item.answer}
+                    
+                    />
+                    ))}
             </Container>
         </Section>
     </>

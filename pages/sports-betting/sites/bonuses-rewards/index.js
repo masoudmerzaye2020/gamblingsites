@@ -1,5 +1,7 @@
 import React from 'react'
 import Header from '../../../../components/header'
+import Accordion from '../../../../components/accordion'
+import { sportsbettingbonuses } from '../../../../data/FAQ/sportsbettingbonuses'
 import Section from '../../../../components/section'
 import Container from '../../../../components/container'
 import Title from '../../../../components/title'
@@ -448,6 +450,17 @@ function index() {
 </p>
 
           {/* add place */}
+
+          <Title title={'Sports Betting Bonuses FAQ'}/>
+          {sportsbettingbonuses.map((item) => (
+            <Accordion
+              key={`faq--key${item.id}`}          
+             
+              title={item.question}
+              content={item.answer}
+             
+            />
+            ))}  
 
           
 

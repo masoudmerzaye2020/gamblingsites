@@ -1,5 +1,7 @@
 import React from 'react'
 import Header from '../../../../components/header'
+import Accordion from '../../../../components/accordion'
+import { fastestpayout } from '../../../../data/FAQ/fastestpayout'
 import Section from '../../../../components/section'
 import Container from '../../../../components/container'
 import Title from '../../../../components/title'
@@ -315,7 +317,17 @@ function Index() {
 
         <Title title={'Fastest Payout Sports Betting Sites FAQ'}/>
 
-        {/* leave the FAQ */}
+        {fastestpayout.map((item) => (
+            <Accordion
+              key={`faq--key${item.id}`}          
+             
+              title={item.question}
+              content={item.answer}
+             
+            />
+            ))} 
+
+        
 
 
       </Container>

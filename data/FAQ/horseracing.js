@@ -1,4 +1,4 @@
-export const data:[
+export const horseracing =[
     {
         id:1,
         question:'How much can I bet on horse races?',

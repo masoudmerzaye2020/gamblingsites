@@ -1,4 +1,4 @@
-[
+export const sportsbetting = [
     {
         id:1,
         question:'Why is sports betting so popular?',

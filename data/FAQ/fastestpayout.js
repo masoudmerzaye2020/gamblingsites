@@ -1,4 +1,4 @@
-export data:[
+export const fastestpayout =[
     {
         id:1,
         question:'What Is the Fastest Paying Betting Site?',

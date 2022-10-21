@@ -1,4 +1,4 @@
-[
+export const elroyalcasino = [
     {
         id:1,
         question:'Is El Royale Casino safe?',

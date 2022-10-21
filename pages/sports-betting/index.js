@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import Accordion from '../../components/accordion'
+import { sportsbetting } from '../../data/FAQ/sportsbetting'
 import Section from '../../components/section'
 import Container from '../../components/container'
 import Title from '../../components/title'
@@ -134,9 +136,23 @@ function Index() {
                 <p>A look at the many valid reasons for choosing to bet on sports, along with a couple of reasons for choosing not to</p>
               </div>
             </div>
-
           </div>
         </div>
+
+
+
+
+        <Title title={'Sports Betting FAQ'}/>
+        <p>The information and advice in this guide is so extensive that it will answer any question you could possibly have about sports betting. It will probably even answer questions you have never thought of before. Before you get overwhelmed, we suggest reading through the rest of this article. For your convenience, we have selected a few of the MOST frequently asked questions and explained them in detail below.</p>
+        {sportsbetting.map((item) => (
+            <Accordion
+            key={`faq--key${item.id}`}          
+                    
+            title={item.question}
+            content={item.answer}
+                    
+            />
+        ))} 
 
         
       </Container>

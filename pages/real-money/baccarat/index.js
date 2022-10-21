@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import Accordion from '../../../components/accordion'
+import { baccarat } from '../../../data/FAQ/baccarat'
 import Section from '../../../components/section'
 import Container from '../../../components/container'
 import Title from '../../../components/title'
@@ -156,6 +158,16 @@ function Index() {
             <p>Let’s just say that you should always explore your options and try to get any extra value you can.</p>
 
             <Title title={'FAQ Related to Real Money Baccarat'}/>
+
+            {baccarat.map((item) => (
+                    <Accordion
+                    key={`faq--key${item.id}`}          
+                    
+                    title={item.question}
+                    content={item.answer}
+                    
+                    />
+                    ))}
 
 
 

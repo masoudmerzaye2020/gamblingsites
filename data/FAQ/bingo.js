@@ -1,4 +1,4 @@
-{
+export const bingo = [
     {
         id:1,
         question:'Is it safe to play online bingo for real money?',
@@ -24,4 +24,4 @@
         question:'Are real money online bingo casinos fair?',
         answer:'Yes, the games of the best real money bingo sites use a fair RNG that is regularly tested by the gambling commission behind the room and independent regulators.',
     },
-}
+]

@@ -2,6 +2,8 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import Section from '../../../components/section'
+import Accordion from '../../../components/accordion'
+import { superslots } from '../../../data/FAQ/superslots'
 import Container from '../../../components/container'
 import Title from '../../../components/title'
 import TextTitle from '../../../components/TextTitle'
@@ -267,7 +269,15 @@ function Index() {
         </div>
         <Title title={"Super Slots Casino Review FAQ"}/>
 
-       {/*  {/ leave the rest /} */}
+        {superslots.map((item) => (
+            <Accordion
+              key={`faq--key${item.id}`}          
+             
+              title={item.question}
+              content={item.answer}
+             
+            />
+            ))}  
 
       </Container>
     </Section>

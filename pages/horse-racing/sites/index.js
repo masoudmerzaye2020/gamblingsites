@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import Accordion from '../../../components/accordion'
+import { horseracing } from '../../../data/FAQ/horseracing'
 import Section from '../../../components/section'
 import Container from '../../../components/container'
 import Title from '../../../components/title'
@@ -42,7 +44,7 @@ function index() {
             <Mainbullet link={''} linkdesc={'Betway'}/>
             <Mainbullet link={''} linkdesc={'888 Sport'}/>
           </div>
-          <Wideimage src={'/image/'}/>
+          <Wideimage src={'/image/horseracing/Horse-Racing-Betting-Sites.jpg'}/>
 
           <p>One of the things that makes our rankings of the best horse betting sites unique is that we routinely update it to make sure it’s as accurate as possible at any given time. We don’t just pick a list of sites at the start of the year and then forget about it.
 
@@ -118,7 +120,7 @@ function index() {
 </p>
           <p>For example, we recommend horse racing betting sites for people living in specific countries or regions.</p>
 
-          <div>
+          <div className='flex flex-wrap justify-center'>
             <Bluebutton link={''} title={'United States'}/>
             <Bluebutton link={''} title={'United Kingdom'}/>
             <Bluebutton link={''} title={'Australia'}/>
@@ -131,7 +133,7 @@ function index() {
 
 </p>
 
-          <div>
+          <div className='flex flex-wrap justify-center'>
             <Bluebutton link={''} title={'Kentucky Derby'}/>
             <Bluebutton link={''} title={'Preakness Stakes'}/>
             <Bluebutton link={''} title={'Belmont Stakes'}/>
@@ -143,7 +145,7 @@ function index() {
           </p>
           <p>In that case, we recommend that you don’t join a dedicated horse racing site. You should join a general sports betting site that excels in areas such as bonuses and payouts instead.</p>
 
-          <div>
+          <div className='flex flex-wrap justify-center'>
             <Bluebutton link={''} title={'Best Sports Bettig Sites for Bonuses and Rewards'}/>
             <Bluebutton link={''} title={'Fast Payout Betting Sites'}/>
             <Bluebutton link={''} title={'High Stakes Betting Sites'}/>
@@ -203,7 +205,7 @@ function index() {
 
           </p>
 
-          <div>
+          <div className='flex flex-wrap justify-center'>
             <Bluebutton link={''} title={'Top Horse Racing Betting Apps'}/>
           </div>
 
@@ -319,7 +321,15 @@ function index() {
           </p>
 
           <Title title={'Horse Racing Betting Sites FAQ          '}/>
-          {/* leave the FQA */}
+          {horseracing.map((item) => (
+            <Accordion
+              key={`faq--key${item.id}`}          
+             
+              title={item.question}
+              content={item.answer}
+             
+            />
+            ))}  
 
           <Title title={'Conclusion          '}/>
 

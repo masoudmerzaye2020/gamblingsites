@@ -1,8 +1,8 @@
-[
+export const superslots = [
     {
         id:1,
         question:'Is SuperSlots.ag legit?',
-        answer:'Yes! Super Slots is a licensed casino site with a reputation for offering fair games and paying customers efficiently. They're operated by one of the most prominent online gambling companies, so they're definitely legit.',
+        answer:'Yes! Super Slots is a licensed casino site with a reputation for offering fair games and paying customers efficiently. They are operated by one of the most prominent online gambling companies, so they are definitely legit.',
     }, 
     {
         id:2,

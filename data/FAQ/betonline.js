@@ -1,4 +1,4 @@
-[
+export const Betonline = [
     {
         id:1,
         question:'Is BetOnline a scam?',

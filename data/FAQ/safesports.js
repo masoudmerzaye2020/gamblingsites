@@ -1,4 +1,4 @@
-export data :[
+export const safesports =[
     {
         id:1,
         question: 'Why do betting sites ask for my ID and other documents?',

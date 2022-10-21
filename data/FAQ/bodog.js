@@ -1,4 +1,4 @@
-[
+export const bodog = [
     {
         id:1,
         question: 'Who Can Play At Bodog.eu?',

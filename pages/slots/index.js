@@ -1,4 +1,6 @@
 import React from 'react'
+import Accordion from '../../components/accordion'
+import { sportsbetting } from '../../data/FAQ/sportsbetting'
 import Header from '../../components/header'
 import Section from '../../components/section'
 import Container from '../../components/container'
@@ -141,7 +143,7 @@ function Index() {
 
         <p>There are a lot of questions we see asked very regularly about slot machines. We’ve listed answers to the most common of them below.</p>
 
-        {/* leave the FAQ */}
+       
       </Container>
     </Section>
     </>

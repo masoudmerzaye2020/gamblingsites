@@ -1,4 +1,4 @@
-[
+export const duckyluck = [
     {
         id:1,
         question:'Is Ducky Luck Casino Legal?',

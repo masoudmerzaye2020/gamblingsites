@@ -1,4 +1,4 @@
-[
+export const craps =[
     {
         id:1,
         question:'Can you play craps online and win real money?',

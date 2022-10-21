@@ -1,4 +1,4 @@
-[
+export const mybookie = [
     {
         id:1,
         question:'Which states are MyBookie legal in?',

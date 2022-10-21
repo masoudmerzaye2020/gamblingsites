@@ -1,3 +1,4 @@
+export const bet22 =
 [
     {
         id:1,

@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import Accordion from '../../../components/accordion'
+import { bingo } from '../../../data/FAQ/bingo'
 import Section from '../../../components/section'
 import Container from '../../../components/container'
 import Title from '../../../components/title'
@@ -152,6 +154,15 @@ function Index() {
             <p>Make sure to buy cards for only a small chunk of our total bankroll and give yourself enough of a chance to get lucky. Losing streaks are common in bingo and you need to be able to take them without busting.</p>
 
             <Title title={'Real Money Bingo FAQ'}/>
+            {bingo.map((item) => (
+            <Accordion
+              key={`faq--key${item.id}`}          
+             
+              title={item.question}
+              content={item.answer}
+             
+            />
+            ))} 
 
 
 

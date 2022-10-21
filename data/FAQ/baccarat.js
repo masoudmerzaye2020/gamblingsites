@@ -1,4 +1,4 @@
-[
+export const baccarat = [
     {
         id:1,
         question:'Can you play baccarat online for real money and win?',

@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { bet10 } from '../../../data/FAQ/10betFAQ'
+import Accordion from '../../../components/accordion'
 import Section from '../../../components/section'
 import Container from '../../../components/container'
 import Title from '../../../components/title'
@@ -272,6 +274,17 @@ function Index() {
                 <Bluebutton link={''} title={'Visit 10bet.com Now'}/>
             </div>
             <Title title={'10bet FAQ'}/>
+
+
+            {bet10.map((item) => (
+            <Accordion
+              key={`faq--key${item.id}`}          
+             
+              title={item.question}
+              content={item.answer}
+             
+            />
+            ))}  
        
 
         </Container>

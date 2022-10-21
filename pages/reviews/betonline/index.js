@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import Accordion from '../../../components/accordion'
+import { Betonline } from '../../../data/FAQ/betonline'
 import Section from '../../../components/section'
 import Container from '../../../components/container'
 import Title from '../../../components/title'
@@ -424,7 +426,15 @@ function Index() {
         <Button>play at betonline.ag now</Button>
 
         <Title title={'BetOnline.ag Review: Frequently Asked Questions'}/>
-{/*         {/ leave the rest /} */}
+        {Betonline.map((item) => (
+            <Accordion
+              key={`faq--key${item.id}`}          
+             
+              title={item.question}
+              content={item.answer}
+             
+            />
+            ))}  
 
 
       </Container>

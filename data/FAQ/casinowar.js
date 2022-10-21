@@ -1,4 +1,4 @@
-[
+export const casinowar =[
     {
         id:1,
         question:'Can you play Casino War online for real money?',

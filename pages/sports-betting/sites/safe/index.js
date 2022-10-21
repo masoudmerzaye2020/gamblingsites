@@ -1,6 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
+import Accordion from '../../../../components/accordion'
+import { safesports } from '../../../../data/FAQ/safesports'
 import Container from '../../../../components/container'
 import Section from '../../../../components/section'
 import Header from '../../../../components/header'
@@ -46,6 +48,19 @@ export default function index() {
                 <TextTitle title={'Licensing Information'}/>
                 <p>It’s crucial that you choose to use a licensed online betting site. Licensing organizations have specific standards that they hold betting sites to, and those standards are designed to protect consumers. There are several different licensing organizations throughout the world.</p>
 
+
+
+
+              <Title title={'FAQs About Safe Sports Betting Websites'}/>
+              {safesports.map((item) => (
+            <Accordion
+              key={`faq--key${item.id}`}          
+             
+              title={item.question}
+              content={item.answer}
+             
+            />
+            ))}  
             </Container>
         </Section>
     </>

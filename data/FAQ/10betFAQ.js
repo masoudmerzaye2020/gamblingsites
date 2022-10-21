@@ -1,4 +1,4 @@
-[
+export const bet10 = [
     {
         id:1,
         question: 'How do I join the 10bet loyalty program?',

@@ -1,4 +1,4 @@
-[
+export const footballbetting = [
     {
         id:1,
         question:'Can I win real money betting on football online?',

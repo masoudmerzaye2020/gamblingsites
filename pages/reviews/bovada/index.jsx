@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import Accordion from '../../../components/accordion'
+import { bovada } from '../../../data/FAQ/bovada'
 import Section from '../../../components/section'
 import Container from '../../../components/container'
 import Title from '../../../components/title'
@@ -430,7 +432,15 @@ function Index() {
 
         <Title title={'Frequently Asked Questions About Bovada'}/>
 
-      {/*   {/ leave the rest /} */}
+        {bovada.map((item) => (
+            <Accordion
+              key={`faq--key${item.id}`}          
+             
+              title={item.question}
+              content={item.answer}
+             
+            />
+            ))} 
 
 
         
