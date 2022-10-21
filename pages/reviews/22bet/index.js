@@ -115,7 +115,7 @@ function Index() {
         <p>We were incredibly impressed with the esports betting options during our 22Bet online sportsbook review. They have more esports options than any other site we have reviewed, including live betting options.</p>
 
         <TextTitle title={'Virtual Sports'}/>
-        <p>If you want to bet on your favorite sport when it is out of season, you may want to consider virtual sports betting. Virtual sports allow you to bet on fictional sports. Random number generator (RNG) software determines each event's outcome.
+        <p>If you want to bet on your favorite sport when it is out of season, you may want to consider virtual sports betting. Virtual sports allow you to bet on fictional sports. Random number generator (RNG) software determines each event’s outcome.
 
 </p>
         <p>We found virtual sports betting options from seven different providers during our 22Bet betting site review. Here is an overview of the virtual sports options from each of these providers.</p>
