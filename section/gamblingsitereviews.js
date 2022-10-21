@@ -12,7 +12,7 @@ const style = {
     section:'full',
     container:'w-full md:w-11/12 lg:w-10/12 mx-auto px-2 py-4',
     outercard:'bg-[#72a6ca] w-full rounded-lg border-[1px] border-gray-400 my-4',
-    innercard:'grid grid-cols-1 md:grid-cols-2  py-8 px-6 bg-gray-100',
+    innercard:'grid grid-cols-1 md:grid-cols-2  py-8 px-6 bg-gray-100 rounded-b-lg',
 }
 
 function Gamblingsitereviews() {
@@ -24,7 +24,7 @@ function Gamblingsitereviews() {
             <Title title={'Our Gambling Site Reviews'}/>
             <p>While our rankings compare several top-rated sites based on specific characteristics, our reviews offer an in-depth look at a single site in particular. They cover everything you need to know about a specific site. Here are a few examples of some of our most popular reviews.</p>
             
-            <div className='bg-[#112C4A] flex flex-wrap w-full flex flex-wrap rounded-lg my-4'>
+            <div className='bg-[#112C4A]  flex flex-wrap rounded-md '>
                 <div className='flex flex-wrap mx-auto w-full md:w-6/12 lg:w-4/12 p-4 bg-[#112C4A] rounded-lg'>
                     <div className='flex flex-wrap p-4 hover:bg-[#f86b4f] bg-[#141D24] rounded-lg border-2 border-[#FCCD1B]'>
                         <div className='w-6/12 rounded-lg flex w-full border-2  '>                       

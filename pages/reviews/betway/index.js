@@ -1,14 +1,16 @@
 import React from 'react'
 import Image from 'next/image'
-import Container from '../../components/container'
-import Header from '../../components/header'
-import Section from '../../components/section'
-import Title from '../../components/title'
-import Button from '../../components/button'
-import Wideimage from '../../components/wideimage'
-import TextTitle from '../../components/TextTitle'
+import Accordion from '../../../components/accordion'
+import { betway } from '../../../data/FAQ/betway'
+import Container from '../../../components/container'
+import Header from '../../../components/header'
+import Section from '../../../components/section'
+import Title from '../../../components/title'
+import Button from '../../../components/button'
+import Wideimage from '../../../components/wideimage'
+import TextTitle from '../../../components/TextTitle'
 
-function Betway() {
+function Index() {
   return (
     <>
         <Header>Our Expert 2022 Betway Review</Header>
@@ -67,10 +69,23 @@ function Betway() {
                 <Wideimage src={'/image/Betway-review-sportsbook-banner.jpg'}/>
                 <p>You can also enjoy a wide variety of options for online betting at Betway. Because the site caters primarily to European customers, most of the sports focus on European teams. However, there are also a few options for betting on American sports or other teams from around the world.</p>
 
+
+
+
+                <Title title={'Frequently Asked Questions'}/>
+                {betway.map((item) => (
+                <Accordion
+                  key={`faq--key${item.id}`}          
+                
+                  title={item.question}
+                  content={item.answer}
+                
+                />
+                ))} 
             </Container>
         </Section>
     </>
   )
 }
 
-export default Betway
+export default Index

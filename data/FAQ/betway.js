@@ -1,4 +1,4 @@
-[
+export const betway = [
     {
         id:1,
         question:'What is a Flexi bonus?',

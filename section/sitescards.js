@@ -8,11 +8,11 @@ function Sitescards() {
     <>
     <div className='bg-[#1f2d37] p-2'>
         <h1 className='text-3xl font-bold p-2 text-gray-200'>Best Gambling Sites Ranked by GamblinSites.com</h1>
-        <div className='bg-gray-200 p-6'>            
+        <div className='bg-[#ebf5ff] p-6'>            
             {gamblinglink.map((game, index) =>{
                 return(
                     <>
-                    <div key={index} className='flex w-[100%] md:flex flex-wrap border-2 border-[#0fdfd2] mb-8'>
+                    <div key={index} className='flex w-[100%] md:flex flex-wrap border-[3px] border-[#0099e5] mb-8 bg-[#fff]'>
                         <div className='flex w-[50%] md:w-[20%] md:order-1 md:border-b-[1px] border-gray-400'>
                             <div className='m-auto text-center'>
                                 <Image src={game.logo} width="192" height="80" alt='logo' />

@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import Header from '../components/header'
+import Accordion from '../components/accordion'
+import { indexfaq } from '../data/FAQ/indexfaq'
 import Section from '../components/section'
 import Container from '../components/container'
 import Title from '../components/title'
@@ -27,13 +29,16 @@ export default function Home() {
         <p className='text-lg text-gray-300 py-1'>Rankings and Reviews of 200+ Online Casinos, Sports Betting Sites, and Other Gambling Websites</p>
         </div>
         <Section>
-            <Container>              
+            <Container>   
+                <p><b>GamblingSites.com is the internet’s most comprehensive guide to the world’s best online gambling sites.</b> If you’re looking for expert advice on a vast range of gambling-related topics, you are certainly in the right place!</p>           
+                <p>Above all else, we aim to ensure that you enjoy safe online betting and gaming at trustworthy and reputable gambling sites. But that is only the beginning. This page contains details of all the key subjects we cover, giving you an idea of what we’re about.
 
-                <p >
-                    <span className='text-lg font-semibold '> GamblingSites.com is the internet’s most comprehensive guide to the world’s best online gambling sites.</span> This website is a genuine goldmine for gamblers, with information and expert advice on just about every gambling-related topic under the sun.
+</p>           
+                <p>It only makes sense to begin with our latest rankings of the best gambling sites.
 
-                Our main objective is to ensure you enjoy safe online betting and gaming at reputable and trustworthy gambling sites. You’ll find full details on everything else we have to offer throughout this page, but let’s start with our latest rankings of the best gambling sites.
-                </p> 
+</p>           
+
+               
                 <Sitescards/>
                 <p >When we say that these are the best gambling sites, we mean it. This is not some hastily assembled list of online casinos, sports betting sites, and other real money gambling websites. These rankings are based on extensive research and thorough testing that is carried out by our resident experts in online gambling.</p>       
                 <p >Our experts have years and years of experience in online gaming. They know what to look for in sites to ensure that we only recommend those that provide a safe online gambling experience as well as an enjoyable one.</p>
@@ -45,7 +50,21 @@ export default function Home() {
                 <Blockedgame/> 
                 <Aboutgamblingsites/> 
                 <Gamblingsitereviews/>
-                <FAQ/>
+
+                <Title title={'Detailed Gambling Guides from Expert Gamblers'}/>
+                
+                
+
+                <Title title={'Your Online Gambling Questions Answered'}/>
+                {indexfaq.map((item) => (
+                <Accordion
+                  key={`faq--key${item.id}`}          
+                
+                  title={item.question}
+                  content={item.answer}
+                
+                />
+                ))}  
             </Container>
         </Section>          
     </>    
