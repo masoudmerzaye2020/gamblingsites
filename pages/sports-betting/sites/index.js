@@ -10,7 +10,7 @@ import ThumbUpOutlinedIcon from '@mui/icons-material/ThumbUpOutlined';
 import Wideimage from '../../../components/wideimage'
 import Bluebutton from '../../../components/bluebutton'
 import ImageCard from '../../../components/imagecard'
-import Sitescards from '../../../components/sitescards'
+import Sitescards from '../../../section/sitescards'
 import Table from '../../../components/table'
 import Mainbullet from '../../../components/mainbullet'
 import Imagewithlink from '../../../components/imagewithlink'

@@ -4,7 +4,7 @@ import Header from '../components/header'
 import Section from '../components/section'
 import Container from '../components/container'
 import Title from '../components/title'
-import Sitescards from '../components/sitescards'
+import Sitescards from '../section/sitescards'
 import Button from '../components/button'
 import Gamblingsitereviews from '../section/gamblingsitereviews'
 import Sitereview from '../section/sitereview'
@@ -62,7 +62,8 @@ export default function Home() {
         <Regionalsites/>
         <Safegambling/>
         <Gamblingsitereviews/>
-        <Blockedgame/>     
+        <Blockedgame/>  
+        <Sitereview/>   
           
       
     </>    
