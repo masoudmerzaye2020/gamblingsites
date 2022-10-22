@@ -10,7 +10,7 @@ export const slots = [
     },
     {
         id:2,
-        question:'',
+        question:'new changes',
         answer:'',
     },
     {
