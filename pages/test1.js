@@ -18,6 +18,11 @@ import Reviewcard from "../components/reviewcard"
 import Squareimage from "../components/squareimage";
 import Wideimage from "../components/wideimage";
 import Widecard from "../components/widecard"
+import Blockedgame from "../section/blockedgame";
+import Aboutgamblingsites from "../section/aboutgamblingsites";
+import Gamblingsitereviews from "../section/gamblingsitereviews";
+import Regionalsites from "../section/regionalsites";
+import Safegambling from "../section/safegambling";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 
 
@@ -40,6 +45,13 @@ function Test1() {
               <Borderedbox>
                 <p>jl;aksjdf;laksdj</p>
               </Borderedbox>
+
+              {/* adsfa */}
+              <Regionalsites />
+              <Safegambling />
+              <Blockedgame />
+              <Aboutgamblingsites />
+              <Gamblingsitereviews />
 
 
 
