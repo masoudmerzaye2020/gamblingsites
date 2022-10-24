@@ -8,7 +8,7 @@ export default function GoTo() {
   }, []);
 
   return (
-    <div  className='w-12 md:w-16 text-[12px] md:text-[16] fixed p-2 bg-black text-center text-white bottom-12 right-12 rounded-lg'>
+    <div  className='w-12 md:w-16 text-[12px] md:text-[16] fixed p-2 bg-black text-center text-white bottom-4 md:bottom-12 right-4 md:right-12 rounded-lg'>
       
 
       {/* 👇️ scroll to top on button click */}
