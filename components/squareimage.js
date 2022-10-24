@@ -8,7 +8,7 @@ export default function Squareimage(props) {
       <div className='table flex mx-auto justify-center px-[20px]'>
         <Image src={props.src} width={700} height={400} alt={'image'}/>
       </div>
-      <p className='text-center max-w-[600px] mx-auto py-2'>{props.desc}</p>
+      <p className='text-center text-gray-400 max-w-[600px] mx-auto py-2'>{props.desc}</p>
       </div>
     </>
   )

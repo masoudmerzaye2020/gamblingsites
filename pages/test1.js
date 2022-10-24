@@ -22,7 +22,6 @@ import Blockedgame from "../section/blockedgame";
 import Aboutgamblingsites from "../section/aboutgamblingsites";
 import Gamblingsitereviews from "../section/gamblingsitereviews";
 import Regionalsites from "../section/regionalsites";
-import Safegambling from "../section/safegambling";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 
 

@@ -15,7 +15,7 @@ import Button from "../components/button";
 import Gamblingsitereviews from "../section/gamblingsitereviews";
 import Sitereview from "../section/sitereview";
 import Regionalsites from "../section/regionalsites";
-import Safegambling from "../section/safegambling";
+
 import Blockedgame from "../section/blockedgame";
 import Aboutgamblingsites from "../section/aboutgamblingsites";
 import FAQ from "../section/faq";
@@ -97,10 +97,10 @@ export default function Home() {
             <p>There are three main kinds of gambling sites: online casinos, sportsbooks, and poker sites. Naturally, the best casino sites differ from the top online sportsbooks, while the best poker sites are different from the other two options.</p>
             <p>It is worth noting that many of the best gambling sites have an online casino, a comprehensive sportsbook, and a dedicated poker section. But if you’re looking for a site that specializes in one of these areas, we recommend checking out the pages below.</p>
             <div className="flex flex-wrap justify-center">
-            <RegionalCard title={'best online casino'} url={''} src={'/image/online_casinos.png'} altText={''}/>
-            <RegionalCard title={'sports betting sites & online sportsbooks'} url={''} src={'/image/football_home_icon.png'} altText={''}/>
-            <RegionalCard title={'best online poker sites'} url={''} src={'/image/football_home_icon.png'} altText={''}/>
-            </div>
+              <RegionalCard title={'best online casino'} url={''} src={'/image/online_casinos.png'} altText={''}/>
+              <RegionalCard title={'sports betting sites & online sportsbooks'} url={''} src={'/image/football_home_icon.png'} altText={''}/>
+              <RegionalCard title={'best online poker sites'} url={''} src={'/image/football_home_icon.png'} altText={''}/>
+              </div>
 
             <TextTitle title={'Banking Methods on Gambling Sites'}/>
             <p>The banking methods you want to use can also help determine the best gambling sites for you. With dozens of different payment options to choose from, you are bound to find a site that suits your needs.</p>
@@ -158,6 +158,10 @@ export default function Home() {
                />
             ))}
             </div> */}
+
+              <Blockedgame />
+              <Aboutgamblingsites />
+              <Gamblingsitereviews />
 
             
 

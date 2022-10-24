@@ -157,12 +157,28 @@ export default function Index() {
             also have rankings of the best sportsbooks by region. Check them out
             to find the top-ranked internet bookmakers for your area.
           </p>
-          <div className="flex w-[90%] flex-wrap mx-auto">
-            <Borderedbox
-              src={"/image/sportsbetting/UFC-Betting-Sites.png"}
-              title={""}
+          <div className="flex justify-center flex-wrap ">
+          <Imagewithlink
+              src={"/image/sportsbetting/Football-Betting-Sites.png"}
+              title={"football betting sites"}
               link={""}
             />
+            <Imagewithlink
+              src={"/image/sportsbetting/Basketball-Betting-Sites.png"}
+              title={"basketball betting sites"}
+              link={""}
+            />
+            <Imagewithlink
+              src={"/image/sportsbetting/UFC-Betting-Sites.png"}
+              title={"ufc betting sites"}
+              link={""}
+            />
+            <Imagewithlink
+              src={"/image/sportsbetting/Soccer-Betting-Sites.png"}
+              title={"soccer betting sites"}
+              link={""}
+            />
+         
           </div>
 
           <p>
@@ -561,27 +577,28 @@ export default function Index() {
             globe.
           </p>
 
-          <div className="flex w-[90%] flex-wrap mx-auto">
+          <div className="flex justify-center flex-wrap ">
+          <Imagewithlink
+              src={"/image/sportsbetting/Football-Betting-Sites.png"}
+              title={"football betting sites"}
+              link={""}
+            />
             <Imagewithlink
-              src={"/image/sportsbetting/UFC-Betting-Sites.png"}
-              title={""}
+              src={"/image/sportsbetting/Basketball-Betting-Sites.png"}
+              title={"basketball betting sites"}
               link={""}
             />
             <Imagewithlink
               src={"/image/sportsbetting/UFC-Betting-Sites.png"}
-              title={""}
+              title={"ufc betting sites"}
               link={""}
             />
             <Imagewithlink
-              src={"/image/sportsbetting/UFC-Betting-Sites.png"}
-              title={""}
+              src={"/image/sportsbetting/Soccer-Betting-Sites.png"}
+              title={"soccer betting sites"}
               link={""}
             />
-            <Imagewithlink
-              src={"/image/sportsbetting/UFC-Betting-Sites.png"}
-              title={""}
-              link={""}
-            />
+         
           </div>
 
           <p>
