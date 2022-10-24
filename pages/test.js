@@ -9,7 +9,7 @@ import Button from "../components/button";
 import Gamblingsitereviews from "../section/gamblingsitereviews";
 import Sitereview from "../section/sitereview";
 import Regionalsites from "../section/regionalsites";
-import Safegambling from "../section/safegambling";
+
 import Blockedgame from "../section/blockedgame";
 import Carousel from "../section/carousel";
 
@@ -89,7 +89,7 @@ export default function Home() {
         </Container>
       </Section>
       <Regionalsites />
-      <Safegambling />
+    
       <Gamblingsitereviews />
       <Blockedgame />
       <Sitereview />
