@@ -28,6 +28,7 @@ export default function Home() {
         <h1 className="text-2xl md:text-[45px] lg:text-6xl font-semibold text-white py-1">
           The Best Online Gambling Sites for 2022
         </h1>
+        <h1>changes</h1>
         <p className="text-lg text-white py-1">
           Rankings and Reviews of 200+ Online Casinos, Sports Betting Sites, and
           Other Gambling Websites
