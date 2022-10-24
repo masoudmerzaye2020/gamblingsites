@@ -385,7 +385,7 @@ function Index() {
             esports betting, but we do have some useful tips to offer. Check out
             the page listed below to find out more.
           </p>
-          <div className="flex   justify-center">
+          <div className="flex flex-wrap  justify-center">
             <Bluebutton link={""} title={"Top Tips for Betting on Esports"} />
           </div>
 

@@ -12,8 +12,9 @@ import Mainbullet from "../../../components/mainbullet";
 import Bluebutton from "../../../components/bluebutton";
 import Borderedbox from "../../../components/borderedbox";
 import Squareimage from "../../../components/squareimage";
-
+import Cornerimage from "../../../components/cornerimage"
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
+import Imagecarousel from "../../../section/imagecarousel";
 
 function Index() {
   return (
@@ -21,12 +22,13 @@ function Index() {
       <Header>Detailed Review of BetUS – Updated for 2022</Header>
       <Section>
         <Container>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
+          <p>Have you been exploring online gambling sites in the USA? Then you’ve probably come across several recommendations for BetUS. That’s because it’s one of the top gambling sites for Americans.</p>
+          <p>This website has been operating since 1994, so it is one of the original online gambling sites.</p>
+          <p>With more than 25 years of experience, BetUS has perfected its site to offer a well-rounded and thrilling gambling site with many options.</p>
+          <p>BetUS has more than 20,000 sports betting markets and more than 280 casino games. The site also offers esports betting and a racebook. You will never run out of things to do on BetUS!</p>
+          <p>Keep reading this BetUS review to learn more about all the betting options available and the incredible bonus offers you can claim when you sign-up at BetUS.com.pa today.</p>
 
+          <Imagecarousel/>
           {/* leave the button */}
           <div className="flex flex-wrap">
             <div className="w-full md:w-1/2 lg:w-1/3 p-4 mx-auto">
@@ -345,7 +347,7 @@ function Index() {
             can bet on Japanese baseball, German basketball, and Swiss hockey.
           </p>
 
-          <Squareimage src={"/image/reviews/"} />
+          <Squareimage src={"/image/reviews/BetUS-Review-betting-options.jpeg"} desc={'The betting options at BetUS. Most sports have a dropdown menu where you’ll find even more betting opportunities'}/>
           <p>
             BetUS also offers a wide variety of wager options for each of those
             sports. Of course, they offer moneylines, totals, point spreads,
@@ -381,7 +383,7 @@ function Index() {
             The odds are updated in real-time while the game happens, which
             makes betting even more exciting.
           </p>
-          <Squareimage src={"/image/"} />
+          <Squareimage src={"/image/reviews/BetUS-Review-live-betting.jpeg"}  desc={'Example of the live betting opportunities at BetUS.com.pa.'}/>
           <p>
             BetUS gives you the option of placing quick bets. All you have to do
             is click on the bet you want to place and enter the amount you want
@@ -404,7 +406,7 @@ function Index() {
             like Counterstrike, League of Legends, Dota 2, World of Warcraft,
             and Fifa.
           </p>
-          <Squareimage src={"/image/"} />
+          <Squareimage src={"/image/reviews/BetUS-Review-esports-betting.jpeg"} desc={'A CSGO match was playing during our BetUS review.'} />
           <p>
             There are dozens of worldwide leagues that you can bet on, including
             leagues from the Netherlands, Belgium, Argentina, and Italy.
@@ -443,7 +445,7 @@ function Index() {
             minutes to post. This option allows you to find the next race
             available.
           </p>
-          <Squareimage src={"/image/"} />
+          <Squareimage src={"/image/reviews/BetUS-Review-racebook.jpeg"} desc={'You can quickly sort by track or minutes to post (MTP) in the BetUS racebook.'} />
           <p>
             No matter when you decide to bet, there is almost always an upcoming
             race because BetUS has so many international racetracks available.
@@ -482,7 +484,7 @@ function Index() {
             casino by simply clicking the appropriate tabs at the top of the
             website.
           </p>
-          <Squareimage src={"/image/"} />
+          <Squareimage src={"/image/reviews/BetUS-Review-Casino-lobby.jpeg"} desc={'BetUS’ casino lobby.'}/>
           <p>
             During our BetUS casino review, we noticed that the casino does not
             have as many options as the sportsbook, but plenty of games are
@@ -593,46 +595,46 @@ function Index() {
             <Mainbullet link={""} desc={"Joker Poker"} />
           </div>
 
-          <p></p>
-          <p></p>
-          <p></p>
+          <p>Because BetUS works with multiple software providers, there are multiple versions of some video poker games. So you can choose the game you like best based on the graphics, paytable, or betting limits.</p>
+          <p>The minimum bet varies for each game, but it is typically between $0.05 and $0.25. Maximum bets range from $2 to $100.</p>
+          <p>One of the most exciting options on BetUS is the possibility of playing multi-hand video poker. Most multi-hand games allow you to play 3-5 find hands simultaneously, but some variants go up to 50 hands.</p>
 
           {/* leave like option */}
 
-          <TextTitle title={""} />
+          <TextTitle title={"Real Money Table Games"} />
           <div>
-            {/* leave image */}
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
+            <Cornerimage src={'/image/reviews/BetUS-casino-poker-card-games.png'}/>
+            <p>There are more than 35 table games available on BetUS, and that doesn’t include their fifteen blackjack variants. BetUS has so many blackjack options that they have to be listed in a separate section on the website!</p>
+            <p>All your favorite table games are available, including roulette, baccarat, and craps. The BetUS casino also has casino war, pontoon, draw high low, three card rummy, and ten casino poker varieties.</p>
+            <p>BetUS has a fantastic variety of games available, but there are even more options because they have multiple options for the same game.</p>
+            <p>Some of the duplicate games come from different software providers. The basic game rules will be similar, but the betting limits and graphics may vary.</p>
+            <p>Many of the table games include multiple variants from the same software provider. Typically, the additional variants have higher betting limits or multi-hand games available.</p>
+            <p>Here are a few examples of common table games and the variants you can play on BetUS.</p>
           </div>
           {/* leave the table */}
 
-          <p></p>
-          <p></p>
+          <p>All these options make it easy for you to find the table game you are looking for. You can choose the game based on the betting limits or look for multi-hand versions of your favorites.</p>
+          <p>No matter what table games you are looking for, BetUS is sure to have at least one option available.</p>
 
-          <TextTitle title={""} />
-          <p></p>
-          <p></p>
+          <TextTitle title={"Live Dealer Casino Games"} />
+          <p>Another exciting part of the online casino at BetUS is the live dealer casino. These live dealer games are operated by Visionary iGaming.</p>
+          <p>You can play blackjack, roulette, baccarat, and super six with a live dealer. Here is some more information about each of these options.</p>
 
           {/* leave the table */}
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
+          <p>When you play live dealer casino games on BetUS, you can choose the betting limits that work for you.</p>
+          <p>There are typically at least two tables available for each variant, so you can also choose the dealer that you like best.</p>
+          <p>If you want to play blackjack, you may have the option to choose which seat at the table you take. However, if the table is full, all the tables have unlimited bet behind options.</p>
+          <p>These live dealer games offer an exciting opportunity to incorporate a social element into your gambling experience on BetUS. We enjoyed testing them during our BetUS.com.pa review.</p>
 
-          <TextTitle title={""} />
+          <TextTitle title={"Specialty Casino Games on BetUS"} />
           <div>
-            {/* leave image */}
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
+            <Cornerimage src={'/image/reviews/Other-casino-games-BetUS.png'}/>
+            <p>When you are on the online casino at BetUS, the tab at the top right says “other games.” It’s easy to miss, but we wanted to point it out because that button is the key to other exciting casino games!</p>
+            <p>Under the other games section, you will find a video bingo game, four different versions of keno, and four zip tab games.</p>
+            <p>Video bingo is a fast-paced automated bingo game that allows you to play up to eight bingo cards simultaneously. It automatically marks all the numbers as they are called, so the game moves quickly.</p>
+            <p>If you are interested in keno, you can choose from standard keno, video keno, keno dragon, and Paddy’s Lucky Charm keno. They all have a maximum bet of $5.</p>
+            <p>There are also four zip tab games that are similar to automated scratch cards or pull tabs. You can choose from Tutti Frutti, Overboard, Cosmic Strike, or Buccaneer Booty.</p>
+            <p>Each of the zip tab games has five rows of three symbols each. If you get three of the same symbol in a row, you can win a prize based on the game’s paytable. The betting range for all these games is $1.25-$25.</p>
           </div>
         </Container>
       </Section>

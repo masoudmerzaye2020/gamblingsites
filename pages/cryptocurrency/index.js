@@ -189,7 +189,7 @@ function Index() {
             If you’re interested in learning more, however, we explain
             everything in more detail in the following page.
           </p>
-          <div>
+          <div className="flex flex-wrap justify-center">
             <Bluebutton link={""} title={"Cryptocurrency for Beginners"} />
           </div>
 
@@ -237,7 +237,7 @@ function Index() {
             this and is a part of our guide that will be regularly updated.
           </p>
 
-          <div>
+          <div className="flex flex-wrap justify-center">
             <Bluebutton link={""} title={"The Major Altcoins"} />
           </div>
 
@@ -247,7 +247,7 @@ function Index() {
             worth reading.
           </p>
 
-          <div>
+          <div className="flex flex-wrap justify-center">
             <Bluebutton link={""} title={"GUIDE TO BITCOIN"} />
           </div>
 
@@ -261,7 +261,7 @@ function Index() {
             and you’ll need the following to get started:
           </p>
 
-          <div>
+          <div className="flex flex-wrap justify-center">
             <Mainbullet link={""} desc={"A cryptocurrency wallet"} />
             <Mainbullet
               link={""}
@@ -284,7 +284,7 @@ function Index() {
             tokens.We explain more about wallets on the following page, where we
             also list our recommendations for the best ones to use.
           </p>
-          <div>
+          <div className="flex flex-wrap justify-center">
             <Bluebutton link={""} title={"Best Cryptocurrency Wallets"} />
           </div>
 
@@ -301,7 +301,7 @@ function Index() {
             information on exchanges, including a list of the best ones to use,
             please see the following pages.
           </p>
-          <div>
+          <div className="flex flex-wrap justify-center">
             <Bluebutton link={""} title={"Best Cryptocurrency Exchange"} />
           </div>
 
@@ -315,7 +315,7 @@ function Index() {
             which also includes additional details on the processes involved
             with buying and selling cryptocurrency.
           </p>
-          <div>
+          <div className="flex flex-wrap justify-center">
             <Bluebutton
               link={""}
               title={"Buying, Selling and Mining Cryptocurrencies"}
@@ -373,7 +373,7 @@ function Index() {
             trustworthy.
           </p>
 
-          <div>
+          <div className="flex flex-wrap justify-center">
             <Bluebutton
               link={""}
               title={"Gambling Sites Accepting Cryptocurrencies"}
@@ -385,7 +385,7 @@ function Index() {
             following pages will help you to find a suitable and reputable site.
           </p>
 
-          <div>
+          <div className="flex flex-wrap justify-center">
             <Bluebutton link={""} title={"Bitcoin Gambling Sites"} />
             <Bluebutton link={""} title={"Bitcoin Cash Gambling Sites"} />
             <Bluebutton link={""} title={"Ethereum Gambling Sites"} />
@@ -418,7 +418,7 @@ function Index() {
             should at least do some investigation and make an informed decision.
             The following page is a good place to start.
           </p>
-          <div>
+          <div className="flex flex-wrap justify-center">
             <Bluebutton
               link={""}
               title={"Investing and Trading Using Cryptocurrencies*"}
@@ -430,7 +430,7 @@ function Index() {
             role of cryptocurrency brokers on the following page and also
             provide some recommendations.
           </p>
-          <div>
+          <div className="flex flex-wrap justify-center">
             <Bluebutton link={""} title={"Best Cryptocurrency Brokers*"} />
           </div>
 
@@ -467,7 +467,7 @@ function Index() {
             the above categories (and more). We strongly recommend checking it
             out.
           </p>
-          <div>
+          <div className="flex flex-wrap justify-center">
             <Bluebutton
               link={""}
               title={"Cryptocurrency Tools and Resources"}

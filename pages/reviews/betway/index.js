@@ -9,6 +9,7 @@ import Title from "../../../components/title";
 import Button from "../../../components/button";
 import Wideimage from "../../../components/wideimage";
 import TextTitle from "../../../components/TextTitle";
+import Borderedbox from "../../../components/borderedbox";
 
 function Index() {
   return (
@@ -92,13 +93,15 @@ function Index() {
             that creates most of their games. However, you can also find casino
             games from NetEnt, Red Tiger Gaming, Pragmatic Play, and Yggdrasil.
           </p>
-          <div className="max-w-[730px] my-6 py-4 border-t-2 border-b-2 border-[#486980] text-center mx-auto">
-            <p className="text-2xl text-[#7a0623] px-4">
-              We even reached out to customer service during our Betway casino
+         
+         
+          <Borderedbox>
+            <p>
+            We even reached out to customer service during our Betway casino
               review, and the customer service agents could not tell us why
               there are two sections for the same games.
             </p>
-          </div>
+          </Borderedbox>
           <p>
             We noticed that the Vegas section allows you to filter “Ways Games,”
             which are games with the Megaways feature. Other than that, there is
@@ -113,15 +116,14 @@ function Index() {
             online jackpot ever paid is actually a player who won €17,880,900
             while playing Mega Moolah on Betway.
           </p>
-          <div className="max-w-[730px] my-6 py-4 border-t-2 border-b-2 border-[#486980] text-center mx-auto">
-            <p className="text-2xl text-[#7a0623] px-4">
-              It is also worth noting that Microgaming policy states that
+          
+          <Borderedbox>
+            <p>It is also worth noting that Microgaming policy states that
               progressive jackpot winners must receive their prizes in a single
               payment as soon as the win has been verified. So, if you win a
               multi-million dollar prize, you won’t have to worry about making
-              hundreds of withdrawals or waiting months to get your money.
-            </p>
-          </div>
+              hundreds of withdrawals or waiting months to get your money.</p>
+          </Borderedbox>
           <p>
             One thing we particularly appreciated during our Betway online
             casino review is that the site allows you to filter by progressive

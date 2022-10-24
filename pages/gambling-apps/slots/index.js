@@ -70,7 +70,7 @@ function Index() {
                           <>
                             <div className="bg-[#e9ffee]  py-4 px-3">
                               <TextTitle title={det.title} />
-                              <Cornerimage src={det.image} />
+                              <Cornerimage src={det.image} width={'400'} />
                               <Mainbullet
                                 link={""}
                                 title={"launched:"}

@@ -424,7 +424,7 @@ function Index() {
             To see the potential payouts for parlays with different numbers of
             teams, check out this page.
           </p>
-          <div>
+          <div className="flex flex-wrap justify-center">
             <Bluebutton link={""} title={"Strategins for Football Parlayers"} />
           </div>
           <TextTitle title={"NFL Teaser Bets"} />

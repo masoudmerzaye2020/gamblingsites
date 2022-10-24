@@ -262,7 +262,7 @@ function Index() {
             several options here, which we explain fully on the following page.
             We also provide some recommendations for which wallets to use.
           </p>
-          <div>
+          <div className="flex flex-wrap justify-center">
             <Bluebutton link={""} title={"Bitcoin Wallets"} />
           </div>
           <p>
@@ -291,7 +291,7 @@ function Index() {
             The following article explains all about Bitcoin mining in more
             detail.
           </p>
-          <div>
+          <div className="flex flex-wrap justify-center">
             <Bluebutton link={""} title={"Mining Bitcoin"} />
           </div>
 
@@ -318,7 +318,7 @@ function Index() {
             buying and selling the currency. The second explains how exchanges
             work in more detail and includes a list of ones we recommend using.
           </p>
-          <div>
+          <div className="flex flex-wrap justify-center">
             <Bluebutton link={""} title={"Buying & Selling Bitcoin"} />
             <Bluebutton link={""} title={"Bitcoin Exchanges*"} />
           </div>
@@ -352,7 +352,7 @@ function Index() {
             common uses of Bitcoin, so we’ve dedicated whole sections of this
             guide to them. We’ve covered other uses on the following page.
           </p>
-          <div>
+          <div className="flex flex-wrap justify-center">
             <Bluebutton link={""} title={"How & Where to Spend Bitcoin*"} />
           </div>
 
@@ -426,7 +426,7 @@ function Index() {
             cons and includes the information you need to get started.
           </p>
 
-          <div>
+          <div className="flex flex-wrap justify-center">
             <Bluebutton link={""} title={"How to Gamble with Bitcoin"} />
           </div>
           <p>
@@ -492,7 +492,7 @@ function Index() {
             casinos
           </p>
 
-          <div>
+          <div className="flex flex-wrap justify-center">
             <Bluebutton link={""} title={"Popular Bitcoin Gambling Games*"} />
           </div>
           <p>
@@ -535,7 +535,7 @@ function Index() {
             as they should. This is another major advantage of Bitcoin gambling,
             and something we explain in more detail in the following page.
           </p>
-          <div>
+          <div className="flex flex-wrap justify-center">
             <Bluebutton
               link={""}
               title={"Provably Fair Gambling with Bitcoin"}
@@ -548,7 +548,7 @@ function Index() {
             into an instant winner, but it will certainly improve your chances.
           </p>
 
-          <div>
+          <div className="flex flex-wrap justify-center">
             <Bluebutton
               link={""}
               title={"Tips for Online Gambling with Bitcoin"}
@@ -608,7 +608,7 @@ function Index() {
             platforms you can use.
           </p>
 
-          <div>
+          <div className="flex flex-wrap justify-center">
             <Bluebutton link={""} title={"Bitcoin Trading & Investment"} />
             <Bluebutton
               link={""}

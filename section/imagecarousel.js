@@ -7,55 +7,28 @@ import { data } from "../data/carouselData";
 function Imagecarousel() {
   return (
     <>
-      <div className="flex flex-wrap bg-gray-500 w-full p-2 my-4">
-        <div className="w-full md:w-2/3 ">
+      <div className="flex flex-wrap bg-[#1f2d37] w-full px-4 py-2 rounded-lg my-4">
+        <div className="w-full xl:w-2/3 my-auto border-[2px] border-white rounded-lg p-2">
           <img
-            className="scroll w-full h-[540px] object-cover"
+            className="scroll w-full h-[240px] md:h-[410px] lg:h-[500px]  rounded-lg object-cover"
             src="/image/BetUs/BETUS-2021-1.jpg"
             alt=""
           />
         </div>
-        <div className="w-full h-full md:w-1/3 bg-gray-600">
+        <div className="w-full h-full xl:w-1/3 ">
           <div
             id="slider"
-            className=" overflow-y-hidden md:overflow-y-auto flex  md: block md:h-[580px] h-[250px] relative scroll   "
+            className=" overflow-y-hidden xl:overflow-y-auto flex flex-wrap flex-col xl:flex-row   xl:block md:h-[240px] h-[210px] xl:h-[540px] relative scroll "
           >
             {data.map((item) => (
-              <div className="border-[2px] rounded-[6px]  m-2 w-[320px] md:h-[35%] flex md:inline-block p-[2px] cursor-pointer">
-                <img className="w-full h-full" src={item.img} alt="/" />
+              <div className="border-[2px] rounded-[6px]  my-3 w-[280px]  md:w-[330px] md:h-[90%] xl:h-[35%] flex xl:inline-block p-[2px] cursor-pointer ml-4 ">
+                <img className="w-full h-full rounded-lg " src={item.img} alt="/" />
               </div>
             ))}
           </div>
         </div>
       </div>
 
-
-
-
-
-      <div className="flex md:block bg-[#1f2d37] p-2">
-        <div className="border-[3px] rounded-[3px] p-2">
-          <img
-            className="scroll w-full h-[540px] object-cover"
-            src="/image/BetUs/BETUS-2021-1.jpg"
-            alt=""
-          />
-        </div>
-        <div className="relative flex flex-wrap items-center">
-          <div
-            id="slider"
-            className="w-full h-full  md:overflow-y-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide"
-          >
-            {data.map((item) => (
-              <div className="border-[2px] rounded-[6px]  m-2 w-[320px] h-[190px] inline-block p-[2px] cursor-pointer">
-                <img className="w-full h-full" src={item.img} alt="/" />
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      {/  /}
 
       <style jsx>{`
       
@@ -64,17 +37,20 @@ function Imagecarousel() {
          overflow: scroll;
        } */
      .scroll::-webkit-scrollbar {
-         width: 12px;
+         width: 14px;
+         background: #324858;
+        
        }
      
    /*   .scroll::-webkit-scrollbar-track {
          -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
-         border-radius: 10px;
+         border-radius: 12px;
       } */
      
      .scroll::-webkit-scrollbar-thumb {
-         border-radius: 10px;
-         -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.9); 
+         border-radius: 12px;
+         background: #426075;
+    
        }     
        `}</style>
     </>

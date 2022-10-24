@@ -19,6 +19,7 @@ import RegionalCard from "../../../components/regionalcard";
 import { recommended } from "../../../data/recommendedlist";
 import Blockedgame from "../../../section/blockedgame";
 import Borderedcard from "../../../components/borderedcard";
+import Borderedbox from "../../../components/borderedbox";
 
 export default function Index() {
   const data = [
@@ -127,6 +128,53 @@ export default function Index() {
             and we will explain how to use those rankings to find the sports
             betting sites that match your preferences.
           </p>
+          <Title title={'Sports Betting Apps vs. Mobile Betting Sites'}/>
+          <p>One of the benefits of using online sportsbooks is that you can enjoy everything they have to offer from mobile devices. So, whether you want to place bets while you are on the go, or simply use your phone to bet on the couch, your favorite sites are always available.</p>
+          <p>There are two ways to access mobile betting options. You can download a native app to your device, or you can use a mobile browser site. The differences between these two options are minimal, so you can decide which one you prefer.</p>
+          <Squareimage src={'/image/sportsbetting/Sports-Betting-Sites-Mobile-Devices.jpeg'} desc={'Online betting sites work on most mobile devices.'}/>
+          <p>Every modern betting site should be mobile-responsive. That means you can access any betting site from your device’s Google or Safari browser. Mobile sites work on any device that can access the internet, and you don’t need to download anything.</p>
+          <p>Some sites still choose to create native apps for iPhones and Androids, but native apps are far less prevalent. If you want to download an app, you will have to find a site that has this option, and then download the one that works for your device.</p>
+          <p>All of the sites we recommend have at least one mobile option. We have a whole page dedicated to the best betting apps, so check it out if you want more information.</p>
+          <Title title={"Best Online Sportsbook by Region"} />
+
+          {/*        <div className='w-full'>
+                    
+                      {recommended.map((item, index)=>(
+                         <Borderedcard 
+                         index={index}
+                         src={item.logo} 
+                         link={item}/>
+                      ))}
+                </div> */}
+          <p>
+            One of the biggest factors at play when choosing where to bet on
+            sports online is your country of residence. It affects the payment
+            options at your disposal, what sites you have access to, the
+            available promotions, and more.
+          </p>
+          <p>
+            The sites above are the best sportsbooks available in your area. We
+            also have rankings of the best sportsbooks by region. Check them out
+            to find the top-ranked internet bookmakers for your area.
+          </p>
+          <div className="flex w-[90%] flex-wrap mx-auto">
+            <Borderedbox
+              src={"/image/sportsbetting/UFC-Betting-Sites.png"}
+              title={""}
+              link={""}
+            />
+          </div>
+
+          <p>
+            If you didn’t see your country so far, don’t worry. We cover other
+            regions, too, so you can discover legitimate sportsbooks for them by
+            visiting our dedicated pages.
+          </p>
+
+
+
+
+
           <Title title={"What the Top Sports Betting Sites Have to Offer"} />
           <Wideimage src="/image/best-online-sports-betting-sites-what-they-offer.jpg" />
 
@@ -444,48 +492,7 @@ export default function Index() {
             out if you want more information.
           </p>
 
-          <Title title={"Best Online Sportsbook by Region"} />
-
-          {/*        <div className='w-full'>
-                    
-                      {recommended.map((item, index)=>(
-                         <Borderedcard 
-                         index={index}
-                         src={item.logo} 
-                         link={item}/>
-                      ))}
-                </div> */}
-          <p>
-            One of the biggest factors at play when choosing where to bet on
-            sports online is your country of residence. It affects the payment
-            options at your disposal, what sites you have access to, the
-            available promotions, and more.
-          </p>
-          <p>
-            The sites above are the best sportsbooks available in your area. We
-            also have rankings of the best sportsbooks by region. Check them out
-            to find the top-ranked internet bookmakers for your area.
-          </p>
-          <div className="flex w-[90%] flex-wrap mx-auto">
-            <Imagewithlink
-              src={"/image/sportsbetting/UFC-Betting-Sites.png"}
-              title={""}
-              link={""}
-            />
-            <Imagewithlink
-              src={"/image/sportsbetting/UFC-Betting-Sites.png"}
-              title={""}
-              link={""}
-            />
-            <Imagewithlink src={""} title={""} link={""} />
-            <Imagewithlink src={""} title={""} link={""} />
-          </div>
-
-          <p>
-            If you didn’t see your country so far, don’t worry. We cover other
-            regions, too, so you can discover legitimate sportsbooks for them by
-            visiting our dedicated pages.
-          </p>
+          
 
           {/*       <div className="overflow-x-auto relative sm:rounded-lg my-4 mx-6">
                 {data.map((menu, i) => (

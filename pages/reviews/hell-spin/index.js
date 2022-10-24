@@ -70,8 +70,8 @@ function Index() {
           </p>
 
           <TextTitle title={"Slot Machines and Progressive Jackpots"} />
-          <p></p>
-          <div>
+          <p>It is not surprising that most of the games on Hell Spin are slot machines. There are more than 4,000 slot games to choose from. With so many slots available, you will be sure to find a wide variety of games with different themes. Here are some of the game themes we noticed during our Hell Spin review.</p>
+          <div className="grid grid-cols-2 md:grid-cols-3">
             <Mainbullet link={""} desc={"Ancient Egypt"} />
             <Mainbullet link={""} desc={"Chinese mythology"} />
             <Mainbullet link={""} desc={"Ancient Greek and Roman themes"} />
@@ -133,21 +133,22 @@ function Index() {
             game filters in the future. That would make it easier to find new
             games based on unique features or game categories.
           </p>
-          <TextTitle title={""} />
-          <p></p>
-          <p></p>
-          <p></p>
+          <TextTitle title={"Casino Card Games and Other Table Games on Hell Spin"} />
+          <p>Hell Spin Casino also has a diverse collection of card games, wheel games, and other table games. Unfortunately, these games are not listed on the casino home page, so there isn’t a useful way to see all of the table games at one time. Instead, you will need to search for games by title. It is important that you use specific keywords for your search.</p>
+          <p>For example, if you search for blackjack, you will find several blackjack options with blackjack in the game title. But those search results will not include games like double exposure, pontoon, or pirate 21. Those are all available blackjack variants, but they aren’t included in the search results because they don’t have the word blackjack in their title. We will introduce a few games we found during our Hell Spin review to help you start your search.</p>
+           <p>Blackjack and roulette are the most popular table games in the casino, so you will find dozens of options for each one. For example, we found single-deck blackjack, classic blackjack, and double exposure blackjack during our Hell Spin online casino review.</p>
+           <p></p>
           <div>
             <Cornerimage
               src={"/image/reviews/hell-spin-casino-review-roulette.png"}
             />
-            <p></p>
-            <p></p>
-            <p></p>
+            <p>Roulette is limited to American, European, and French variants, but Hell Spin has plenty of options from different providers. Each software provider will have unique features, such as specific background music, design features, and graphic elements to make their roulette game stand out.</p>
+            <p>You can also enjoy baccarat, table poker, and other card games on Hell Spin Casino. The table poker options include games like Caribbean stud, casino hold ‘em and Top Card Trumps. If you prefer specialty card games, check out draw high low or three-card rummy.</p>
+            <p>Another exciting option is dice games on Hell Spin. You can play craps, sic bo, rocket dice, and several other dice games. Each one is a little bit different, so we recommend trying them all to figure out which one is your favorite.</p>
           </div>
 
-          <TextTitle title={""} />
-          <p></p>
+          <TextTitle title={"Live Dealer Casino Games on Hell Spin"} />
+          <p>One of the best reasons to choose Hell Spin casino is that the site has a massive collection of more than 500 live dealer casino games. To put that into perspective, we have reviewed other top-rated sites that only have a few hundred games total.</p>
           <Borderedbox>
             <p>
               Hell Spin Casino offers live dealer games from several different
