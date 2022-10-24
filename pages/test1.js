@@ -46,6 +46,16 @@ function Test1() {
                 <p>jl;aksjdf;laksdj</p>
               </Borderedbox>
 
+              {/*  */}
+
+              <div className="flex flex-wrap justify-center">
+                <RegionalCard title={'usa online gambling'} url={''} src={'/image/us_flag_home_icon.png'} altText={''}/>
+
+                <RegionalCard title={'Sites for uk gamblers'} url={''} src={'/image/uk_flag_home_icon.png'} altText={''}/>
+                <RegionalCard title={'online gambling canada guide'} url={''} src={'/image/canadian_flag_home_icon.png'} altText={''}/>
+                <RegionalCard title={'online gambling in australia'} url={''} src={'/image/australian_flag_home_icon.png'} altText={''}/>
+              </div>
+
               {/* adsfa */}
               <Regionalsites />
               <Safegambling />
