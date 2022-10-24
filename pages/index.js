@@ -67,13 +67,13 @@ export default function Home() {
           <p>The very first thing you need to check is whether the site holds a legitimate gambling license. You don’t have to worry about that with any of our recommendations. But if you are considering sites you heard of elsewhere, it is crucial to check the license first.</p>
           <p>After that, you need to start diving into all of the different aspects of the site, including the company that operates it and the software providers they use. Here are some of the fundamental features we look for.</p>
           <div>
-              <p><span className=""><Image src={'/image/correct.png'} width={'18'} height={'18'} alt={'correct'}/></span> safe and trustworthy site</p>
-              <p><span className=""><Image src={'/image/correct.png'} width={'18'} height={'18'} alt={'correct'}/></span>Operated by a reputable and experienced company</p>
-              <p><span className=""><Image src={'/image/correct.png'} width={'18'} height={'18'} alt={'correct'}/></span>Game and betting variety</p>
-              <p><span className=""><Image src={'/image/correct.png'} width={'18'} height={'18'} alt={'correct'}/></span>Valuable bonuses with reasonable terms</p>
-              <p><span className=""><Image src={'/image/correct.png'} width={'18'} height={'18'} alt={'correct'}/></span>Multiple convenient banking methods</p>
-              <p><span className=""><Image src={'/image/correct.png'} width={'18'} height={'18'} alt={'correct'}/></span>Mobile gambling options</p>
-              <p><span className=""><Image src={'/image/correct.png'} width={'18'} height={'18'} alt={'correct'}/></span>Responsive and knowledgeable customer service</p>
+              <p><span className="pr-2"><Image src={'/image/correct.png'} width={'18'} height={'18'} alt={'correct'}/></span> safe and trustworthy site</p>
+              <p><span className="pr-2"><Image src={'/image/correct.png'} width={'18'} height={'18'} alt={'correct'}/></span>Operated by a reputable and experienced company</p>
+              <p><span className="pr-2"><Image src={'/image/correct.png'} width={'18'} height={'18'} alt={'correct'}/></span>Game and betting variety</p>
+              <p><span className="pr-2"><Image src={'/image/correct.png'} width={'18'} height={'18'} alt={'correct'}/></span>Valuable bonuses with reasonable terms</p>
+              <p><span className="pr-2"><Image src={'/image/correct.png'} width={'18'} height={'18'} alt={'correct'}/></span>Multiple convenient banking methods</p>
+              <p><span className="pr-2"><Image src={'/image/correct.png'} width={'18'} height={'18'} alt={'correct'}/></span>Mobile gambling options</p>
+              <p><span className="pr-2"><Image src={'/image/correct.png'} width={'18'} height={'18'} alt={'correct'}/></span>Responsive and knowledgeable customer service</p>
               
           </div>
 
