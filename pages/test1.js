@@ -57,7 +57,7 @@ function Test1() {
 
               {/* adsfa */}
               <Regionalsites />
-              <Safegambling />
+            
               <Blockedgame />
               <Aboutgamblingsites />
               <Gamblingsitereviews />
