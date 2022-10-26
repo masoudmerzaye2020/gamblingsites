@@ -21,7 +21,7 @@ export default function GoTo() {
   
       >
         <NorthIcon/>
-        Back to top
+        <p>Back to top</p>
       </button>
     </div>
   );
