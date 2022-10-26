@@ -82,42 +82,42 @@ export default function index() {
             Here are some things you should know about our company that may help
             you trust us more.
           </p>
-          <div className="bg-[#f5f5f5] py-2">
+          <div className="bg-gray py-3 px-2">
             <Mainbullet
               link={""}
 
-              title={
+              desc={
                 "Our team has decades of combined experience with online sports betting and online gambling."
               }
-              desc={""}
+              title={""}
             />
             <Mainbullet
               link={""}
-              title={
+              desc={
                 "We never accept bribes or payment in exchange for positive reviews or higher rankings."
               }
-              desc={""}
+              title={""}
             />
             <Mainbullet
               link={""}
-              title={
+              desc={
                 "Our reviewers are experienced and active sports bettors. We never recommend sites that we wouldn’t be willing to use ourselves."
               }
-              desc={""}
+              title={""}
             />
             <Mainbullet
               link={""}
-              title={
+              desc={
                 "Take a look at our in-depth reviews. You’ll see that each review is unique. That is because we take the time actually to try the site out and investigate it for ourselves."
               }
-              desc={""}
+              title={""}
             />
             <Mainbullet
               link={""}
-              title={
+              desc={
                 "Our reviews also include both the positives and the negatives. We don’t hide information from you or try to sugarcoat it."
               }
-              desc={""}
+              title={""}
             />
           </div>
           <p>
@@ -160,7 +160,7 @@ export default function index() {
 
 </p>
 
-            <div className="yellow py-3 px-2">
+            <div className="bg-yellow py-3 px-2">
               <Mainbullet link={''} desc={'Remember to take complaints with a grain of salt. Sometimes disgruntled players complain because they lost. Look for patterns with several customers complaining about the same thing instead of individual complaints.'}/>
               <Mainbullet link={''} desc={'Another thing to consider is whether the site responds or resolves the issue. Sites that are willing to address customer concerns are far more trustworthy than sites that ignore them.'}/>
               <Mainbullet link={''} desc={'It takes time to establish a reputation. That is why it is important to consider how long a company has been in business. Maintaining a positive reputation for a year is not nearly as impressive as maintaining one for a decade.'}/>
@@ -206,7 +206,7 @@ export default function index() {
             <p>Then, you can do some research on the software provider to see what kinds of companies they are doing business with. If several other sites that use the same software offer safe online sports betting, you can probably trust the site.</p>
             <TextTitle title={'Additional Betting Site Features'}/>
             <p>Once you have found a safe and trustworthy betting site, you want to make sure it has all the features you’re looking for. Here are some additional betting features to look for.</p>
-            <div className="blue py-4 px-2" >
+            <div className="bg-blue py-4 px-2" >
               <Mainbullet link={''} linkdesc={''} title={'Wide Variety of Betting Options'} desc={'– Make sure the site has both domestic and international sports and several different types of wagers.'}/>
               <Mainbullet link={''} linkdesc={'Sports Betting Bonuses'} title={''} desc={'– You can get rewarded for betting online. Many sites offer free bets, deposit bonuses, and enhanced odds to reward their customers.'}/>
               <Mainbullet link={''} linkdesc={''} title={'Mobile Compatibility'} desc={'– Look for betting sites that allow you to conveniently bet while you are on the go with mobile betting apps.'}/>
@@ -234,7 +234,7 @@ export default function index() {
             </div>
           
           <Title title={'How to Avoid Blacklisted Sportsbooks'}/>
-          <div className="pink px-2 py-4">
+          <div className="bg-pink px-2 py-4">
             <Mainbullet link={''} title={'Refusing Payouts '} desc={'– The most common way scam sportsbooks take advantage of customers is by collecting their money and then refusing to pay when the customer wins. If you see complaints of a site refusing to pay out, avoid it.'}/>
             <Mainbullet link={''} title={'Rigged Games and Odds '} desc={' – Some betting sites trick their customers by offering rigged games or odds. That is not always easy to identify, which is why it is wise to compare odds on multiple betting sites.'}/>
             <Mainbullet link={''} title={'Predatory Terms and Conditions'} desc={'– Blacklisted sportsbooks often sneak unfair rules into the terms and conditions. These rules make it impossible for you to win and give the site the right to refuse to pay you.'}/>

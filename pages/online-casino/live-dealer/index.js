@@ -11,6 +11,10 @@ import Bluebutton from "../../../components/bluebutton";
 import Mainbullet from "../../../components/mainbullet";
 import Borderedbox from "../../../components/borderedbox";
 import Wideimage from "../../../components/wideimage";
+import Sitescards from "../../../section/sitescards";
+import ImageCard from "../../../components/imagecard";
+import Squarecard from "../../../components/squarecard";
+import Cornerimage from "../../../components/cornerimage";
 
 function Index() {
   return (
@@ -37,6 +41,9 @@ function Index() {
             reading this page to learn all about live dealer games and how to
             find the best live dealer casinos online in 2022.
           </p>
+
+          <Sitescards/>
+          
           <p>
             Online casinos do an excellent job of offering a digital casino
             experience, but they can’t compete with land-based casinos’ social
@@ -68,7 +75,7 @@ function Index() {
             <Mainbullet link={""} linkdesc={"Casumo Casino"} />
             <Mainbullet link={""} linkdesc={"Playamo"} />
           </div>
-          <Wideimage src={"/image/"} />
+          <Wideimage src={"/image/onlinecasino/Best-Live-Dealer-Casinos.png"} />
           <p>
             Every real money live dealer casino is different. They have
             different games, features, and promotions. But how do you find the
@@ -92,6 +99,9 @@ function Index() {
             money, you won’t find any better options than the sites we
             recommend. You just won’t.
           </p>
+          
+
+
           <Title title={"Live Dealer Games, Variants, and Features"} />
           <p>
             The games are the most important aspect of live online casinos.
@@ -146,7 +156,11 @@ function Index() {
             are better for specific games, though, which is why we’ve also
             ranked the top live dealer online casinos for each one
           </p>
-          {/*  leave the small card */}
+          <div className="flex flex-wrap justify-center">
+            <Squarecard title={'live dealer blackjack casinos'} link={''} src={'/image/onlinecasino/blackjack-logo-card1-1.png'}/>
+            <Squarecard title={'live dealer baccarat casinos'} link={''} src={'/image/onlinecasino/Baccarat-logo-card1-1.png'}/>
+            <Squarecard title={'live dealer roulette casinos'} link={''} src={'/image/onlinecasino/Roulette-logo-card1-1.png'}/>
+          </div> 
 
           <TextTitle title={"Other Live Dealer Casino Games"} />
           <p>
@@ -180,7 +194,7 @@ function Index() {
 
           <TextTitle
             title={
-              "Live dealer casinos are coming up with new games all the time. We suggest you join a couple of casinos that work with different providers so you get exposure to the widest variety of live casino table games."
+              "Variations and Features of Live Dealer Games              "
             }
           />
           <p>
@@ -232,7 +246,9 @@ function Index() {
           </p>
 
           <Title title={"How Do Live Casino Games Work?"} />
-          <Wideimage src={"/image/"} />
+          
+          <div>
+          <Cornerimage src={"/image/onlinecasino/online-casinos-human-dealers-how-do-they-work-1.png"} type={'wide'}/>
           <p>
             Understanding how live games work will help you know what to expect
             when you start playing for the first time. The good news is that
@@ -265,34 +281,56 @@ function Index() {
             unsure about which games to start with, check out this blog with the
             best live games for beginners.
           </p>
+          </div>
+          
 
           <Title title={"Live Online Casino Studios and Providers"} />
-          <p></p>
+          <p>There are many different factors that make a great live online casino. Of course, safety and security are paramount. But software providers also play a hugely important role.</p>
+          <p>If you’re serious about playing live dealer casino games online, you should familiarize yourself with all the top software providers. Every provider has unique features and hallmarks, so you need to figure out which providers best suit your needs.</p>
+          <p>Here are some of the ways different live dealer providers will affect your experience.</p>
+          <div>
+            <Mainbullet link={''} title={'The quality of the live stream:'} desc={'Some software providers boast a wide variety of live casino games, while others have a relatively small selection. The choice of games and variants could impact where you choose to play.'}/>
+            <Mainbullet link={''} title={'The games and variants you can play: '} desc={'All online casinos games have minimum and maximum bets, determining how much you can wager at any given time. Whether you’re a high roller or a first-time gambler, you need to be aware of the wagering requirements.'}/>
+            <Mainbullet link={''} title={'The stakes you can play for:'} desc={'Certain software providers are renowned for creating games with unique features. Before you enter a live online casino studio, check the rules of the game to learn about the features.'}/>
+            <Mainbullet link={''} title={'The features available for each game:'} desc={'These are additional bets placed during a game. They often give you the chance to play longer odds for higher wins. If that sounds like something you want to try, make sure you choose providers that are known for creating games with side bets.'}/>
+            <Mainbullet link={''} title={'The side bets you can make:'} desc={'More than 7,000 languages are spoken in the world today. The chances are that you only speak one or two. Before you part ways with your money, be sure to find a live online casino studio with a dealer that speaks your language.'}/>
+            <Mainbullet link={''} title={'The languages the dealers speak:'} desc={' Some studios use open floor plans, allowing you to see other games happening in the background. Other live online casino games have closed studios, meaning you can only see your dealer. The way the studio is set up will impact the overall experience.'}/>
+            <Mainbullet link={''} title={'The casino setting or backdrop:'} desc={'Live casino games typically give you 15-30 seconds to place your bets. If you want to change your bets for each round, you may want more time, or you might want a more fast-paced game. Time limits vary from game to game and provider to provider, so this is another factor to consider.'}/>
+            <Mainbullet link={''} title={'Any time constraints the games impose (to keep the game moving at a reasonable pace):'} desc={'Some people prefer to play live dealer casino games on their desktop computer or laptop, while others prefer to use their smartphone or tablet. If you fall into the latter category, you will need to choose sites and providers that allow you to gamble on the go.'}/>
+            <Mainbullet link={''} title={'Whether you can play their games on mobile (and how):'} desc={''}/>
+            <Mainbullet link={''} title={'Whether you can play the games for free:'} desc={' Live casino games have more operational costs than digital games, so most sites don’t allow you to play live casino games for free. However, some operators offer a limited free play option, while others may allow you to watch the live stream without placing bets.'}/>
+          
+          </div>
+          <p>Just like software providers for digital games, live studios must be licensed. Similarly, their games must be tested. Their license may affect which jurisdictions their games are available in, meaning certain regions may have limited selections.</p>
+          <p>Now that you know how different software providers can impact your live online gambling experience, let’s take a look at some of the highest-profile providers in the industry.
+
+</p>
+          <p>There are more than 20 live dealer software providers. These are the five largest and/or most influential providers today.</p>
           <div>
             <Mainbullet
               link={""}
               linkdesc={"Evolution Gaming"}
               title={""}
-              desc={""}
+              desc={"– Evolution Gaming is famous for game shows and using random number generator (RNG) software to add multipliers to its games."}
             />
-            <Mainbullet link={""} linkdesc={"Playtech"} title={""} desc={""} />
+            <Mainbullet link={""} linkdesc={"Playtech"} title={""} desc={"– A genuine giant of the online gambling industry, Playtech boasts a vast range of live casino games for bettors of all experience levels to enjoy."} />
             <Mainbullet
               link={""}
               linkdesc={"Pragmatic play"}
               title={""}
-              desc={""}
+              desc={"– With 4K cameras, professional dealers, in-studio promotions, and many other perks, Pragmatic Play is among the best in the business for live online casino games."}
             />
             <Mainbullet
               link={""}
               linkdesc={""}
               title={"Authentic Gaming"}
-              desc={""}
+              desc={"Authentic Gaming – Authentic Gaming offers premium live casino games, focusing strongly on player preferences and market trends."}
             />
             <Mainbullet
               link={""}
               linkdesc={""}
-              title={"Visionary iGaming (ViG)"}
-              desc={""}
+              title={""}
+              desc={"Visionary iGaming (ViG) – As the top software provider for US online casinos, Visionary iGaming is hugely popular among Americans. That said, the company is renowned worldwide."}
             />
           </div>
           <p>
@@ -560,7 +598,8 @@ function Index() {
           <Title
             title={"The Best Live Dealer Online Casinos for Mobile Games"}
           />
-          <Wideimage src={"/image/"} />
+          <div>
+          <Cornerimage src={"/image/onlinecasino/online-casinos-human-dealers-mobile-games-1.png"} type={'wide'} />
           <p>
             Online casinos are convenient because you don’t have to leave your
             house to access all their games. But mobile casinos are even more
@@ -584,10 +623,17 @@ function Index() {
             the live dealer apps page to learn more about finding the best
             mobile live dealer options.
           </p>
+          </div>
+          <div className="flex justify-center">  
+            
+            <Squarecard link={''} src={'/image/onlinecasino/Live-dealer-casino-logo-card1-1.png'} title={'best live dealer casino apps'}/>
 
+
+          </div>
+        
           {/* leave provile card */}
           <Title title={"Live Casino Promotions"} />
-          <Wideimage src={"/image/"} />
+          <Wideimage src={"/image/onlinecasino/online-casinos-human-dealers-promotions-1.jpeg"} />
           <p>
             We mentioned earlier that one of the benefits to gambling online are
             the promotions you can claim. They’re far better than the promotions
@@ -648,7 +694,7 @@ function Index() {
           </p>
 
           <Title title={"Finding the Best Live Online Casinos"} />
-          <Wideimage src={"/image/"} />
+          <Wideimage src={"/image/onlinecasino/online-casinos-human-dealers-finding-the-best-1.jpeg"} />
           <p>
             There is a significant difference between average sites and the best
             live dealer online casino. The best sites have more games, better

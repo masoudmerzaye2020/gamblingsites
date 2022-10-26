@@ -10,6 +10,8 @@ import Bluebutton from "../../../../components/bluebutton";
 import Mainbullet from "../../../../components/mainbullet";
 import Wideimage from "../../../../components/wideimage";
 import Borderedbox from "../../../../components/borderedbox";
+import Sitescards from "../../../../section/sitescards";
+import Cornerimage from "../../../../components/cornerimage";
 
 function Index() {
   return (
@@ -26,6 +28,7 @@ function Index() {
             You can speed up your payments by using any of the top-rated fast
             payout sports betting sites listed here.
           </p>
+          <Sitescards/>
           <p>
             These trusted fast payout online betting sites are the best when it
             comes to cashing out your money. They make sure to send your
@@ -41,7 +44,7 @@ function Index() {
             sportsbooks and betting apps.
           </p>
 
-          <div className="bg-[#e4f8ff]">
+          <div className="bg-blue px-2 py-3">
             <h2>Contents of Our Guide to Fast Paying Sports Betting Sites</h2>
             <Mainbullet
               link={""}
@@ -88,7 +91,9 @@ function Index() {
             <TextTitle
               title={"BetUS – Top Fast Paying US Betting Site for Bitcoin"}
             />
-            <Mainbullet link={""} title={"Established:"} desc={"1996"} />
+           <div>
+            <Cornerimage src={'/image/sportsbetting/betus-logo-170.png'}/>
+           <Mainbullet link={""} title={"Established:"} desc={"1996"} />
             <Mainbullet link={""} title={"Crypto:"} desc={"Yes"} />
             <Mainbullet link={""} title={"E–Wallets:"} desc={"No"} />
             <Mainbullet
@@ -96,6 +101,7 @@ function Index() {
               title={"Other Gambling Products:"}
               desc={"Casino, Live Casino"}
             />
+           </div>
           </div>
           <p>
             BetUS is a household name when it comes to online sports betting in
@@ -114,12 +120,12 @@ function Index() {
             good number of markets, and excellent bonuses and promotions.
           </p>
 
-          <div>
+          <div className="flex flex-wrap justify-center">
             <Bluebutton link={""} title={"Join BetUS"} />
             <Bluebutton link={""} title={"BetUS Review"} />
           </div>
 
-          <div className="bg-[#e9ffee]">
+          <div className="bg-green">
             <TextTitle
               title={"BetUS – Top Fast Paying US Betting Site for Bitcoin"}
             />
@@ -151,16 +157,16 @@ function Index() {
             odds, and an excellent reputation.
           </p>
 
-          <div>
+          <div className="flex flex-wrap jusityf-center">
             <Bluebutton link={""} title={"Join MyBookie"} />
             <Bluebutton link={""} title={"MyBookie Review"} />
           </div>
 
-          <div className="bg-[#e9ffee]">
+          <div className="bg-green">
             <TextTitle
               title={"BetUS – Top Fast Paying US Betting Site for Bitcoin"}
             />
-            <Mainbullet link={""} title={""} desc={""} />
+            <Mainbullet link={""} title={"Established:"} desc={"2004"} />
             <Mainbullet link={""} title={""} desc={""} />
             <Mainbullet link={""} title={""} desc={""} />
             <Mainbullet link={""} title={""} desc={""} />

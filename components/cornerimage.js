@@ -27,6 +27,7 @@ export default function Cornerimage(props) {
         .wide {
           width: 430px;
           height: 230px;
+          float:right;
           
         }
         @media screen and (max-width: 480px) {

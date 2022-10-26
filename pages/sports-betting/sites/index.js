@@ -20,6 +20,7 @@ import { recommended } from "../../../data/recommendedlist";
 import Blockedgame from "../../../section/blockedgame";
 import Borderedcard from "../../../components/borderedcard";
 import Borderedbox from "../../../components/borderedbox";
+import Visitsitecard from "../../../components/visitsitecard";
 
 export default function Index() {
   const data = [
@@ -136,7 +137,14 @@ export default function Index() {
           <p>Some sites still choose to create native apps for iPhones and Androids, but native apps are far less prevalent. If you want to download an app, you will have to find a site that has this option, and then download the one that works for your device.</p>
           <p>All of the sites we recommend have at least one mobile option. We have a whole page dedicated to the best betting apps, so check it out if you want more information.</p>
           <Title title={"Best Online Sportsbook by Region"} />
-
+          <div className="flex flex-wrap justify-center">
+          <Visitsitecard link={''} title={'bovada'} src={'/image/sportsbetting/bovada-logo-gad-table-1.jpg'}/>
+          <Visitsitecard link={''} title={'betonline.ag'} src={'/image/sportsbetting/betonline-logo-gad-table-1.jpg'}/>
+          <Visitsitecard link={''} title={'betus'} src={'/image/sportsbetting/betus-logo-gad-table-1.jpg'}/>
+          <Visitsitecard link={''} title={'mybookie'} src={'/image/sportsbetting/mybookie-logo-gad-table-1.jpg'}/>
+          </div>
+          
+          
           {/*        <div className='w-full'>
                     
                       {recommended.map((item, index)=>(

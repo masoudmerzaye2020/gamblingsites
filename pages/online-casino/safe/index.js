@@ -11,6 +11,8 @@ import Bluebutton from "../../../components/bluebutton";
 import Mainbullet from "../../../components/mainbullet";
 import Borderedbox from "../../../components/borderedbox";
 import Wideimage from "../../../components/wideimage";
+import Sitescards from "../../../section/sitescards";
+import Cornerimage from "../../../components/cornerimage";
 
 function Index() {
   return (
@@ -23,6 +25,7 @@ function Index() {
             We focus on safe casino gaming on this page. Let’s start with our
             recommendations of safe online casinos for 2022.
           </p>
+          <Sitescards/>
           <p>
             If you want to find a trustworthy casino on your own, we will show
             you how a little later. We will also explain what to look for when
@@ -92,54 +95,54 @@ function Index() {
             following from each applicant.
           </p>
 
-          <div>
+          <div className="bg-blue px-2 py-3">
             <Mainbullet
               link={""}
-              linkdesc={""}
-              title={"Criminal background check"}
-              desc={""}
+              
+              desc={"Criminal background check"}
+              
             />
             <Mainbullet
               link={""}
-              linkdesc={""}
-              title={
+              
+              desc={
                 "The operational model including bonus implementation, deposits, payouts, jackpots, server, site security"
               }
-              desc={""}
+            
             />
             <Mainbullet
               link={""}
-              linkdesc={""}
-              title={
+             
+              desc={
                 "Third-party providers – fraud detection, age identity, geolocation"
               }
-              desc={""}
+             
             />
             <Mainbullet
               link={""}
-              linkdesc={""}
-              title={"Financial records"}
-              desc={""}
+             
+              desc={"Financial records"}
+              
             />
             <Mainbullet
               link={""}
-              linkdesc={""}
-              title={
+              
+              desc={
                 "Software technical standards – submission of independent game testing"
               }
-              desc={""}
+              
             />
             <Mainbullet
               link={""}
               linkdesc={""}
-              title={"Legal business status"}
-              desc={""}
+              desc={"Legal business status"}
+            
             />
             <Mainbullet
               link={""}
               linkdesc={""}
-              title={"A significant deposit or license fee"}
-              desc={""}
+              desc={"A significant deposit or license fee"}
+          
             />
           </div>
           <p>Every bureau has different rules and regulations.</p>
@@ -153,36 +156,36 @@ function Index() {
             Here are some of the actions they take to ensure player protection.
           </p>
 
-          <div>
+          <div className="bg-blue px-2 py-3">
             <Mainbullet
               link={""}
               linkdesc={""}
-              title={"Assess and monitor the casino’s financial standing"}
-              desc={""}
+              desc={"Assess and monitor the casino’s financial standing"}
+       
             />
             <Mainbullet
               link={""}
               linkdesc={""}
-              title={"Approve software providers"}
-              desc={""}
+              desc={"Approve software providers"}
+          
             />
             <Mainbullet
               link={""}
               linkdesc={""}
-              title={"Require game testing by an independent lab"}
-              desc={""}
+              desc={"Require game testing by an independent lab"}
+        
             />
             <Mainbullet
               link={""}
               linkdesc={""}
-              title={"Settle player disputes"}
-              desc={""}
+              desc={"Settle player disputes"}
+           
             />
             <Mainbullet
               link={""}
               linkdesc={""}
-              title={"Provide problem gambling information and resources"}
-              desc={""}
+              desc={"Provide problem gambling information and resources"}
+            
             />
           </div>
 
@@ -202,7 +205,9 @@ function Index() {
             title={"How the UKGC Leads the Way in Online Casino Regulation"}
           />
 
-          <p>
+         <div>
+          <Cornerimage src={'/image/onlinecasino/UK-Gambling-Commission-Logo.png'}/>
+         <p>
             You can’t get much better than UK Gambling Commission backing when
             it comes to safe online gaming. It’s a proactive commission
             governing both land-based venues and online casinos.
@@ -213,6 +218,7 @@ function Index() {
             secure for UK casino players. Here are a couple of examples of
             recent changes the UKGC has made.
           </p>
+         </div>
           <div>
             <Mainbullet
               link={""}

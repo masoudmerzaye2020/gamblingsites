@@ -23,11 +23,13 @@ import Aboutgamblingsites from "../section/aboutgamblingsites";
 import Gamblingsitereviews from "../section/gamblingsitereviews";
 import Regionalsites from "../section/regionalsites";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
+import { recommended } from '../data/recommendedlist'
 
 
 
 import Imagecarousel from "../section/imagecarousel";
 import Toptips from "../components/toptips";
+import Visitsitecard from "../components/visitsitecard";
 function Test1() {
   return (
     <>
@@ -58,9 +60,25 @@ function Test1() {
               {/* adsfa */}
               <Regionalsites />
             
-              <Blockedgame />
+             {/*  <Blockedgame /> */}
               <Aboutgamblingsites />
               <Gamblingsitereviews />
+
+
+
+              {/*  */}
+
+              <div className='flex flex-wrap w-full py-4'>
+                        {recommended.map((web,index)=>{
+                            return(
+                              <>
+                              <Visitsitecard id={index} title={web.title} src={web.logo} link={web.link}/>
+                              
+                              </>
+                       
+                            )
+                        })}
+                    </div>
 
 
 

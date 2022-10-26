@@ -11,14 +11,14 @@ export default function Footer() {
 
       <div className="w-full bg-[#11191e] mt-6 md:mt-10">
         <div className="lg:w-8/12 md:w-11/12 mx-auto py-8">
-          <div className="grid grid-flow-row-dense lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4">
+          <div className="grid grid-flow-row-dense lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4 ">
             {footerlist.map((menu, index) => {
               return (
                 <>
-                  <div key={index} className="text-lg text-gray-200">
+                  <div key={index} className="text-lg text-white">
                     <div className="no-uderline underline-none">
                       <p className="text-gray-100 text-lg">{menu.title}</p>
-                      <div className="w-10 border-[1px] border-gray-200"></div>
+                      <div className="w-10 border-[1px] border-white"></div>
 
                       {menu.submenu.map((submenu, index) => {
                         return (
@@ -49,7 +49,7 @@ export default function Footer() {
                 alt="logo"
               />
             </div>
-            <div className="col-span-2 flex text-gray-600 rounded-lg border-[1px] border-gray-500 py-2 flex justify-center">
+            <div className="col-span-2 flex text-white rounded-lg border-[1px] border-white py-2 flex justify-center">
               <div className="flex">
                 <div className="my-auto">
                   <Image

@@ -48,7 +48,7 @@ const MenuItems = ({ items, depthLevel }) => {
             type="button"
             aria-haspopup="menu"
             aria-expanded={dropdown ? "true" : "false"}
-            // onClick={() => setDropdown((prev) => !prev)}
+            onClick={() => setDropdown((prev) => !prev)}
           >
             <a  href={items.url}>{items.title}</a>
             {/* {items.title}{" "} */}
@@ -78,7 +78,7 @@ const MenuItems = ({ items, depthLevel }) => {
           >
             {/* <a href="/#">{items.title}</a> */}
             {items.title}{" "}
-            {depthLevel > 0 ? <span>&raquo;</span> : <span className="arrow" />}
+            {depthLevel > 0 ? <span className="arr"></span> : <span className="arrow" />}
           </button>
           <Dropdown
             depthLevel={depthLevel}
@@ -140,7 +140,7 @@ const MenuItems = ({ items, depthLevel }) => {
     .menu-items a,
     .menu-items button {
       text-align: left;
-      padding: 0.7rem 1rem;
+      padding: 0.7rem 0.6rem;
     }
 
     /* new addition */
@@ -150,11 +150,14 @@ const MenuItems = ({ items, depthLevel }) => {
 
     .menu-items a:hover,
     .menu-items button:hover {
-    background-color: #324959;
+   
     color:#40d3b7;
     }
+    .arrow{
+      margin-left:auto;
+    }
 
-    .arrow::after {
+    /* .arrow::after {
       content: "";
       display: inline-block;
       margin-left: 0.28em;
@@ -162,7 +165,32 @@ const MenuItems = ({ items, depthLevel }) => {
       border-top: 0.42em solid;
       border-right: 0.32em solid transparent;
       border-left: 0.32em solid transparent;
+    } */
+
+    @media only screen and (max-width: 1016px) {
+      .arrow::after {
+        content: "";
+        display: inline-block;
+        margin-left: 0.28em;
+        vertical-align: 0.09em;
+        border-top: 0.42em solid;
+        border-right: 0.32em solid transparent;
+        border-left: 0.32em solid transparent;
+    },
+    } 
+
+    .arr{
+      margin-left:auto;
     }
+    .arr::after {
+      content: "";
+      display: inline-block;
+      margin-left: 0.28em;
+      vertical-align: 0.09em;
+      border-top: 0.42em solid;
+      border-right: 0.32em solid transparent;
+      border-left: 0.32em solid transparent;
+  },
 
       `}
     </style>
