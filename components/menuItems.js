@@ -48,7 +48,11 @@ const MenuItems = ({ items, depthLevel }) => {
             type="button"
             aria-haspopup="menu"
             aria-expanded={dropdown ? "true" : "false"}
+<<<<<<< HEAD
             onClick={() => setDropdown((prev) => !prev)}
+=======
+           onClick={() => setDropdown((prev) => !prev)}
+>>>>>>> 920fbf4277a971592275b54dd024cabcbb4d8916
           >
             <a  href={items.url}>{items.title}</a>
             {/* {items.title}{" "} */}
@@ -78,7 +82,11 @@ const MenuItems = ({ items, depthLevel }) => {
           >
             {/* <a href="/#">{items.title}</a> */}
             {items.title}{" "}
+<<<<<<< HEAD
             {depthLevel > 0 ? <span className="arr"></span> : <span className="arrow" />}
+=======
+            {depthLevel > 0 ? <span className="ml-auto">&raquo;</span> : <span className="arrow" />}
+>>>>>>> 920fbf4277a971592275b54dd024cabcbb4d8916
           </button>
           <Dropdown
             depthLevel={depthLevel}
@@ -94,7 +102,7 @@ const MenuItems = ({ items, depthLevel }) => {
 /*     .nav-area {
       display: flex;
       align-items: center;
-      max-width: 1200px;
+      max-width: 1700px;
       margin: 0 auto;
       padding: 0 20px;
       height: 58px;
@@ -105,13 +113,13 @@ const MenuItems = ({ items, depthLevel }) => {
       text-decoration: none;
       font-size: 25px;
       color: inherit;
-      margin-right: 20px;
+      margin-right: 10px;
     } */
 
  
     .menu-items {
       position: relative;
-      font-size: 16px;
+      font-size: 14px;
     }
 
     .menu-items a {
@@ -140,7 +148,12 @@ const MenuItems = ({ items, depthLevel }) => {
     .menu-items a,
     .menu-items button {
       text-align: left;
+<<<<<<< HEAD
       padding: 0.7rem 0.6rem;
+=======
+   
+      padding: 0.7rem 0.5rem;
+>>>>>>> 920fbf4277a971592275b54dd024cabcbb4d8916
     }
 
     /* new addition */
@@ -150,17 +163,37 @@ const MenuItems = ({ items, depthLevel }) => {
 
     .menu-items a:hover,
     .menu-items button:hover {
+<<<<<<< HEAD
    
+=======
+
+>>>>>>> 920fbf4277a971592275b54dd024cabcbb4d8916
     color:#40d3b7;
     }
     .arrow{
       margin-left:auto;
     }
 
+<<<<<<< HEAD
     /* .arrow::after {
+=======
+/*     .arrow::after {
+>>>>>>> 920fbf4277a971592275b54dd024cabcbb4d8916
       content: "";
+     
       display: inline-block;
-      margin-left: 0.28em;
+      margin-left: 0.28em; 
+      vertical-align: 0.09em;
+      border-top: 0.42em solid;
+      border-right: 0.32em solid transparent;
+      border-left: 0.32em solid transparent;
+    }  */
+
+    .arrow::after{
+      content: "";
+     
+      display: inline-block;
+      margin-left: 0.28em; 
       vertical-align: 0.09em;
       border-top: 0.42em solid;
       border-right: 0.32em solid transparent;
@@ -182,6 +215,7 @@ const MenuItems = ({ items, depthLevel }) => {
     .arr{
       margin-left:auto;
     }
+<<<<<<< HEAD
     .arr::after {
       content: "";
       display: inline-block;
@@ -191,6 +225,23 @@ const MenuItems = ({ items, depthLevel }) => {
       border-right: 0.32em solid transparent;
       border-left: 0.32em solid transparent;
   },
+=======
+/* 
+    @media only screen and (max-width: 1016px) {
+      .arrow::after {
+        content: "";
+        display: flex;
+        margin-left:100%;
+        vertical-align: 0.09em;
+        border-top: 0.42em solid;
+        border-right: 0.32em solid transparent;
+        border-left: 0.32em solid transparent;
+      }
+    },
+ */
+
+ 
+>>>>>>> 920fbf4277a971592275b54dd024cabcbb4d8916
 
       `}
     </style>

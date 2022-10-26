@@ -15,7 +15,7 @@ export default function Navbar() {
 
   return (
     <div className="bg-[#1f2d37] mx-auto">
-      <nav className="flex items-center flex-wrap  p-1.5 text-white font-semibold text-md py-4 mx-auto max-w-[1170px]">
+      <nav className="flex items-center flex-wrap  p-1.5 text-white font-semibold text-[12px] py-4 mx-auto max-w-[1170px]">
         <button
           className="inline-flex p-1 bg-[#fccd1b] hover:bg-[#fcff2b] rounded-full lg:hidden text-[#000] outline-none"
           onClick={handleClick}
