@@ -25,8 +25,15 @@ export default function Cornerimage(props) {
 
         }
         .wide {
-          width: 430px;
-          height: 230px;
+          width: 435px;
+          height: 210px;
+          float:right;
+          
+        }
+
+        .middle {
+          width: 335px;
+          height: 186px;
           float:right;
           
         }

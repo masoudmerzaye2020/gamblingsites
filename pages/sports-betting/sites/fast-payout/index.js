@@ -12,6 +12,10 @@ import Wideimage from "../../../../components/wideimage";
 import Borderedbox from "../../../../components/borderedbox";
 import Sitescards from "../../../../section/sitescards";
 import Cornerimage from "../../../../components/cornerimage";
+import {fastpayout} from '../../../../data/fastpayout'
+import {slots} from "../../../../data/slots"
+
+
 
 function Index() {
   return (
@@ -45,7 +49,7 @@ function Index() {
           </p>
 
           <div className="bg-blue px-2 py-3">
-            <h2>Contents of Our Guide to Fast Paying Sports Betting Sites</h2>
+            <h1>Contents of Our Guide to Fast Paying Sports Betting Sites</h1>
             <Mainbullet
               link={""}
               linkdesc={"Fastest Paying Online Sportsbooks for the US"}
@@ -73,6 +77,72 @@ function Index() {
               linkdesc={"Fastest Payout Sports Betting Sites FAQ"}
             />
           </div>
+        
+
+          {fastpayout.map((sites, i) => {
+            return (
+              <div key={i}>
+                <Title   title={sites.title} />
+                  {sites.des.map((des, i) => {
+                    return (
+                      <>
+                        <p key={i}>{des.para}</p>                  
+                      </>
+                    );
+                  })}
+
+                   {sites.payout.map((pay, i)=>{
+                    return(
+                      <>
+                      <div key={i} className="bg-green px-2 py-3">
+                        <TextTitle title={pay.title}/>
+                          <div>
+                            <Cornerimage src={pay.image} type={pay.type}/>
+                            <Mainbullet link={""} title={"Established: "}  desc={pay.established} />
+                            <Mainbullet link={""} title={"Crypto: "}  desc={pay.crypto} />
+                            <Mainbullet link={""} title={"E-Wallets: "} desc={pay.ewallet}/>
+                            <Mainbullet link={""} title={"Other Gambling Products: "} desc={pay.other}/>   
+                          </div>
+                      </div>
+                      {pay.desc.map((par,i)=>{
+                        return(
+                          <p key={i}>{par.para}</p>
+                        )
+                      })}
+
+                      
+                      <div className="flex flex-wrap justify-center">
+                        {pay.button.map((but,i)=>{
+                          return(
+                            <>
+                            <Bluebutton key={i} link={but.link} title={but.title}/>                   
+                            </>
+                          )
+                        })}
+
+                      </div>
+                      </>
+                    )
+                  })}
+              </div>
+            );
+          })}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* 
+
           <Title title={"Fastest Paying Online Sportsbooks for the US"} />
           <p>
             Let’s begin with the best US sports betting sites with fast payouts.
@@ -87,13 +157,13 @@ function Index() {
             Americans.
           </p>
           <p>Let’s learn more about them.</p>
-          <div className="bg-[#e9ffee] ">
+          <div className="bg-green px-2 py-3  ">
             <TextTitle
               title={"BetUS – Top Fast Paying US Betting Site for Bitcoin"}
             />
            <div>
             <Cornerimage src={'/image/sportsbetting/betus-logo-170.png'}/>
-           <Mainbullet link={""} title={"Established:"} desc={"1996"} />
+            <Mainbullet link={""} title={"Established:"} desc={"1996"} />
             <Mainbullet link={""} title={"Crypto:"} desc={"Yes"} />
             <Mainbullet link={""} title={"E–Wallets:"} desc={"No"} />
             <Mainbullet
@@ -385,10 +455,10 @@ function Index() {
           <div>
             <Bluebutton link={""} title={"Bovada App Review"} />
             <Bluebutton link={""} title={"Get the Bovada App"} />
-          </div>
+          </div> */}
 
           <Title title={"Reviewing and Comparing Fast Paying Betting Sites"} />
-          <Wideimage src={"/image"} />
+          <Wideimage src={"/image/sportsbetting/fastest-paying-online-betting-sites-review-compare-1.jpg"} />
           <p>
             We spend a lot of time testing different options when reviewing the
             fastest paying sports betting sites. There are lots of sportsbooks
@@ -443,7 +513,7 @@ function Index() {
 
           <TextTitle title={"Withdrawal Fees and Other Terms"} />
           <div>
-            {/* leave image */}
+            <Cornerimage src={'/image/sportsbetting/Fine-Print-170.png'}/>
             <p>
               Payments from online gambling with real money are not only about
               cashout speed.
@@ -483,7 +553,7 @@ function Index() {
           </p>
 
           <div className="bg-[#e4f8ff]">
-            {/* leave image */}
+            <Cornerimage src={'/image/sportsbetting/fastest-paying-online-betting-sites-payment-options-1.png'} type={'middle'}/>
             <Mainbullet
               link={""}
               title={"Credit and Debit Cards –"}
@@ -529,7 +599,7 @@ function Index() {
           </p>
           <p>That’s why we explore the following ranking factors, too.</p>
           <div className="bg-[#e4f8ff]">
-            {/* leave image */}
+            <Cornerimage src={'/image/sportsbetting/fastest-paying-online-betting-sites-other-factors-1.png '}/>
             <Mainbullet
               link={""}
               title={"Safety and Security"}
@@ -589,7 +659,7 @@ function Index() {
           <Title
             title={"How to Get the Fastest Payouts at Online Betting Sites"}
           />
-          <Wideimage src={"/image/"} />
+          <Wideimage src={"/image/sportsbetting/fastest-paying-online-betting-sites-how-to-get-1.jpg"} />
 
           <p>
             Your personal choices are part of the equation when it comes to

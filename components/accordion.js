@@ -10,10 +10,10 @@ export default function Accordion({ title, content }) {
     };
     return (        
         <>
-        <div className="flex flex-wrap  mx-auto bg-gray-200  border-[1px] border-gray-800 rounded-lg font-paragraph hover:bg-[#141d24] hover:text-white  
+        <div className="flex flex-wrap  mx-auto bg-gray  border-[1px] border-gray-800 rounded-lg font-paragraph hover:bg-[#141d24] hover:text-white  
         
         ">
-          <div className="flex sm:w-11/12 lg:text-2xl  md:text-2xl  py-2 px-3 " onClick={toggle}  type="button">
+          <div className="flex sm:w-11/12 lg:text-1xl  md:text-[18px] font-semibold  py-2 " onClick={toggle}  type="button">
             <div className='bg-[#141d24] w-[28px] h-[40px] hover:bg-[#fcb900] text-[#16a085] hover:text-black px-2 rounded-lg mx-2 py-1 font-semibold'>?</div>
             {title}          
           </div>

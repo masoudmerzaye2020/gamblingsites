@@ -80,7 +80,7 @@ const MenuItems = ({ items, depthLevel }) => {
             {/* <a href="/#">{items.title}</a> */}
             {items.title}{" "}
 
-            {depthLevel > 0 ? <span className="arr"></span> : <span className="arrow" />}
+            {depthLevel > 0 ? <span className="arr"></span> : <span className="arrow"/>}
 
           </button>
           <Dropdown
@@ -182,6 +182,8 @@ const MenuItems = ({ items, depthLevel }) => {
     @media only screen and (max-width: 1016px) {
       .arrow::after {
         content: "";
+        
+        
         display: inline-block;
         margin-left: 0.28em;
         vertical-align: 0.09em;
