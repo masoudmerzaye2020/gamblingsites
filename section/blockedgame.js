@@ -44,7 +44,7 @@ function Blockedgame() {
 
                 <p className='py-4'> If you just want to know which online gambling sites you should join, we have you covered there too. The following are the best sites for gambling online in 2022.</p>
                 <div className='flex flex-'>
-                    <h1 className='flex flex-row text-lg text-green-400'>RECOMMENDED GAMBLING SITES </h1>                                  
+                    <h1 className='flex flex-row text-lg text-green'>RECOMMENDED GAMBLING SITES </h1>                                  
                 </div>
                 <div className='w-full'>
                     <div className='flex flex-wrap w-full py-4'>
@@ -53,11 +53,11 @@ function Blockedgame() {
                                 <>
                                     <Link href={web.link} >
                                     <button className='w-12/12 md:w-4/12 lg:w-3/12 p-6 mx-auto '>
-                                        <div key={index} className='p-4 mx-auto border-2 border-gray-900 rounded-lg hover:bg-[#19242c]'>
+                                        <div key={index} className='p-4 mx-auto border-2 border-black rounded-lg hover:bg-[#19242c] hover:text-white'>
                                             <div className='rounded-md justify-center flex border-[1px] hover:border-red-300'>
                                             <Image className='rounded-lg mx-auto flex justify-center' src={web.logo} width='210' height='90' alt={web.title} />
                                             </div>
-                                            <div className='bg-green-400  w-[70%] mx-auto flex py-2 my-4 rounded-full mx-auto text-center'>
+                                            <div className='bg-[#40d3b7] hover:bg-[#ff6900] w-[70%] mx-auto flex py-2 my-4 rounded-full mx-auto text-center'>
                                             <p className='mx-auto uppercase'>visit site</p>
                                             </div>
                                         </div>

@@ -106,11 +106,11 @@ export default function Table(props) {
                 </thead> */}
                 <tbody className='w-[100%]'>
                 
-                        <tr key={props.index} className="border-b border-gray-300 w-full">
-                            <th className="link py-4 px-6 font-medium border-r border-gray-300 whitespace-nowrap" scope="row" onClick={()=>onRedirectUser(item)}><Link href={props.href}><a className='text-blue-500'>{props.col1} </a></Link> </th>
-                            <td className='border-r border-gray-300'>{props.col2}</td>
-                            <td className='border-r border-gray-300'>{props.col3}</td>
-                            <td className='border-r border-gray-300'>{props.col4}</td>
+                        <tr key={props.index} className="border-b border-gray w-full">
+                            <th className="link py-4 px-6 font-medium border-r border-gray whitespace-nowrap" scope="row" onClick={()=>onRedirectUser(item)}><Link href={props.href}><a className='text-blue-500'>{props.col1} </a></Link> </th>
+                            <td className='border-r border-gray'>{props.col2}</td>
+                            <td className='border-r border-gray'>{props.col3}</td>
+                            <td className='border-r border-gray'>{props.col4}</td>
                         </tr>
                
 

@@ -14,7 +14,7 @@ export default function ImageCard() {
                     <hr className='border-gray-600'></hr>
                     <p>Cashout Time</p>
                     <p>1-3 DAYS</p>
-                    <button className='w-full bg-green-300 rounded-md py-4 text-white my-2'>Read Review</button>
+                    <button className='w-full bg-green rounded-md py-4 text-white my-2'>Read Review</button>
                     </div>
                 </div>                
             </div>
@@ -28,7 +28,7 @@ export default function ImageCard() {
                     <hr className='border-gray-600'></hr>
                     <p>Cashout Time</p>
                     <p>1-3 DAYS</p>
-                    <button className='w-full bg-green-300 rounded-md py-4 text-white my-2'>Read Review</button>
+                    <button className='w-full bg-green rounded-md py-4 text-white my-2'>Read Review</button>
                     </div>
                 </div>                
             </div>
@@ -42,7 +42,7 @@ export default function ImageCard() {
                     <hr className='border-gray-600'></hr>
                     <p>Cashout Time</p>
                     <p>1-3 DAYS</p>
-                    <button className='w-full bg-green-300 rounded-md py-4 text-white my-2'>Read Review</button>
+                    <button className='w-full bg-green rounded-md py-4 text-white my-2'>Read Review</button>
                     </div>
                 </div>                
             </div>
@@ -56,7 +56,7 @@ export default function ImageCard() {
                     <hr className='border-gray-600'></hr>
                     <p>Cashout Time</p>
                     <p>1-3 DAYS</p>
-                    <button className='w-full bg-green-300 rounded-md py-4 text-white my-2'>Read Review</button>
+                    <button className='w-full bg-green rounded-md py-4 text-white my-2'>Read Review</button>
                     </div>
                 </div>                
             </div>

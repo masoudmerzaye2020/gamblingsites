@@ -90,7 +90,7 @@ const MenuItems = ({ items, depthLevel }) => {
           />
         </>
       ) : (
-        <a className=" hover:text-green-300" href={items.url}>{items.title}</a>
+        <a className=" hover:text-green" href={items.url}>{items.title}</a>
       )}
 
     <style jsx>{`

@@ -21,7 +21,7 @@ export default function Borderedcard(props) {
                     alt={props.title}
                   />
                 </div>
-                <div className="bg-green-400  w-[70%] mx-auto flex py-2 my-4 rounded-full mx-auto text-center">
+                <div className="bg-green  w-[70%] mx-auto flex py-2 my-4 rounded-full mx-auto text-center">
                   <p className="mx-auto uppercase">visit site</p>
                 </div>
               </div>

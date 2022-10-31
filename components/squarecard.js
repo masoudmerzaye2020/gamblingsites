@@ -15,7 +15,7 @@ export default function Squarecard(props) {
                   alt={"image"}
                 />
                 </div>
-                <p className=" bold text-md font-bold uppercase">
+                <p className=" bold text-md font-bold uppercase text-gray">
                   {props.title}
                 </p>
               </div>
